@@ -83,7 +83,7 @@
           <li><strong>Neighboring fields, picked by your topic.</strong> The same search runs across the other fields' top journals. Only fields that actually publish on your topic show up, so the spillover changes with the topic.</li>
           <li><strong>The newest working papers.</strong> NBER and SSRN papers often circulate long before the journal version, so they get their own list. SSRN has no quality screen, so an SSRN paper is shown only if at least one of its authors has published in the journals listed below.</li>
           <li><strong>What people are sharing.</strong> Research Radar also scans public Bluesky posts from the last 30 days that mention your topic and link somewhere. It groups them by the page they link to and lists the links shared by the most accounts, with news, research and policy sites first. It shows links and counts only, never account names or post text.</li>
-          <li><strong>Live, open data.</strong> Papers come straight from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>, a free, open index of scholarly research; abstracts for SSRN papers come from <a href="https://www.crossref.org" target="_blank" rel="noopener">Crossref</a>; shared links come from Bluesky's public search. Your topic is sent to OpenAlex and Bluesky to run the searches (and SSRN paper IDs to Crossref). Research Radar has no server and keeps nothing about you.</li>
+          <li><strong>Live, open data.</strong> Papers come straight from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>, a free, open index of scholarly research. <a href="https://www.crossref.org" target="_blank" rel="noopener">Crossref</a> supplies abstracts for SSRN papers and is the backup when OpenAlex is busy or down. Shared links come from Bluesky's public search. Your topic is sent to OpenAlex and Bluesky to run the searches, and to Crossref when the backup is needed. Research Radar has no server and keeps nothing about you.</li>
         </ol>
 
         <h2>Good to know</h2>
@@ -93,6 +93,7 @@
           <li>Papers tagged <span class="tag-weak">Weaker match</span> don't have your keywords in the title or abstract (OpenAlex matched them on the full text). They are listed last, under “Show more”.</li>
           <li>Some publishers do not share abstracts with OpenAlex, so a few papers show none. Dates are the publication or issue dates OpenAlex records.</li>
           <li>OpenAlex doesn't carry SSRN abstracts, so Research Radar fetches them from Crossref, where SSRN deposits them (a few papers have none). SSRN shares only the posting year, so the date shown for an SSRN paper is when OpenAlex first listed it.</li>
+          <li>If OpenAlex is busy, down or out of free searches, the journal and NBER lists come from Crossref instead, marked <span class="tag-weak">backup: Crossref</span>. The backup keeps only papers with every keyword in the title or abstract and has no SSRN list, so it finds fewer papers; try again later for the full search.</li>
           <li>The Bluesky list works best for topics that are in the news; niche research topics may show few or no links. It reflects what is popular among Bluesky users, who are not a representative sample of anyone.</li>
         </ul>
 

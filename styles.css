@@ -275,7 +275,8 @@ input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 0;
 }
 a.badge:hover { text-decoration: underline; color: var(--c, var(--muted)); }
 .badge-oa { --c: var(--accent); }
-.tag-weak {
+.tag-weak,
+.tag-backup {
   display: inline-flex;
   font-size: .72rem; font-weight: 600;
   padding: 2px 8px; border-radius: 999px;
@@ -283,6 +284,7 @@ a.badge:hover { text-decoration: underline; color: var(--c, var(--muted)); }
   border: 1px dashed var(--line);
   white-space: nowrap;
 }
+.tag-backup { margin-left: 8px; padding: 0 8px; vertical-align: 1px; }
 
 .card-title {
   margin: 0 0 4px;

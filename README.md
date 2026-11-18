@@ -21,13 +21,14 @@ Research Radar is a small web app for researchers and policy students working in
 
 ## How it works
 
-- **Data:** the free, open [OpenAlex](https://openalex.org) API (CC0 data), called directly from the browser, plus Crossref for SSRN abstracts. There is no server and no account. The only things stored are a short-lived search cache and an optional API key, both in your own browser.
+- **Data:** the free, open [OpenAlex](https://openalex.org) API (CC0 data), called directly from the browser, plus Crossref for SSRN abstracts and as a backup. There is no server and no account. The only things stored are a short-lived search cache and an optional API key, both in your own browser.
 - **Quality control:** each field has a short list of top journals (`journals.js`). Limiting the search to these journals is the main quality filter; an open OpenAlex search returns many papers from low-quality outlets.
 - **Searches per scan:** your field's journals, all other fields' journals, NBER working papers, and SSRN.
 - **SSRN quality filter:** SSRN has no quality screen, so Research Radar takes the 50 best SSRN keyword matches, keeps those that appeared inside your time window, and then keeps only papers with at least one author who has published in the listed journals ("trusted authors", the counterpart of the trusted journals). This costs one small extra lookup.
 - **SSRN abstracts:** OpenAlex doesn't carry them, but SSRN deposits them with [Crossref](https://www.crossref.org), whose open API allows calls from web pages. Research Radar fetches them in one batch request. (SSRN's own site blocks automated access, and Research Radar never contacts it.)
 - **Bluesky:** one call to Bluesky's public search (no key needed) for the 100 top posts of the last 30 days that mention the topic. Only posts with a link count; GIF, video, music, social-media and shortened links are ignored. Posts are grouped by the page they link to, each account counts once per link, and links are ranked by how many accounts shared them. Links to known news, research and policy sites (any `.gov` site counts as policy) are labeled and shown first; the rest are folded. Only links and counts are shown, never account names or post text. The site lists are in `journals.js`.
 - **Ranking:** within each list, papers whose title or abstract contain your keywords come first. Papers that only match in the full text are tagged *Weaker match* and folded under "Show more".
+- **Backup source:** if OpenAlex is busy, down or out of free searches, the journal lists and NBER are searched on Crossref instead (journals by ISSN, NBER by its DOI prefix; both in `journals.js`) and marked *backup: Crossref*. Crossref's keyword search is looser and can't see full texts, so only papers with every keyword in the title or abstract are kept. SSRN has no backup, because its author check needs OpenAlex. Crossref allows one request per second, so backup calls are spaced out.
 
 ## Fields and journals
 
@@ -47,7 +48,7 @@ Research Radar is a small web app for researchers and policy students working in
 - **Only the listed journals.** Strong work elsewhere will not appear.
 - **SSRN data is thin.** SSRN shares only the posting year, so the date shown is when OpenAlex first listed the paper. A few SSRN papers have no abstract in Crossref; those are judged on their title alone. The author filter can drop good papers by researchers new to these journals, and OpenAlex occasionally merges two people with the same name. Remove the `ssrn` entry in `journals.js` to turn SSRN off.
 - **Bluesky reflects Bluesky.** The list works best for topics in the news (e.g. climate risk, AI and jobs); niche research topics (e.g. ESG disclosure, tax evasion) may show few or no links. It shows what is popular among Bluesky users, who are not a representative sample of anyone.
-- **Busy periods.** When OpenAlex is under heavy load it pauses searches made without a key for about a minute (HTTP 429 with a "retry in N seconds" message). Research Radar retries short waits automatically and otherwise says how long to wait; a free key avoids this.
+- **Busy periods.** When OpenAlex is under heavy load it pauses searches made without a key (HTTP 429 or 503). Research Radar retries short waits automatically; otherwise it switches to the Crossref backup, which finds fewer papers and no SSRN papers, and says so on the page. A free key avoids most of this.
 - **Daily budget.** Without a key, OpenAlex allows roughly 25 scans a day per network (everyone on the same Wi-Fi shares it). Sample topics never use it. A free key (from [openalex.org/settings/api](https://openalex.org/settings/api)) raises the limit; paste it under *How it works → Daily search limit*. It is stored only in your browser.
 - **Missing abstracts.** Some publishers do not share abstracts with OpenAlex.
 

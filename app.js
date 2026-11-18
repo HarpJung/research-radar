@@ -8,6 +8,8 @@
   const CFG = window.RADAR_CONFIG;
   const API = "https://api.openalex.org/works";
   const CROSSREF = "https://api.crossref.org/works";
+  const CROSSREF_SELECT = "DOI,title,author,container-title,issued,abstract,is-referenced-by-count,ISSN,type";
+  const CROSSREF_GAP_MS = 1100; // Crossref's public API allows one request per second, one at a time.
   const STOPWORDS = new Set(
     ("a about across among an and are as at be been between by can could do does for from has have " +
       "how in into is it its of on or should than that the their them these this those to was were " +
@@ -45,6 +47,12 @@
   const shortName = (fid) =>
     CFG.fields[fid] ? CFG.fields[fid].short : fid === "nber" ? "NBER" : fid === "ssrn" ? "SSRN" : "Other";
   const idOf = (u) => String(u || "").split("/").pop();
+  // ISSNs, used only by the Crossref backup search when OpenAlex is busy or down.
+  const issnInfo = new Map();
+  Object.entries(CFG.fields).forEach(([fid, f]) =>
+    f.journals.forEach((j) => (j.issn || []).forEach((i) => issnInfo.set(i, { field: fid, journal: j.name })))
+  );
+  const issnsFor = (fids) => fids.flatMap((fid) => CFG.fields[fid].journals.flatMap((j) => j.issn || []));
   const BSKY = CFG.bluesky || null;
   const BSKY_API = "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts";
   let bskyState = { query: null, status: "idle", data: null };
@@ -328,9 +336,45 @@
     return m ? m[0].toLowerCase() : null;
   }
 
-  // OpenAlex doesn't carry SSRN abstracts, but SSRN deposits them with Crossref, whose open API
-  // allows calls from web pages. One batch request; if Crossref is slow or down, SSRN cards
-  // simply show no abstract.
+  // ---------- Crossref ----------
+  // Crossref's open API allows calls from web pages, but its public pool takes one request per
+  // second, one at a time. So every Crossref call waits its turn here.
+  let crossrefQueue = Promise.resolve();
+  let crossrefLast = 0;
+  function crossrefGet(params, signal) {
+    const run = async () => {
+      for (let attempt = 0; ; attempt += 1) {
+        const wait = crossrefLast + CROSSREF_GAP_MS - Date.now();
+        if (wait > 0) await sleep(wait, signal);
+        crossrefLast = Date.now();
+        let res;
+        try {
+          res = await fetch(`${CROSSREF}?${params.toString()}`, { signal });
+        } catch (e) {
+          if (e.name === "AbortError") throw e;
+          throw new RadarError("network", "Couldn't reach Crossref.");
+        }
+        if (res.status === 429 && attempt < 1) {
+          await sleep(2000, signal);
+          continue;
+        }
+        if (!res.ok) throw new RadarError("http", `Crossref returned an error (${res.status}).`);
+        return res.json();
+      }
+    };
+    const call = crossrefQueue.then(run, run);
+    crossrefQueue = call.catch(() => {});
+    return call;
+  }
+
+  const withTimeout = (promise, ms) =>
+    Promise.race([
+      promise,
+      new Promise((_, reject) => setTimeout(() => reject(new RadarError("network", "Timed out.")), ms)),
+    ]);
+
+  // OpenAlex doesn't carry SSRN abstracts, but SSRN deposits them with Crossref. One batch request;
+  // if Crossref is slow or down, SSRN cards simply show no abstract.
   async function crossrefAbstracts(works, signal) {
     const dois = [...new Set(works.map((w) => bareDoi(w.doi)).filter(Boolean))].slice(0, 50);
     if (!dois.length) return new Map();
@@ -339,17 +383,63 @@
       rows: String(dois.length),
       select: "DOI,abstract",
     });
-    const timeout = new Promise((resolve) => setTimeout(() => resolve(null), 6000));
     try {
-      const res = await Promise.race([fetch(`${CROSSREF}?${params.toString()}`, { signal }), timeout]);
-      if (!res || !res.ok) return new Map();
-      const json = await res.json();
+      const json = await withTimeout(crossrefGet(params, signal), 8000);
       const items = (json.message && json.message.items) || [];
       return new Map(items.filter((i) => i.abstract).map((i) => [String(i.DOI).toLowerCase(), i.abstract]));
     } catch (e) {
       if (e.name === "AbortError") throw e;
       return new Map();
     }
+  }
+
+  // Backup when OpenAlex is busy or down: the same journals (by ISSN), or NBER (by DOI prefix),
+  // searched on Crossref. Crossref's keyword search is looser than OpenAlex's and can't see full
+  // texts, so only papers with every keyword in the title or abstract are kept.
+  async function fetchCrossrefBackup(query, { issns, prefix }, since, keep, signal) {
+    const filter = [`from-pub-date:${since}`];
+    if (prefix) filter.push(`prefix:${prefix}`, "type:report");
+    else filter.push(...issns.map((i) => `issn:${i}`), "type:journal-article");
+    const params = new URLSearchParams({
+      "query.bibliographic": query,
+      filter: filter.join(","),
+      rows: prefix ? "20" : "40",
+      select: CROSSREF_SELECT,
+    });
+    const json = await withTimeout(crossrefGet(params, signal), 12000);
+    const patterns = termPatterns(query);
+    const fixed = prefix ? { field: "nber", journal: CFG.workingPapers.name } : null;
+    const papers = ((json.message && json.message.items) || [])
+      .map((it) => crossrefToPaper(it, fixed))
+      .filter((p) => hasAllTerms(p, patterns));
+    return { count: papers.length, papers: papers.slice(0, keep), via: "crossref" };
+  }
+
+  function crossrefToPaper(it, fixed) {
+    const info = fixed ||
+      (it.ISSN || []).map((i) => issnInfo.get(i)).find(Boolean) || { field: null, journal: (it["container-title"] || [])[0] || "" };
+    const parts = ((it.issued && it.issued["date-parts"]) || [[]])[0] || [];
+    const pad = (n) => String(n).padStart(2, "0");
+    const date = parts[0] ? `${parts[0]}-${pad(parts[1] || 1)}-${pad(parts[2] || 1)}` : null;
+    const authors = (it.author || [])
+      .map((a) => a.name || [a.given, a.family].filter(Boolean).join(" "))
+      .filter(Boolean);
+    return {
+      id: `cr-${String(it.DOI || Math.random()).replace(/[^a-z0-9]+/gi, "-")}`,
+      title: (it.title || [])[0] || "(untitled)",
+      url: it.DOI ? `https://doi.org/${it.DOI}` : null,
+      authors: authors.slice(0, 3),
+      authorCount: authors.length,
+      journal: info.journal,
+      sourceId: null,
+      field: info.field,
+      date,
+      abstract: it.abstract || "",
+      oaUrl: null,
+      citedBy: it["is-referenced-by-count"] || 0,
+      relevance: null,
+      type: it.type,
+    };
   }
 
   // ---------- cache ----------
@@ -409,7 +499,6 @@
     if (SSRN) jobs.push(["ssrn", () => fetchSsrn(query, since, key, signal)]);
     const settled = await Promise.allSettled(jobs.map(([, run]) => run()));
     if (signal.aborted) return;
-    setBusy(false);
 
     const sections = {};
     let failures = 0;
@@ -424,10 +513,29 @@
         sections[name] = { error: true, count: 0, papers: [] };
       }
     });
-    if (failures === jobs.length) {
-      showError(firstError, { topic, field, months });
-      return;
+
+    // OpenAlex busy, down or out of free searches: search the same journals (and NBER) on Crossref
+    // instead, so the page still shows papers. SSRN has no backup (its author check needs OpenAlex).
+    const homeIssns = issnsFor([field]);
+    const otherIssns = issnsFor(fieldIds.filter((f) => f !== field));
+    const backups = [];
+    if (sections.home.error && homeIssns.length) backups.push(["home", { issns: homeIssns }, PER_PAGE.home]);
+    if (sections.neighbors.error && otherIssns.length) backups.push(["neighbors", { issns: otherIssns }, PER_PAGE.neighbors]);
+    if (sections.workingPapers.error && CFG.workingPapers.doiPrefix) {
+      backups.push(["workingPapers", { prefix: CFG.workingPapers.doiPrefix }, PER_PAGE.workingPapers]);
     }
+    if (backups.length) {
+      showLoading(`OpenAlex didn't respond, so searching a backup source (Crossref) for “${query}”…`);
+      const done = await Promise.allSettled(
+        backups.map(([, where, keep]) => fetchCrossrefBackup(query, where, since, keep, signal))
+      );
+      if (signal.aborted) return;
+      done.forEach((r, i) => {
+        if (r.status === "fulfilled") sections[backups[i][0]] = r.value;
+      });
+    }
+    setBusy(false);
+
     const problem = failures ? { kind: (firstError && firstError.kind) || "network", wait: (firstError && firstError.wait) || 0 } : null;
     const data = { topic, field, months, query, since, savedAt: null, sections, problem };
     if (!failures) writeCache(cacheKey, data);
@@ -498,31 +606,6 @@
     els.keyInput.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
-  function showError(err, params) {
-    const kind = (err && err.kind) || "network";
-    const keyBtn = el("button", { type: "button", class: "btn btn-secondary", onclick: openKeySettings }, "Add a free key");
-    let text;
-    let actions = [keyBtn];
-    if (kind === "busy") {
-      text = `OpenAlex is limiting searches made without an API key right now (its servers are busy). Try again in about ${roundWait(err.wait)} seconds, or add a free key for uninterrupted access. The sample topics always work.`;
-      if (params) {
-        actions = [el("button", { type: "button", class: "btn btn-secondary", onclick: () => runLive(params) }, "Try again"), keyBtn];
-      }
-    } else if (kind === "limit") {
-      text = "Your network has used up today's free OpenAlex searches. The sample topics still work. To keep searching, add a free OpenAlex key (takes about a minute).";
-    } else if (kind === "key") {
-      text = "OpenAlex didn't accept your saved API key. Check it or remove it under “How it works”.";
-      actions = [el("button", { type: "button", class: "btn btn-secondary", onclick: openKeySettings }, "Check key")];
-    } else if (kind === "http") {
-      text = `${err.message} Please try again in a moment.`;
-      actions = [];
-    } else {
-      text = "Couldn't reach OpenAlex. Check your connection and try again. If you've run many searches today, your network may have hit OpenAlex's free daily limit; the sample topics still work, or add a free key.";
-    }
-    els.results.hidden = true;
-    showMessage(text, { error: true, actions });
-  }
-
   // ---------- relevance tiers ----------
   // Papers whose title/abstract contain the topic words go first; the rest (matched by OpenAlex
   // on the full text) are listed after them with a "Weaker match" tag. Nothing is dropped.
@@ -540,12 +623,18 @@
 
   function isStrongMatch(p, patterns) {
     if (!patterns.length) return true;
-    // Journal papers without an abstract: can't tell, so trust OpenAlex's match.
+    // Journal papers without an abstract: can't tell, so trust the search's match.
     // SSRN papers whose abstract Crossref couldn't supply are judged on the title alone.
     if (!p.abstract && p.field !== "ssrn") return true;
     const text = expandAI(cleanText(p.title) + " " + cleanText(p.abstract));
     const hits = patterns.filter((re) => re.test(text)).length;
     return hits > 0 && hits * 2 >= patterns.length;
+  }
+
+  // Stricter test for the Crossref backup, whose search also returns papers matching only some words.
+  function hasAllTerms(p, patterns) {
+    const text = expandAI(cleanText(p.title) + " " + cleanText(p.abstract));
+    return patterns.every((re) => re.test(text));
   }
 
   // ---------- Bluesky: links people are sharing ----------
@@ -777,6 +866,7 @@
     const wpResult = {
       error: Boolean(nberResult.error && (!ssrnResult || ssrnResult.error)),
       count: (nberResult.count || 0) + ((ssrnResult && ssrnResult.count) || 0),
+      via: nberResult.via || null,
     };
     const ssrnFailed = Boolean(SSRN && ssrnResult && ssrnResult.error && !nberResult.error);
 
@@ -799,16 +889,23 @@
       );
       els.note.hidden = false;
     } else if (d.problem) {
-      // Some lists loaded and some didn't: keep what we have and say why the rest is missing.
+      // OpenAlex failed for some lists: say why, and which lists came from the backup or are missing.
       const reasons = {
-        busy: `OpenAlex is limiting searches without an API key right now. Try again in about ${roundWait(d.problem.wait)} seconds.`,
+        busy: `OpenAlex is limiting searches without an API key right now (try again in about ${roundWait(d.problem.wait)} seconds).`,
         limit: "Your network has used up today's free OpenAlex searches.",
         key: "OpenAlex didn't accept your saved API key.",
+        http: "OpenAlex is having trouble right now.",
       };
+      const lists = Object.values(d.sections);
+      const usedBackup = lists.some((s) => s && s.via === "crossref");
+      const missing = lists.some((s) => s && s.error);
+      const what = usedBackup
+        ? `Lists marked “backup” come from Crossref instead, which matches keywords in titles and abstracts only${missing ? "; the rest didn't load" : ""}.`
+        : "Some lists didn't load.";
       els.note.replaceChildren(
-        el("span", null, `Some lists didn't load. ${reasons[d.problem.kind] || "Try again in a moment."}`),
+        el("span", null, `${reasons[d.problem.kind] || "Couldn't reach OpenAlex."} ${what}`),
         el("button", { type: "button", class: "link-btn", onclick: () => runLive({ topic: d.topic, field: d.field, months: d.months }) }, "Try again"),
-        el("button", { type: "button", class: "link-btn", onclick: openKeySettings }, "Add a free key")
+        el("button", { type: "button", class: "link-btn", onclick: openKeySettings }, d.problem.kind === "key" ? "Check key" : "Add a free key")
       );
       els.note.hidden = false;
     } else {
@@ -895,6 +992,7 @@
   }
 
   function renderSection({ id, dotField, title, sub, result, items, showField, workingPaper, extra, empty, limit = 5 }) {
+    const backup = Boolean(result && result.via === "crossref");
     const head = el(
       "header",
       { class: "section-head" },
@@ -904,7 +1002,13 @@
         el("span", { class: "dot", "data-field": dotField || "none", "aria-hidden": "true" }),
         title
       ),
-      el("p", { class: "section-sub" }, `${sub} · ${countText(result, items.length)}`),
+      el(
+        "p",
+        { class: "section-sub" },
+        `${sub} · ${countText(result, items.length)}`,
+        backup ? " " : null,
+        backup ? el("span", { class: "tag-backup", title: "OpenAlex didn't respond, so this list comes from Crossref (keywords in titles and abstracts only)." }, "backup: Crossref") : null
+      ),
       extra || null
     );
     const cardsFor = (list) => list.map(({ p, strong }) => renderCard(p, { showField, workingPaper, strong }));
@@ -912,7 +1016,13 @@
     if (result && result.error) {
       body = el("p", { class: "empty" }, "This part of the search didn't load. Try scanning again in a moment.");
     } else if (!items.length) {
-      body = el("p", { class: "empty" }, empty);
+      body = el(
+        "p",
+        { class: "empty" },
+        backup
+          ? "The backup source found no papers here with all your keywords in the title or abstract. Try again in a moment for the full search."
+          : empty
+      );
     } else {
       // Keep each list short so all three sections fit on a screen or two: show the top few
       // strong matches and fold the rest (including full-text-only matches) behind "Show more".
