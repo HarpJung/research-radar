@@ -2,7 +2,7 @@
 
 New papers from the top journals in **your** field, plus the neighboring fields your topic reaches.
 
-**Live site:** coming soon (GitHub Pages)
+**Live site:** <https://harpjung.github.io/research-radar/>
 
 ![Research Radar showing new finance papers on climate risk](docs/screenshot.png)
 
