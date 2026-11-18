@@ -1,0 +1,847 @@
+{
+ "topic": "climate risk",
+ "field": "finance",
+ "months": 12,
+ "query": "climate risk",
+ "since": "2025-11-16",
+ "savedAt": "2026-11-16",
+ "sections": {
+  "home": {
+   "count": 37,
+   "papers": [
+    {
+     "id": "W4386229503",
+     "title": "Climate Risk Disclosure and Risk Sharing in Financial Markets",
+     "url": "https://doi.org/10.1093/rfs/hhag009",
+     "authors": [
+      "Kevin C. Smith"
+     ],
+     "authorCount": 1,
+     "journal": "Review of Financial Studies",
+     "sourceId": "S170137484",
+     "field": "finance",
+     "date": "2026-11-13",
+     "abstract": "Abstract In this paper, I model how climate risk disclosure impacts climate risk sharing among investors. I show that this disclosure can improve risk sharing by helping investors identify stocks that effectively hedge climate risk, and I analyze the disclosure’s impact on investors’ equilibrium portfolio choices. I then study firms’ voluntary disclosure incentives and analyze when disclosure mandates enhance risk sharing. Finally, I demonstrate that, by facilitating risk sharing, climate risk disclosure reduces the climate risk premium among stocks held by climate-focused investors. Hence, disclosure can lower the valuations of firms with low climate exposures and the overall market. (JEL: D82, D84, G12, G14)",
+     "oaUrl": "https://doi.org/10.2139/ssrn.4552385",
+     "citedBy": 10,
+     "relevance": 110.03744,
+     "type": "article"
+    },
+    {
+     "id": "W7136419192",
+     "title": "Pricing of Climate Risk Insurance: Regulation and Cross‐Subsidies",
+     "url": "https://doi.org/10.1111/jofi.70029",
+     "authors": [
+      "Sangmin Oh",
+      "Ishita Sen",
+      "Ana-Maria Tenekedjieva"
+     ],
+     "authorCount": 3,
+     "journal": "The Journal of Finance",
+     "sourceId": "S5353659",
+     "field": "finance",
+     "date": "2026-03-16",
+     "abstract": "ABSTRACT Homeowners insurance is central to managing the rising losses from climate‐related disasters. We show that insurance premiums are subject to starkly different regulations across states, creating persistent cross‐subsidies and price distortions. We employ states' regulatory rules in an instrumental variable estimation and a border discontinuity design to show insurers do not adjust rates in highly regulated states and compensate by raising rates in less regulated states. Rates and risks diverge in the long run, distorting cross‐state risk‐sharing and increasing insurer exits from highly regulated states. We argue these patterns stem from the interactions between rate regulation and insurers' financing constraints.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.3762235",
+     "citedBy": 43,
+     "relevance": 91.81225,
+     "type": "article"
+    },
+    {
+     "id": "W7168171844",
+     "title": "Labor Exposure to Climate Risk, Productivity Loss, and Capital Deepening",
+     "url": "https://doi.org/10.1017/s0022109026103251",
+     "authors": [
+      "Zhanbing Xiao"
+     ],
+     "authorCount": 1,
+     "journal": "Journal of Financial and Quantitative Analysis",
+     "sourceId": "S193228710",
+     "field": "finance",
+     "date": "2026-07-13",
+     "abstract": "Abstract I find that exposed firms address heat challenges by shifting toward more capital-intensive production functions, increasing capital expenditures and R&D expenses, acquiring robotics-related human capital, and developing automation-related technologies. These effects are concentrated among firms facing large long-run temperature increases and among financially unconstrained firms. I further show that reduced labor efficiency relative to capital is one important mechanism underlying capital deepening and related automation investments. Finally, these capital responses mitigate heat-induced productivity losses, and investors appear to value firms’ adaptation capacity.",
+     "oaUrl": "https://doi.org/10.1017/s0022109026103251",
+     "citedBy": 6,
+     "relevance": 88.19667,
+     "type": "article"
+    },
+    {
+     "id": "W7117979680",
+     "title": "Twin threats: The compound effect of transition and physical climate risks on firms' credit ratings",
+     "url": "https://doi.org/10.1016/j.jcorpfin.2025.102942",
+     "authors": [
+      "Marcin Borsuk",
+      "Zhuoya Du",
+      "Tinghua Duan"
+     ],
+     "authorCount": 6,
+     "journal": "Journal of Corporate Finance",
+     "sourceId": "S152282257",
+     "field": "finance",
+     "date": "2026-01-02",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5337034",
+     "citedBy": 12,
+     "relevance": 78.02745,
+     "type": "article"
+    },
+    {
+     "id": "W7215751874",
+     "title": "Climate regulatory risks and corporate bonds",
+     "url": "https://doi.org/10.1016/j.jfineco.2026.104363",
+     "authors": [
+      "Lee Seltzer",
+      "Laura T. Starks",
+      "Qifei Zhu"
+     ],
+     "authorCount": 3,
+     "journal": "Journal of Financial Economics",
+     "sourceId": "S149240962",
+     "field": "finance",
+     "date": "2026-10-02",
+     "abstract": "",
+     "oaUrl": "https://www.econstor.eu/bitstream/10419/266098/1/1801823065.pdf",
+     "citedBy": 136,
+     "relevance": 68.28771,
+     "type": "article"
+    },
+    {
+     "id": "W4362724946",
+     "title": "U.S. Banks’ Exposures to Climate Transition Risks",
+     "url": "https://doi.org/10.1017/s0022109026103226",
+     "authors": [
+      "Hyeyoon Jung",
+      "João A. C. Santos",
+      "Lee Seltzer"
+     ],
+     "authorCount": 3,
+     "journal": "Journal of Financial and Quantitative Analysis",
+     "sourceId": "S193228710",
+     "field": "finance",
+     "date": "2026-11-09",
+     "abstract": "Abstract We propose a new approach to estimate banks’ credit exposures to transition risks that combines sectoral effects of climate policies from general equilibrium (GE) models with historical information on loans’ default risks. At worst, estimated exposures reach 14% of bank loan portfolio values. Accounting for historic loan payoff structures reduces exposures to 0.5%–2%. Exposures can increase by 3–5 percentage points due to aggregate economic shocks. Analyses surrounding climate transition events suggest our estimates can serve as an upper bound on banks’ transition risk exposures. Highlighting our measure’s novelty, emissions explain at most 60% of variation in banks’ exposures.",
+     "oaUrl": "https://www.econstor.eu/bitstream/10419/284018/1/sr1058.pdf",
+     "citedBy": 32,
+     "relevance": 51.759377,
+     "type": "article"
+    },
+    {
+     "id": "W7117248223",
+     "title": "How you measure transition risk matters: comparing and evaluating climate transition risk metrics",
+     "url": "https://doi.org/10.1016/j.jcorpfin.2025.102939",
+     "authors": [
+      "Philip Fliegel"
+     ],
+     "authorCount": 1,
+     "journal": "Journal of Corporate Finance",
+     "sourceId": "S152282257",
+     "field": "finance",
+     "date": "2025-12-25",
+     "abstract": "I investigate how to best measure firms' climate transition risk. Therefore, I gather a new dataset of firm-level climate transition risk metrics including reported EU taxonomy alignments of capex and revenues as well as emission intensities, E-scores from Refinitiv and MSCI, The Refinitiv Business Classification (TRBC), and text-based metrics. I find a strong divergence in transition risk metrics for companies. Thus, depending on the transition risk metric – a portfolio's transition risk profile will differ substantially. To evaluate the transition risk metrics, I measure the return sensitivity of nine brown and green portfolios– each constructed using a specific firm-level transition risk metric – to market-wide news indices that track transition risk shocks: the higher the sensitivity, the more effective the transition risk proxy. For green portfolios, I find that taxonomy and TRBC portfolios react most strongly to climate transition risk shocks. Forward-looking metrics seem to be particularly useful. For brown portfolios, only the MSCI E-score portfolio reacts significantly negative to transition risk shocks. The findings are robust across different world regions, different weighting and sampling methodologies and in an event-study setting. I conclude that markets currently price the upside risk for green firms stronger than the downside risk for brown firms.",
+     "oaUrl": "https://doi.org/10.1016/j.jcorpfin.2025.102939",
+     "citedBy": 10,
+     "relevance": 42.991886,
+     "type": "article"
+    },
+    {
+     "id": "W2964681109",
+     "title": "Does the Salience of Climate-Related Risk Affect Asset Prices?",
+     "url": "https://doi.org/10.1017/s0022109026103494",
+     "authors": [
+      "Cloé Garnache"
+     ],
+     "authorCount": 1,
+     "journal": "Journal of Financial and Quantitative Analysis",
+     "sourceId": "S193228710",
+     "field": "finance",
+     "date": "2026-11-03",
+     "abstract": "Abstract Using regression discontinuity and difference-in-differences designs to compare prices of California homes across a new wildfire risk zone boundary, I identify null effects in the immediate vicinity of the new risk zone boundary. In contrast, prices of homes newly assigned to a riskier zone drop by 5.7% further away from the new risk zone boundary. These findings suggest that households do not respond to the risk salience triggered by the new risk zone assignment. Instead, they update their risk beliefs in response to rezoning in a way that is consistent with the actual wildfire risk.",
+     "oaUrl": "https://doi.org/10.1017/s0022109026103494",
+     "citedBy": 10,
+     "relevance": 39.34876,
+     "type": "article"
+    },
+    {
+     "id": "W7225336260",
+     "title": "Climate exposure and the flight of inventors",
+     "url": "https://doi.org/10.1016/j.jcorpfin.2026.103107",
+     "authors": [
+      "Tong Li"
+     ],
+     "authorCount": 1,
+     "journal": "Journal of Corporate Finance",
+     "sourceId": "S152282257",
+     "field": "finance",
+     "date": "2026-11-05",
+     "abstract": "",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 34.134747,
+     "type": "article"
+    },
+    {
+     "id": "W7163906738",
+     "title": "Drought, bank lending, and agricultural financial resilience",
+     "url": "https://doi.org/10.1016/j.jcorpfin.2026.103031",
+     "authors": [
+      "Michael Brei",
+      "Oskar Kowalewski",
+      "Piotr Śpiewanowski"
+     ],
+     "authorCount": 4,
+     "journal": "Journal of Corporate Finance",
+     "sourceId": "S152282257",
+     "field": "finance",
+     "date": "2026-06-08",
+     "abstract": "Drought can tighten agricultural credit conditions precisely when adaptation investments and access to working capital are most valuable. Using bank balance-sheet data merged with county-level U.S. Drought Monitor data for 2000–2020, we show that local credit markets exposed to drought experience significant declines in agricultural lending, with effects concentrated in severe episodes. These declines are strongest in markets served by geographically concentrated banks, especially single-county institutions, and weaker where lenders are more geographically diversified. In addition, we show that counties with greater irrigation intensity experience smaller lending declines during extreme droughts, while drought-related contractions are concentrated in counties with lower baseline crop resistance. Lending responses are also larger in counties with prior drought experience, consistent with persistent climate risk shaping local credit conditions. Our evidence highlights how climate risk, local adaptation, and bank structure jointly determine the availability of agricultural credit during drought episodes.",
+     "oaUrl": "https://doi.org/10.1016/j.jcorpfin.2026.103031",
+     "citedBy": 6,
+     "relevance": 23.662107,
+     "type": "article"
+    },
+    {
+     "id": "W7127885628",
+     "title": "Extreme weather events and payment timeliness in supply chains: Evidence from Hurricane Katrina",
+     "url": "https://doi.org/10.1016/j.jcorpfin.2026.102964",
+     "authors": [
+      "Viet Anh Dang",
+      "Ning Gao",
+      "Hongge Lin"
+     ],
+     "authorCount": 3,
+     "journal": "Journal of Corporate Finance",
+     "sourceId": "S152282257",
+     "field": "finance",
+     "date": "2026-02-06",
+     "abstract": "Payment timeliness is crucial for the efficient functioning of supply chains. This paper examines the impact of extreme weather events on the timeliness of business establishments' payments to their suppliers, with a particular focus on Hurricane Katrina. We find that Katrina caused significant payment delays among affected establishments, with the impact being more severe for establishments whose parent firms were more exposed to Katrina, were financially constrained, or operated in markets with higher supplier competition. Following Katrina, these payment delays were associated with deteriorations in establishments' employment, survival, and exit outcomes, as well as in parent firms' supply-chain relationships and suppliers' financial performance. Our findings demonstrate that physical climate risks can profoundly affect the financial and real outcomes of customer and supplier firms through payment delays.",
+     "oaUrl": "https://doi.org/10.1016/j.jcorpfin.2026.102964",
+     "citedBy": 3,
+     "relevance": 21.05555,
+     "type": "article"
+    },
+    {
+     "id": "W4416818806",
+     "title": "Do carbon emissions affect the cost of capital? Primary versus secondary corporate bond markets",
+     "url": "https://doi.org/10.1016/j.jcorpfin.2025.102932",
+     "authors": [
+      "Daniel Kim",
+      "Sébastien Pouget"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Corporate Finance",
+     "sourceId": "S152282257",
+     "field": "finance",
+     "date": "2025-11-29",
+     "abstract": "We empirically study whether carbon emissions affect firms’ cost of capital raised on conventional bond markets. We find that firms with higher carbon emissions face higher spreads in the secondary market but not in the primary market. We show that this gap is related to uncertainty about climate concerns that affects differently primary and secondary market. This gap is also affected by the reputation of underwriting dealers: high reputation promotes the incorporation of climate concerns into bond yields. Our findings imply that, on average, carbon emissions do not affect the cost of capital in bond markets, thereby reducing firms’ financial incentives for decarbonization.",
+     "oaUrl": "https://doi.org/10.1016/j.jcorpfin.2025.102932",
+     "citedBy": 4,
+     "relevance": 14.576047,
+     "type": "article"
+    }
+   ]
+  },
+  "neighbors": {
+   "count": 208,
+   "papers": [
+    {
+     "id": "W7117703123",
+     "title": "Physical climate risk and the pricing of bank loans",
+     "url": "https://doi.org/10.1016/j.jeem.2025.103280",
+     "authors": [
+      "Karol Kempa"
+     ],
+     "authorCount": 1,
+     "journal": "Journal of Environmental Economics and Management",
+     "sourceId": "S200872515",
+     "field": "applied-econ",
+     "date": "2025-12-31",
+     "abstract": "This paper analyses how physical climate risk affects the pricing of loans. Using a global dataset of almost 86,000 syndicated bank loans, we find that a higher climate vulnerability of a firm’s host country leads to higher costs of borrowing. The effects of physical climate risk on loan pricing are particularly large if loans have long maturities and if borrowing firms are in financial distress. In addition to loan pricing, banks also adjust other loan terms, such as loan size, collateral requirements, or fees, to manage their exposure to their borrowers’ physical climate risk. As climate risk may also directly affect loan pricing, e.g., via general updates of credit risk models due to observed changes in climate risk, we extend the analysis to firm-level credit risk ratings. The results show that physical climate risk negatively affects long-term credit risk ratings, while it does not play a role for short-term credit risk, and hence support the proposed channel that physical climate risk affects loan pricing via its effect on firms’ default probabilities.",
+     "oaUrl": "https://doi.org/10.1016/j.jeem.2025.103280",
+     "citedBy": 17,
+     "relevance": 99.7834,
+     "type": "article"
+    },
+    {
+     "id": "W7160308456",
+     "title": "From Crisis To Strategy: Mainstreaming Climate Risk In Health Systems Planning",
+     "url": "https://doi.org/10.1377/hlthaff.2025.01641",
+     "authors": [
+      "Cecilia J. Sorensen",
+      "Josephine Borghi",
+      "Sebastian Bauhoff"
+     ],
+     "authorCount": 3,
+     "journal": "Health Affairs",
+     "sourceId": "S4210185023",
+     "field": "policy",
+     "date": "2026-05-01",
+     "abstract": "Climate change poses a growing threat to health care systems worldwide, exposing weaknesses in infrastructure, workforce, and governance. Climate risk-defined by the interaction of hazard, exposure, and vulnerability-is both similar to and distinct from other systemic risks that health care systems must manage. We propose a risk-based framework that integrates insights from disaster risk management and health systems thinking to identify adaptation strategies. Our approach emphasizes understanding and addressing the upstream determinants of climate risk, including the intersectoral operating environment and social and environmental vulnerabilities that amplify health impacts. This perspective links climate risk reduction to the broader agenda of health equity. Within the health sector, climate change exerts simultaneous pressure on both demand and supply, challenging systems to move from reactive crisis response toward proactive, risk-informed planning. Established tools-such as strategic investment, workforce planning, and emergency preparedness-can be leveraged to manage climate-related risks while advancing core health policy goals. Framing climate change as a systemic risk encourages the integration of climate considerations into everyday policy and planning and strengthens health care system performance.",
+     "oaUrl": "https://doi.org/10.1377/hlthaff.2025.01641",
+     "citedBy": 0,
+     "relevance": 92.728424,
+     "type": "article"
+    },
+    {
+     "id": "W7128680882",
+     "title": "Financial Climate‐Risk Measurement, Impact Funds, and Green Transitions",
+     "url": "https://doi.org/10.1111/1475-679x.70042",
+     "authors": [
+      "Volker Laux",
+      "Lucas Mahieux"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Accounting Research",
+     "sourceId": "S111116695",
+     "field": "accounting",
+     "date": "2026-02-11",
+     "abstract": "ABSTRACT Regulators are contemplating or mandating precise measurement of financial climate‐risk exposure to promote sustainable investments. We show that such mandates can be counterproductive in the presence of social funds that catalyze change by subsidizing the adoption of cleaner production technologies. Firms can exploit a social fund's impact motive by measuring their climate‐risk exposure imprecisely. This strategic imprecision prevents the fund from distinguishing between firms that require subsidies and those that would switch to clean technologies for financial reasons alone, thereby increasing the ex ante subsidies firms can extract. A by‐product of this rent‐seeking behavior is that firms adopt clean technologies more frequently than would be jointly efficient under precise measurement. Our analysis suggests that the regulatory push for precise climate‐risk measurement can reduce social funds' impact and the frequency of green transitions.",
+     "oaUrl": "https://doi.org/10.1111/1475-679x.70042",
+     "citedBy": 6,
+     "relevance": 86.21638,
+     "type": "article"
+    },
+    {
+     "id": "W4384027227",
+     "title": "Mandatory climate risk disclosure, housing prices, and credit supply",
+     "url": "https://doi.org/10.1007/s11142-026-09974-z",
+     "authors": [
+      "Xi Chen"
+     ],
+     "authorCount": 1,
+     "journal": "Review of Accounting Studies",
+     "sourceId": "S11853582",
+     "field": "accounting",
+     "date": "2026-07-09",
+     "abstract": "Abstract This paper examines how climate risk transparency influences house prices and credit supply. I contend that inadequate property-level climate risk disclosures induce homebuyers to demand a risk aversion discount on house prices, creating a potential market for lemons. Employing a stacked difference-in-differences design, I find that flood risk disclosure laws, by enhancing dwelling-specific flood risk transparency, raise house prices on average by 7.6%. Results strengthen in states with stricter disclosure requirements. Exploiting within-state heterogeneity and controlling for housing market trends, I find that the effects persist and intensify in regions with higher aggregate exposure to flood risk, greater information frictions, and more attention to climate risks. Conversely, the effectiveness of flood risk disclosure laws attenuates in regions where households are less concerned about climate change. Additionally, less sophisticated lenders extend credit to financially constrained borrowers in response to the laws but experience lower profitability.",
+     "oaUrl": "https://link.springer.com/content/pdf/10.1007/s11142-026-09974-z.pdf",
+     "citedBy": 0,
+     "relevance": 84.97578,
+     "type": "article"
+    },
+    {
+     "id": "W4410057134",
+     "title": "Pricing climate risks: Evidence from wildfires and municipal bonds",
+     "url": "https://doi.org/10.1016/j.jpubeco.2026.105810",
+     "authors": [
+      "Woongchan Jeon",
+      "Lint Barrage",
+      "Kieran James Walsh"
+     ],
+     "authorCount": 3,
+     "journal": "Journal of Public Economics",
+     "sourceId": "S199447588",
+     "field": "public-econ",
+     "date": "2026-10-27",
+     "abstract": "How are public finances affected by climate-driven changes in wildfire risk? Using high-resolution meteorological forecasts, land use data, and US municipal bond spreads, we find that municipalities facing greater future wildfire exposure already incur higher borrowing costs: A one standard deviation increase in future wildfire risk is associated with a 7 (8) basis point rise in primary (secondary) market spreads—over 15% of the sample mean. Impacts appear larger in areas with higher minority populations and greater reliance on local revenue. Our study contributes to the broader literature by introducing a new approach to evaluating the capitalization of evolving physical climate risks.",
+     "oaUrl": "https://doi.org/10.1016/j.jpubeco.2026.105810",
+     "citedBy": 4,
+     "relevance": 83.141174,
+     "type": "article"
+    },
+    {
+     "id": "W7161836596",
+     "title": "When climate risks become evident: A natural experiment on risk perceptions in the housing market",
+     "url": "https://doi.org/10.1016/j.jeem.2026.103364",
+     "authors": [
+      "Anders Dugstad",
+      "Dag Einar Sommervoll"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Environmental Economics and Management",
+     "sourceId": "S200872515",
+     "field": "applied-econ",
+     "date": "2026-05-20",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.1016/j.jeem.2026.103364",
+     "citedBy": 3,
+     "relevance": 82.06592,
+     "type": "article"
+    },
+    {
+     "id": "W7161175545",
+     "title": "Input Sourcing under Climate Risk: Evidence from U.S. Manufacturing Firms",
+     "url": "https://doi.org/10.1093/restud/rdag031",
+     "authors": [
+      "Joaquin Blaum",
+      "Federico Esposito",
+      "Sebastian Heise"
+     ],
+     "authorCount": 3,
+     "journal": "The Review of Economic Studies",
+     "sourceId": "S88935262",
+     "field": "general-econ",
+     "date": "2026-05-13",
+     "abstract": "Abstract We study the effect of risk on how firms organize their supply chains. We use transaction-level data on U.S. manufacturing imports to construct a novel measure of input sourcing risk based on the historical volatility of ocean shipping times. Our measure isolates the unexpected component of shipping times that is induced by weather conditions along more than 331,000 maritime routes. We first document that unexpected shipping delays significantly reduce importers’ sales, profits, and employment. We then show that firms actively diversify weather risk by using more routes and foreign suppliers, although their import values decline. To rationalize these findings, we introduce shipping time risk into a general equilibrium model of importing with firm heterogeneity. Our quantitative analysis predicts substantial costs for the U.S. economy associated with supply chain risk.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5127342",
+     "citedBy": 10,
+     "relevance": 81.43377,
+     "type": "article"
+    },
+    {
+     "id": "W7166882869",
+     "title": "Constructing global climate-related risk reporting: Organizing dissonance in the Task Force on Climate-related Financial Disclosures (TCFD)",
+     "url": "https://doi.org/10.1016/j.aos.2026.101655",
+     "authors": [
+      "Brendan O’Dwyer"
+     ],
+     "authorCount": 1,
+     "journal": "Accounting, Organizations and Society",
+     "sourceId": "S198892436",
+     "field": "accounting",
+     "date": "2026-07-01",
+     "abstract": "In the past decade, climate-related risk disclosures have become a core component of global sustainability reporting. These disclosures mainly adopt the reporting framework developed by the Task Force on Climate-related Financial Disclosures (TCFD). Drawing on in-depth interviews with members of the Task Force, this paper unveils the manner in which the Task Force members convened to craft their disclosure recommendations. The paper employs and extends Stark's (2009) concept of organizing dissonance to illustrate how the Task Force became a site of contestation in which fragile member collaborations fuelled unanticipated yet productive frictions related to the Task Force's remit, the concept of materiality, the calculability of climate-related risks, and the nature and appropriateness of scenario analysis. The distinctive mode of organizing dissonance unveiled in the paper illustrates how problematizing globalized risk metrics, embracing admissible levels of ambiguity, and acknowledging the (temporary) unknowability of climate change impacts organized an oscillation between harmony and discord among the Task Force members. This resulted in a provisional disclosure settlement facilitating the flexible standardization of global climate-related risk reporting aimed at enabling the transition to a sustainable, low carbon economy. By unpacking a unique instance of user and preparer efforts to co-construct a globally influential climate-related risk reporting framework, the paper advances our knowledge of how transnational private governance initiatives unearth market-based solutions to intractable global challenges.",
+     "oaUrl": "https://www.sciencedirect.com/science/article/pii/S0361368226000243/pdf",
+     "citedBy": 2,
+     "relevance": 41.38611,
+     "type": "article"
+    },
+    {
+     "id": "W7160293940",
+     "title": "Climate-Related Health Risks In US Hospital Community Health Needs Assessments: A Mixed-Methods Analysis",
+     "url": "https://doi.org/10.1377/hlthaff.2025.01652",
+     "authors": [
+      "Sara Locke",
+      "Genevieve S. Silva",
+      "Cristina Arnés-Sanz"
+     ],
+     "authorCount": 9,
+     "journal": "Health Affairs",
+     "sourceId": "S4210185023",
+     "field": "policy",
+     "date": "2026-05-01",
+     "abstract": "Nonprofit hospitals conduct a community health needs assessment every three years to maintain federal tax-exempt status. Federal rules do not require these assessments to consider climate-related health risks, despite evidence that climate change affects health and health care delivery. This study examined the extent to which hospitals address climate-related health in community health needs assessments. We reviewed a nationally representative sample of 566 community health needs assessments (2021-24) from 3,468 US hospitals. Climate-related content was scored on an eighteen-point rubric including climate hazards and health risks (for example, extreme heat and flooding). The assessments' climate-related content was limited (mean score, 2.51 of 18). Hospitals serving more climate-vulnerable communities, especially those with greater socioeconomic disadvantage, were less likely to identify climate-related health risks. Scores in the Northeast and West were nearly twice those in the South and Midwest, although they were still low. Federal requirements should better align community health needs assessments with emerging public health risks, including climate change, to improve health system resilience.",
+     "oaUrl": "https://doi.org/10.1377/hlthaff.2025.01652",
+     "citedBy": 1,
+     "relevance": 34.629677,
+     "type": "article"
+    },
+    {
+     "id": "W7164909165",
+     "title": "Bank activities and the evolving exposures of banks and society to climate disasters",
+     "url": "https://doi.org/10.1007/s11142-026-09968-x",
+     "authors": [
+      "Mary Brooke Billings",
+      "Stephen G. Ryan",
+      "Han Yan"
+     ],
+     "authorCount": 3,
+     "journal": "Review of Accounting Studies",
+     "sourceId": "S11853582",
+     "field": "accounting",
+     "date": "2026-06-16",
+     "abstract": "Research finds that climate disasters have had minimal effects on banks’ performance to date, and it has devoted limited attention to how banks shape societal exposure to the disasters. This study addresses this puzzle and gap. Examining the share price reactions of banks affected by billion-dollar disasters from 1994–2024, we find that on average these banks lost market value around the disasters exceeding 10 percent of the estimated damages, with this percentage more than doubling during the sample period. We next show that banks’ county-level mortgage lending is positively associated with property exposures to disasters and FEMA appropriations when disasters occur. Finally, we show that banks open new branches in counties that experience growth in socially advantaged population, especially counties with high climate risks. Given accelerating climate change, property-casualty insurers backing away from climate-risky counties, and FEMA’s uncertain status, our evidence highlights growing climate-related costs for banks and society.",
+     "oaUrl": "https://link.springer.com/content/pdf/10.1007/s11142-026-09968-x.pdf",
+     "citedBy": 4,
+     "relevance": 32.71055,
+     "type": "article"
+    },
+    {
+     "id": "W7128104184",
+     "title": "Firm Adaptation in Production Networks: Evidence from Extreme Weather Events in Pakistan",
+     "url": "https://doi.org/10.1257/aer.20241027",
+     "authors": [
+      "Clare Balboni",
+      "Johannes Boehm",
+      "Mazhar Waseem"
+     ],
+     "authorCount": 3,
+     "journal": "American Economic Review",
+     "sourceId": "S23254222",
+     "field": "general-econ",
+     "date": "2026-10-30",
+     "abstract": "This paper considers how far private adaptation may reduce future vulnerability to climate risks. Using data on monthly firm-to-firm transactions from Pakistan, we find that flood-affected firms are more likely to relocate to safer ground and shift purchases toward suppliers in less flood-prone regions and reached via less flood-prone roads. The results indicate that firms are imperfectly informed about flood risk and update their beliefs following floods. We quantify aggregate impacts using a spatial model of endogenous production network formation. The findings suggest that firms' learning will shape the economic impact of increasingly frequent climate-related disasters. (JEL D22, L14, O13, O14, Q54, R32)",
+     "oaUrl": "https://research.manchester.ac.uk/en/publications/7651af9a-cb3e-43a3-a9a0-9719d863f5ac",
+     "citedBy": 6,
+     "relevance": 23.37588,
+     "type": "article"
+    },
+    {
+     "id": "W4399205230",
+     "title": "The Role of Supply Chains in Climate Disclosure",
+     "url": "https://doi.org/10.1111/1475-679x.70096",
+     "authors": [
+      "Pietro Bonetti",
+      "Yang (Ellen) EN",
+      "Igor Kadach"
+     ],
+     "authorCount": 4,
+     "journal": "Journal of Accounting Research",
+     "sourceId": "S111116695",
+     "field": "accounting",
+     "date": "2026-11-11",
+     "abstract": "ABSTRACT We examine the role of supply chains in shaping the public disclosure of climate information. We leverage a unique empirical setting enabled by CDP—the leading platform for corporate climate risk reporting—which allows customers to demand climate‐related information from their suppliers. Using a large international sample of customer–supplier pairs, we find a positive association between customers’ information demand and suppliers’ public disclosure on the CDP. While the estimated association is modest on average, it exhibits substantial cross‐sectional variation reflecting the disclosure incentives of both customers and suppliers as well as their relative bargaining power. We also find descriptive evidence consistent with one potential implication of the documented association for corporate decision‐making: shifts in supply network relationships toward greener and more transparent suppliers. Overall, our findings contribute to ongoing debates on how to foster climate disclosure.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1475-679x.70096",
+     "citedBy": 4,
+     "relevance": 23.15587,
+     "type": "article"
+    }
+   ]
+  },
+  "workingPapers": {
+   "count": 174,
+   "papers": [
+    {
+     "id": "W7214675186",
+     "title": "The Positive Spillovers to Risky Investments in Vacant, Abandoned, and Disinvested Properties",
+     "url": "https://doi.org/10.3386/w35825",
+     "authors": [
+      "Edward Chen",
+      "Reagan Lengefeld",
+      "Omar Isaac Asensio"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-09-01",
+     "abstract": "This study examines a housing program that created affordable infill developments on formerly vacant, abandoned, or disinvested properties in Savannah, Georgia. Savannah is a major economic hub anchored by the Port of Savannah, where many urban neighborhoods remain impacted by disinvestment and climate risk. Using two decades of record-linked property and tax data, this study quantifies local economic spillovers from this public intervention, revealing previously hidden social and economic benefits of infill housing policies. These benefits include an 11% increase in the market value of properties immediately neighboring an infill development site and an increase of up to 35% in areas with a high density of infill activity, pointing to block-level revitalization in climate-disadvantaged and distressed areas. Institutional subscribers to the NBER working paper series, and residents of developing countries may download this paper without additional charge at www.nber.org.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.7535505",
+     "citedBy": 0,
+     "relevance": 21.506172,
+     "type": "report"
+    },
+    {
+     "id": "W7134855158",
+     "title": "The Changing Landscape of International Development: An Introduction",
+     "url": "https://doi.org/10.3386/w34943",
+     "authors": [
+      "Pascaline Dupas Y",
+      "Pinelopi Koujianou Goldberg",
+      "Rohini Pande"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-03-01",
+     "abstract": "Since the late 1980s, extreme poverty has declined sharply, life expectancy and schooling have increased, and electoral democracy has expanded.However poverty reduction has slowed in recent years, particularly following the COVID-19 pandemic, amid intensifying conflict, fragility, climate risks, democratic backsliding, and the erosion of global trends-including trade integration and geopolitical stability-that once supported growth.These dynamics raise three interrelated questions: what barriers impede further progress; where will future growth in lower-income countries come from; and how can growth be broadly shared.Taking stock of 15 chapters forthcoming in Volume 6 of the Handbook of Development Economics, we discuss how external conditions, state capacity and policy choices shape development; analyze the shifting growth drivers, including trade, technology and the rise of services; discuss persistent inequality and distributional tensions; and conjecture that investing in institutions and people pays off.",
+     "oaUrl": "https://doi.org/10.3386/w34943",
+     "citedBy": 0,
+     "relevance": 20.549265,
+     "type": "report"
+    },
+    {
+     "id": "W7133208357",
+     "title": "Climate Disasters and Intergenerational Equity: A Fiscal Rule for Sustainable Development",
+     "url": "https://doi.org/10.3386/w34916",
+     "authors": [
+      "Harrison G. Hong",
+      "Heqing Huang",
+      "Neng Wang"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-02-01",
+     "abstract": "Climate disasters threaten intergenerational equity by exposing future generations to rising risks.We develop a model in which a government learns about disaster risk and enforces a sustainability criterion requiring expected social welfare to be non-decreasing over time.This criterion-similar to the principle underlying the UN Sustainable Development Goals-can be decentralized through state-contingent fiscal instruments: when perceived disaster risk is high, the constraint binds and government raises a consumption tax to finance investment subsidies for resilience.Such a fiscal rule leads to intergenerational-welfare smoothing and improves asset valuations despite adverse climate news due to commitments to future resilience.Compared with a government that adopts a social discount rate lower than households', the sustainability-constraint rule responds to disaster risk and is better aligned with observed consumption-based climate-resilience taxes, such as those implemented in Greece and Spain.",
+     "oaUrl": "https://doi.org/10.3386/w34916",
+     "citedBy": 0,
+     "relevance": 17.682938,
+     "type": "report"
+    },
+    {
+     "id": "W7117584970",
+     "title": "The Economics of Climate Innovation: Technology, Climate Policy, and the Clean Energy Transition",
+     "url": "https://doi.org/10.3386/w34601",
+     "authors": [
+      "Eugenie Dugoua",
+      "Jacob Moscona"
+     ],
+     "authorCount": 2,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2025-12-01",
+     "abstract": "This chapter examines the economics of climate innovation and its role in the clean technology transition.It outlines the incentives, market failures, and policy levers that shape the development and diffusion of clean technologies; traces global patterns in technology development and deployment; and highlights frontier challenges and open questions related to climate adaptation, critical mineral supply chains, artificial intelligence, and geopolitics.The analysis explores the role of effective climate policy, stressing the relevance of coordinated approaches that match instruments to technology maturity and local context.",
+     "oaUrl": "https://doi.org/10.3386/w34601",
+     "citedBy": 7,
+     "relevance": 16.228592,
+     "type": "report"
+    },
+    {
+     "id": "W7127163886",
+     "title": "The Macroeconomic Effects of Climate Policy Uncertainty",
+     "url": "https://doi.org/10.3386/w34762",
+     "authors": [
+      "Konstantinos Gavriilidis",
+      "Diego R. Känzig",
+      "Ramya Raghavan"
+     ],
+     "authorCount": 4,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-01-01",
+     "abstract": "We develop a measure of climate policy uncertainty based on newspaper coverage.Our index spikes during key U.S. climate policy events-including presidential announcements on international agreements, congressional debates, and regulatory disputes-and shows a recent upward trend.Using a novel instrument for plausibly exogenous uncertainty shifts, we find that higher climate policy uncertainty decreases output and emissions while raising commodity and consumer prices, acting as supply rather than demand shocks.Faced with this trade-off, monetary policy does not accommodate climate policy uncertainty shocks, shaping their transmission.Firmlevel analyses show stronger declines in investment and R&D when firms have higher climate change exposure.",
+     "oaUrl": "https://doi.org/10.3386/w34762",
+     "citedBy": 23,
+     "relevance": 15.777658,
+     "type": "report"
+    },
+    {
+     "id": "W7225655114",
+     "title": "The Impact of Climate Change on Fisheries",
+     "url": "https://doi.org/10.3386/w35994",
+     "authors": [
+      "Fabio Cevenini",
+      "Christopher Costello",
+      "Carlo Fezzi"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-11-01",
+     "abstract": "This paper provides the first causal estimate of the effect of ocean temperature variations on fishing revenue.We develop a simple theoretical model underpinning an empirical specification estimated on 2.5 million spatially explicit observations of fishing revenue from all European vessels for 2013-2022.The identification strategy leverages a novel metric, Marine Degree Days, which quantifies species-specific temperature exposure relative to biologically established thermal tolerance intervals.Within this framework we address key identification challenges, including spatial selection and ecological interdependencies across species.We find that deviations from species' thermal preferences lead to significant losses in fishing revenue, with heat exposure causing the most pronounced impacts.These effects are mediated by species' vertical mobility and ecological characteristics.Projections across different climate scenarios point to widespread revenue declines by 2100, reaching €560 million annual losses in the warmest scenario, though impacts are highly spatially heterogeneous.Lower-income, equatorial areas are expected to suffer the most, while some colder regions experience gains.",
+     "oaUrl": "https://doi.org/10.3386/w35994",
+     "citedBy": 0,
+     "relevance": 14.556668,
+     "type": "report"
+    }
+   ]
+  },
+  "ssrn": {
+   "count": 12,
+   "candidates": 24,
+   "papers": [
+    {
+     "id": "W7127400759",
+     "title": "Climate Risks and Firm Innovation",
+     "url": "https://doi.org/10.2139/ssrn.6120426",
+     "authors": [
+      "Dario Pozzoli",
+      "Ismir Mulalic",
+      "Grace Weishi Gu"
+     ],
+     "authorCount": 4,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-02-04",
+     "abstract": "Climate-related risks have increased significantly over the past two decades, including both physical risks (such as extreme weather events) and transition risks (arising from climate change mitigation policies). This paper examines how these risks relate to firms' innovation outcomes, including those related to green technologies. We first develop a model in which firms choose how many workers to employ for R&D and production activities in response to rising climate risks. The model predicts an increase in green innovation and overall innovation under certain conditions. Empirical evidence from Danish administrative data generally supports these predictions, showing that firms exposed to climate risks exhibit higher innovation activity, especially in green technologies.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6120426",
+     "citedBy": 0,
+     "relevance": 111.842255,
+     "type": "preprint"
+    },
+    {
+     "id": "W4417327429",
+     "title": "Perspectives on Insurance and Climate Risk",
+     "url": "https://doi.org/10.2139/ssrn.5910822",
+     "authors": [
+      "Parinitha Sastry",
+      "Ishita Sen"
+     ],
+     "authorCount": 2,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2025-12-15",
+     "abstract": "Property insurance is central to managing rising risks from climate change, particularly for households whose homes are their biggest asset. Yet recent disruptions in insurance markets--such as, sharply rising premiums, rationing, and growing insurance fragility--have raised concerns about their long-term viability. These disruptions create new channels through which climate losses can propagate through housing and financial markets, affecting the distribution of climate risk and stability of the broader economy. This review highlights emerging evidence and proposes research directions to advance the homeowners insurance agenda by integrating insurance into the broader climate finance, household finance, and macro-finance literature.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5910822",
+     "citedBy": 0,
+     "relevance": 109.872154,
+     "type": "preprint"
+    },
+    {
+     "id": "W7208746046",
+     "title": "Climate risks, short and long",
+     "url": "https://doi.org/10.2139/ssrn.7400919",
+     "authors": [
+      "Rhys M. Bidder",
+      "Dimitris Papadimitriou",
+      "Lavinia Rognone"
+     ],
+     "authorCount": 4,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-09-05",
+     "abstract": "We study how climate policy risk is priced across the maturity structure of equity cash flows. Using textual analysis of European news articles, we construct indices of transition and physical climate risk and, drawing on recent advances in measuring the temporal dimension of text, classify climate news by the horizon it references. We combine these indices with prices of dividend futures and dividend swaps, which allow us to decompose stock price reactions to climate news into short- and long-term cash-flow components. Heightened transition-risk news lowers stock prices, and the decline is concentrated in long-maturity dividend claims. The evidence suggests that investors expect most firms to defer adaptation, leaving near-term earnings and payouts largely unchanged while bearing greater long-run exposure. Finally, firm-level sensitivities identify which companies the market perceives as adapting early — accepting short-term losses to invest in the transition — versus those most exposed to stranded-asset risk.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.7400919",
+     "citedBy": 0,
+     "relevance": 109.83884,
+     "type": "preprint"
+    },
+    {
+     "id": "W7116935169",
+     "title": "Leverage Dynamics, Climate Risk, and Adaptation",
+     "url": "https://doi.org/10.2139/ssrn.5948715",
+     "authors": [
+      "HaoTian Deng",
+      "Yuan Yuan Li",
+      "Kai Lü"
+     ],
+     "authorCount": 4,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2025-12-23",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5948715",
+     "citedBy": 0,
+     "relevance": 107.1569,
+     "type": "preprint"
+    },
+    {
+     "id": "W7117570427",
+     "title": "Climate Risk Pricing",
+     "url": "https://doi.org/10.2139/ssrn.5978854",
+     "authors": [
+      "Nicolae Bogdan Garleanu",
+      "LASSE HEJE PEDERSEN"
+     ],
+     "authorCount": 2,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2025-12-30",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5978854",
+     "citedBy": 6,
+     "relevance": 106.70282,
+     "type": "preprint"
+    },
+    {
+     "id": "W7133511316",
+     "title": "Climate Risks and Corporate Uses of Cash Flow",
+     "url": "https://doi.org/10.2139/ssrn.6345962",
+     "authors": [
+      "Xin Chang",
+      "Wing Chun Kwok",
+      "George Wong"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-03-05",
+     "abstract": "Climate risk is a significant source of systemic risk, raising an important question about how firms should structure their financing and liquidity policies to mitigate its impact, strengthen corporate resilience, and ultimately support financial stability in the corporate sector. Using an integrated regression framework, our cross-country analysis examines how firms allocate internal cash flow across key corporate uses–namely, investments, cash holdings, dividends, and external finance reductions–in response to climate risks. We find that firms in high climate-risk countries allocate a larger proportion of an additional dollar of cash flow to reducing external financing, while allocating smaller portions to dividends, cash holdings, and investments. Notably, this climate risk–driven cash flow reallocation is less pronounced among multinational enterprises (MNEs) than among non-MNEs, suggesting that MNEs possess greater capability to proactively coordinate financial resources in response to climate risk, thereby reducing reliance on internal financing as a reactive measure. Further analysis reveals that country-specific regulatory risk, industry transition risk, firm-level financial constraints, and asset tangibility amplify the effects of climate risk on corporate uses of internal cash flow. Collectively, our findings illustrate climate risk–induced shifts in corporate uses of internal cash flow, revealing an internal finance channel, through which firms adapt to climate risks and build financial resilience.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6345962",
+     "citedBy": 0,
+     "relevance": 103.59628,
+     "type": "preprint"
+    },
+    {
+     "id": "W7208754558",
+     "title": "Climate Risk and the Insurability of Commercial Real Estate",
+     "url": "https://doi.org/10.2139/ssrn.7401579",
+     "authors": [
+      "Stefany Burbano",
+      "Rogier Holtermans",
+      "Nils Kok"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-09-05",
+     "abstract": "Insurance costs for commercial real estate in the U.S. have risen sharply in recent years. We study how physical climate risk, in particular hurricanes, is related to the cost of insuring commercial properties. We combine property-level operating statements with detailed data on hurricanes, FEMA flood maps, and forward-looking climate risk scores. Using a stacked difference-indifferences design around 24 hurricanes that made landfall in the U.S. between 2010 and 2023, we find that exposed properties are associated with increases of 1.2-1.7 percentage points in the insurance expense ratio, around 20% relative to the sample mean. These increases are larger for properties hit by hurricane-force winds and for assets managed by geographically concentrated managers, while they are much smaller for assets owned by highly diversified managers.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.7401579",
+     "citedBy": 0,
+     "relevance": 102.42291,
+     "type": "preprint"
+    },
+    {
+     "id": "W7171650453",
+     "title": "Climate Risks and Private Infrastructure Valuation",
+     "url": "https://doi.org/10.2139/ssrn.6958098",
+     "authors": [
+      "Yuhan Zhang",
+      "Gianfranco Gianfrate"
+     ],
+     "authorCount": 2,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-07-30",
+     "abstract": "This paper examines how climate-related news affects the cost of capital for private infrastructure investment across countries. We combine a novel dataset of global infrastructure transactions with country-level measures of climate sentiment constructed from GDELT news data, alongside indicators of climate policy stringency and physical risk. We find that climate-related information is systematically incorporated into asset valuations: more adverse climate news is associated with lower valuation multiples, consistent with higher required returns, while more favorable news increases valuations. In contrast, we find no significant effects on realized returns, suggesting that climate information primarily operates through ex-ante adjustments in discount rates rather than realized cash flows. The effects are stronger in countries with higher transition risk and weaker institutional environments. These findings highlight the role of information in shaping financing conditions and suggest that climate-related narratives can influence the allocation of capital during the energy transition by affecting the cost of infrastructure investment.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6958098",
+     "citedBy": 0,
+     "relevance": 100.66106,
+     "type": "preprint"
+    },
+    {
+     "id": "W7214759876",
+     "title": "Climate-Risk News and ESG Equity Markets",
+     "url": "https://doi.org/10.2139/ssrn.7540344",
+     "authors": [
+      "Evangelos N. Salachas",
+      "Theodoros Bratis",
+      "Γεώργιος Π. Κουρέτας"
+     ],
+     "authorCount": 4,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-09-30",
+     "abstract": "This paper examines whether climate-risk news is associated with differential repricing of ESG equities relative to corresponding conventional equity markets and with changes in international connectedness. Using daily data for the United States (U.S.), euro area (EA), the United Kingdom (UK), Japan, Brazil, India, and China, we construct country-level ESG-minus-broad return spreads (ESG spread) and estimate local projections for physical-risk and transition-risk news innovations. We complement the return analysis with a balanced four-market connectedness design that compares ESG and conventional volatility networks on identical markets and dates. The evidence is heterogeneous across markets and climate-risk types. We find that physical-risk news is followed by delayed relative ESG outperformance most clearly in the U.S. under conservative timing, while the UK exhibits a shorter-lived positive baseline response concentrated at the first two trading horizons. In contrast, transition-risk news is associated with persistent relative underperformance in Japan and positive relative repricing in China. A constituent-based diagnostic shows substantially greater market-cap-implied sector differentiation between the Chinese ESG and conventional benchmarks than in Japan or the euro area, suggesting that index composition may contribute to this cross-country contrast. Independent media-based climate measures reproduce important elements of the Japan-China transition pattern. Physical-risk news raises ESG and conventional connectedness by similar amounts, consistent with a broad international equity-market response, whereas transition-risk news provides more suggestive evidence of an ESG-specific connectedness component.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.7540344",
+     "citedBy": 0,
+     "relevance": 100.44578,
+     "type": "preprint"
+    },
+    {
+     "id": "W7154973164",
+     "title": "Climate Risk, Innovation, and the Diffusion of Green Technologies *",
+     "url": "https://doi.org/10.2139/ssrn.6516621",
+     "authors": [
+      "Claire Brunel",
+      "Nicolas Nastri"
+     ],
+     "authorCount": 2,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-04-21",
+     "abstract": "Climate technologies are central to addressing rising climate risks, yet existing research has largely emphasized policy as the primary driver of innovation. We examine whether climate vulnerability itself shapes innovation incentives as an additional channel alongside policy. Using patent data for mitigation and adaptation technologies in 77 countries from 1995-2021, we exploit within-country variation in vulnerability while controlling for policy and distinguishing key margins of heterogeneity, including between domestic invention and international technology diffusion. Climate vulnerability does not generate a uniform response. High-income economies capable of influencing global emissions shift innovation towards mitigation. Middleincome countries face constraints that limit access to foreign adaptation technologies precisely when adaptation needs are greatest, and the increase in domestic innovation-often reflecting the context-specific nature of adaptation technologies-is not sufficient to offset this decline. Falsification tests rule out competing mechanisms and provide evidence of an independent association between climate vulnerability and innovation, pointing to a previously underexplored channel shaping technological change.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6516621",
+     "citedBy": 0,
+     "relevance": 99.04711,
+     "type": "preprint"
+    },
+    {
+     "id": "W7147679261",
+     "title": "Working Amid Climate Uncertainties: The Disciplining Effect of Climate Risk on Employee Treatment",
+     "url": "https://doi.org/10.2139/ssrn.6504054",
+     "authors": [
+      "Paraskevi Vicky Kiosse",
+      "Dorcas Nduakoh",
+      "Emmanuel Ofosu"
+     ],
+     "authorCount": 4,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-04-02",
+     "abstract": "In examining how firm-level climate risk influences wage theft, a major form of employee mistreatment, we document that wage theft is less prevalent in firms with high climate risk perception. To establish causality, we employ difference-in-differences analysis around the adoption of the Paris Agreement and instrumental variable estimation. The negative relation between climate risk and wage theft is more pronounced in labor-intensive firms and those heavily reliant on skilled labor, suggesting the role of human capital as the main channel. Further cross-sectional analyses show that media coverage amplifies the documented effect, while financial constraints and resilience against climate change attenuate it. Supplemental analyses reveal two key findings: (1) heightened climate risk perception encourages stronger labor management policies, and (2) wage theft negatively impacts employee performance and productivity. Overall, this study emphasizes the significance of climate risk in shaping firms’ labor treatment.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6504054",
+     "citedBy": 0,
+     "relevance": 97.11302,
+     "type": "preprint"
+    },
+    {
+     "id": "W7222924153",
+     "title": "Housing, Property Insurance, and Climate Risk: A Review of the Literature",
+     "url": "https://doi.org/10.2139/ssrn.7626498",
+     "authors": [
+      "Parinitha Sastry",
+      "Ishita Sen",
+      "Ana-Maria Tenekedjieva"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-10-20",
+     "abstract": "Housing is the largest asset for most U.S. households and a primary source of climate risk exposure. This review synthesizes a rapidly growing empirical literature at the intersection of homeowners insurance, housing markets, and climate risk, emphasizing recent work using newly available granular insurance data. We organize the discussion around three questions: how much risk households retain, how insurance premiums are determined, and how disruptions in insurance markets create public sector exposures. Despite widespread insurance take-up, substantial household wealth remains unprotected. Insurance pricing, shaped by growing expected losses and state regulation, influences coverage gaps, property values, mortgage credit, and incentives for location choice and adaptation. Disruptions in insurance coverage also shift losses toward public backstops, linking insurance market outcomes to broader fiscal exposures. We identify open questions about how insurance market design and public policy can balance household financial protection, incentives for risk reduction, and fiscal exposure.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.7626498",
+     "citedBy": 0,
+     "relevance": 96.61307,
+     "type": "preprint"
+    }
+   ]
+  }
+ }
+}

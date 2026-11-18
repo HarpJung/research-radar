@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Radar</title>
+  <meta name="description" content="New papers from the top journals in your field, plus the neighboring fields your topic reaches. Business and public policy research, live from OpenAlex.">
+  <meta property="og:title" content="Research Radar">
+  <meta property="og:description" content="Type a topic, get the newest top-journal papers from your field and neighboring fields.">
+  <meta name="theme-color" content="#0d6b66">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#topic">Skip to search</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <svg class="brand-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2" opacity=".3"/>
+          <circle cx="16" cy="16" r="8" fill="none" stroke="currentColor" stroke-width="2" opacity=".55"/>
+          <path d="M16 16 L25.2 6.8" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+          <circle cx="16" cy="16" r="2.6" fill="currentColor"/>
+          <circle cx="22.4" cy="20.6" r="2.1" fill="currentColor"/>
+        </svg>
+        <h1 class="brand-name">Research Radar</h1>
+      </div>
+      <p class="tagline">New papers from the top journals in <em>your</em> field, plus the neighboring fields your topic reaches.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <form id="search-form" class="search-card" autocomplete="off" novalidate>
+      <div class="topic-row">
+        <label for="topic">Topic</label>
+        <input id="topic" name="q" type="search" maxlength="200" placeholder="e.g., artificial intelligence workforce" aria-describedby="topic-hint">
+        <p id="topic-hint" class="hint">A few keywords work best, e.g. “tax evasion” or “climate risk”.</p>
+      </div>
+      <div class="controls">
+        <div class="control">
+          <label for="field">Your field</label>
+          <select id="field" name="field"></select>
+        </div>
+        <div class="control">
+          <label for="months">Published in the last</label>
+          <select id="months" name="months">
+            <option value="3">3 months</option>
+            <option value="6">6 months</option>
+            <option value="12" selected>12 months</option>
+            <option value="24">2 years</option>
+          </select>
+        </div>
+        <button type="submit" id="scan-btn" class="btn btn-primary">Scan</button>
+      </div>
+      <div class="samples" id="samples">
+        <span class="samples-label">Try a sample:</span>
+      </div>
+    </form>
+
+    <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+
+    <section id="results" class="results" hidden aria-label="Results">
+      <div class="results-bar">
+        <p id="summary" class="summary"></p>
+        <div class="sort" role="group" aria-label="Sort papers">
+          <button type="button" data-sort="relevance" aria-pressed="true">Most relevant</button>
+          <button type="button" data-sort="newest" aria-pressed="false">Newest</button>
+        </div>
+      </div>
+      <div id="snapshot-note" class="note" hidden></div>
+      <div id="sections"></div>
+    </section>
+
+    <details class="about" id="about">
+      <summary>How it works</summary>
+      <div class="about-body">
+        <ol class="steps">
+          <li><strong>Your field first.</strong> Research Radar searches the top journals of the field you pick and lists the best matches first.</li>
+          <li><strong>Neighboring fields, picked by your topic.</strong> The same search runs across the other fields' top journals. Only fields that actually publish on your topic show up, so the spillover changes with the topic.</li>
+          <li><strong>The newest working papers.</strong> NBER and SSRN papers often circulate long before the journal version, so they get their own list. SSRN has no quality screen, so an SSRN paper is shown only if at least one of its authors has published in the journals listed below.</li>
+          <li><strong>What people are sharing.</strong> Research Radar also scans public Bluesky posts from the last 30 days that mention your topic and link somewhere. It groups them by the page they link to and lists the links shared by the most accounts, with news, research and policy sites first. It shows links and counts only, never account names or post text.</li>
+          <li><strong>Live, open data.</strong> Papers come straight from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>, a free, open index of scholarly research; abstracts for SSRN papers come from <a href="https://www.crossref.org" target="_blank" rel="noopener">Crossref</a>; shared links come from Bluesky's public search. Your topic is sent to OpenAlex and Bluesky to run the searches (and SSRN paper IDs to Crossref). Research Radar has no server and keeps nothing about you.</li>
+        </ol>
+
+        <h2>Good to know</h2>
+        <ul class="caveats">
+          <li>Only the journals listed below are searched, on purpose: quality over coverage. Strong work in other outlets will not appear.</li>
+          <li>It matches keywords, not meaning. Try synonyms, e.g. “tax compliance” as well as “tax evasion”.</li>
+          <li>Papers tagged <span class="tag-weak">Weaker match</span> don't have your keywords in the title or abstract (OpenAlex matched them on the full text). They are listed last, under “Show more”.</li>
+          <li>Some publishers do not share abstracts with OpenAlex, so a few papers show none. Dates are the publication or issue dates OpenAlex records.</li>
+          <li>OpenAlex doesn't carry SSRN abstracts, so Research Radar fetches them from Crossref, where SSRN deposits them (a few papers have none). SSRN shares only the posting year, so the date shown for an SSRN paper is when OpenAlex first listed it.</li>
+          <li>The Bluesky list works best for topics that are in the news; niche research topics may show few or no links. It reflects what is popular among Bluesky users, who are not a representative sample of anyone.</li>
+        </ul>
+
+        <h2>Journals searched</h2>
+        <div id="journal-list" class="journal-list"></div>
+
+        <h2 id="key-heading">Daily search limit</h2>
+        <p>Without a key, OpenAlex gives each network a small free daily budget (about 25 scans, shared by everyone on the same Wi-Fi), and when its servers are busy it pauses keyless searches for about a minute. Saved sample topics never need it. For more searches and uninterrupted access, get a free key at <a href="https://openalex.org/settings/api" target="_blank" rel="noopener">openalex.org/settings/api</a> (about a minute) and paste it here. It is stored only in this browser and sent only to OpenAlex.</p>
+        <div class="key-row">
+          <label class="visually-hidden" for="api-key">OpenAlex API key</label>
+          <input id="api-key" type="password" placeholder="Paste your OpenAlex API key" autocomplete="off" spellcheck="false">
+          <button type="button" id="save-key" class="btn btn-secondary">Save key</button>
+          <button type="button" id="clear-key" class="btn btn-ghost">Remove</button>
+        </div>
+        <p id="key-status" class="hint" aria-live="polite"></p>
+      </div>
+    </details>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      Data from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> (CC0), <a href="https://www.crossref.org" target="_blank" rel="noopener">Crossref</a> and Bluesky. Not affiliated with any journal.
+      Built with Claude Code for HKS DPI-681, Fall 2026.
+    </div>
+  </footer>
+
+  <template id="tpl-radar">
+    <svg class="radar-spin" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+      <circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2" opacity=".3"/>
+      <circle cx="16" cy="16" r="8" fill="none" stroke="currentColor" stroke-width="2" opacity=".55"/>
+      <g class="sweep"><path d="M16 16 L25.2 6.8" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></g>
+      <circle cx="16" cy="16" r="2.6" fill="currentColor"/>
+    </svg>
+  </template>
+
+  <noscript><p class="wrap">Research Radar needs JavaScript to search OpenAlex.</p></noscript>
+  <script src="journals.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

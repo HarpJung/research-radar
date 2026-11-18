@@ -1,0 +1,673 @@
+{
+ "topic": "administrative burden",
+ "field": "policy",
+ "months": 12,
+ "query": "administrative burden",
+ "since": "2025-11-16",
+ "savedAt": "2026-11-16",
+ "sections": {
+  "home": {
+   "count": 87,
+   "papers": [
+    {
+     "id": "W7207704245",
+     "title": "Administrative Burden and the Access–Fraud Trade‐Off",
+     "url": "https://doi.org/10.1002/pam.70128",
+     "authors": [
+      "Elizabeth Bell",
+      "Sebastian Jilke"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Policy Analysis and Management",
+     "sourceId": "S25370267",
+     "field": "policy",
+     "date": "2026-09-01",
+     "abstract": "ABSTRACT Administrative burden represents political choices embedded in policy design that affect how people perceive and experience government. While policymakers frequently invoke fraud prevention to justify imposing burdens in welfare programs, this rhetoric embodies an unacknowledged normative judgment about the relative costs of fraud and abuse versus program exclusion for eligible beneficiaries. This study quantifies this access–fraud trade‐off in means‐tested social welfare programs through a contingent valuation experiment ( N = 2250). We find that respondents were willing to accept approximately 192 ineligible recipients receiving benefits in exchange for 1000 eligible beneficiaries not being excluded due to administrative burdens. While we find no direct evidence that psychological distance (i.e., randomized exposure to “welfare” vs. specific programs) affects this trade‐off across the full sample, political affiliation is a significant moderator in our exploratory analysis. Unlike Democrats/Independents, Republicans demonstrate substantially lower tolerance for potential fraud when evaluating abstract “welfare” compared to specific programs like unemployment insurance. Experience with means‐tested welfare programs, which reduces psychological distance, has a similar moderating effect. These findings extend construal level theory to administrative burden preferences and contribute to the policy implementation literature by quantifying the access–fraud trade‐off—a metric largely absent from academic and policy discussions despite its importance for program legitimacy.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pam.70128",
+     "citedBy": 0,
+     "relevance": 132.19525,
+     "type": "article"
+    },
+    {
+     "id": "W7134175300",
+     "title": "Education and the Unequal Costs of Voting: Administrative Burdens and Democratic Participation",
+     "url": "https://doi.org/10.1111/psj.70106",
+     "authors": [
+      "Cameron J. Arnzen"
+     ],
+     "authorCount": 1,
+     "journal": "Policy Studies Journal",
+     "sourceId": "S119514724",
+     "field": "policy",
+     "date": "2026-03-06",
+     "abstract": "ABSTRACT Administrative burdens are an inherent feature of citizen–state interactions, shaping who can access public programs and exercise fundamental rights. These burdens are not distributed evenly; instead, they tend to exacerbate inequality by imposing disproportionate costs on individuals with fewer resources or skills. Given that some administrative burdens exacerbate complexity, this paper investigates an understudied dimension upon which burdens may have disproportionate impacts: education. Using the case of U.S. elections, this paper explores how administrative burdens interact with education to shape democratic participation. Drawing on validated voter data from the Cooperative Election Study (2008–2024) linked with the Cost of Voting Index, I show that increases in the administrative complexity of voting disproportionately deter participation among individuals with less education. By highlighting education as a critical but understudied dimension of inequality in navigating burdens, this study demonstrates how the design of onerous public policies, such as election laws, can systematically advantage some citizens over others.",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 122.20755,
+     "type": "article"
+    },
+    {
+     "id": "W7203774385",
+     "title": "To Add Insult to Injury: Exploring the Impact of Policy Inequity on Administrative Burden",
+     "url": "https://doi.org/10.1111/puar.70178",
+     "authors": [
+      "Yongzheng Yang",
+      "Qingqing Zhang",
+      "Peng Liu"
+     ],
+     "authorCount": 3,
+     "journal": "Public Administration Review",
+     "sourceId": "S76877748",
+     "field": "policy",
+     "date": "2026-08-19",
+     "abstract": "ABSTRACT The relationship between inequity and administrative burden constitutes a pivotal concern in the realm of public administration and policy, but how policy inequity (i.e., inequity in policy implementation) influences administrative burden has garnered scant attention. The present study employs data about public assistance programs in China spanning from 2015 to 2017 to examine the consequences of policy inequity on administrative burden. The empirical findings underscore that policy inequity augments psychological and compliance costs while concurrently diminishing citizens' participation in welfare programs, thereby indicating that policy inequity intensifies administrative burden. Notably, individual‐level social capital and contextual‐level information transparency in terms of public exposure related to welfare approval and receipt significantly moderate this relationship. Contrary to our theoretical expectations, social capital and public exposure amplify, rather than dampen, the impact of policy inequity on administrative burden. This study highlights the policy inequity lens and offers important implications for burden reduction.",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 119.03275,
+     "type": "article"
+    },
+    {
+     "id": "W7214222701",
+     "title": "From Policy Neglect to Research Agenda: Administrative Burdens and Donor‐Conceived Mobilization",
+     "url": "https://doi.org/10.1111/psj.70167",
+     "authors": [
+      "Ashley Splawinski"
+     ],
+     "authorCount": 1,
+     "journal": "Policy Studies Journal",
+     "sourceId": "S119514724",
+     "field": "policy",
+     "date": "2026-09-23",
+     "abstract": "ABSTRACT Donor‐conceived adults are a growing population, mobilizing against the very regulatory arrangements that determined the terms into which they were conceived. In Canada and the United States, where donor conception remains persistently under‐regulated, gamete donation policy has historically prioritized the presumed needs of donors, recipient parents, and fertility clinics, structuring regulation around treatment access and donor supply rather than the long‐term interests of those conceived. The result is a population that bears disproportionate administrative burdens and is now mobilizing through advocacy organizations, legal claims, and the pathways consumer DNA testing has made possible. Yet donor‐conceived adults remain largely outside the scope of policy scholarship. This paper argues that donor conception offers a theoretically distinctive site for the study of administrative burden, policy feedback, and the social construction of target populations. The paper proposes a research agenda organized around the politics of administratively produced populations and the deliberate distribution of administrative burden through policy design.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/psj.70167",
+     "citedBy": 0,
+     "relevance": 114.720474,
+     "type": "article"
+    },
+    {
+     "id": "W7162508258",
+     "title": "Context, Mechanism, and Outcome: Explaining Gendered Administrative Burdens on Abortion Access in Italy",
+     "url": "https://doi.org/10.1111/puar.70149",
+     "authors": [
+      "Debra Lanfranconi",
+      "Markus Hinterleitner"
+     ],
+     "authorCount": 2,
+     "journal": "Public Administration Review",
+     "sourceId": "S76877748",
+     "field": "policy",
+     "date": "2026-05-26",
+     "abstract": "ABSTRACT Abortion access in Italy provides a case to examine how gendered administrative burdens emerge through the interplay of legal provisions, informal frontline practices, and contextual influences. Drawing on the Context–Mechanism–Outcome framework from realist evaluation, the analysis shows how legal access to abortion is constrained by procedural requirements, widespread conscientious objection among healthcare providers, and the institutional presence of anti‐abortion actors. Using qualitative data from Obiezione Respinta— a user‐generated platform mapping abortion access barriers across Italy—we demonstrate how everyday bureaucratic processes (re)produce gender inequalities. Three contributions follow. First, the analysis extends the gendered administrative burden literature by highlighting how informal policy design and contextual factors contribute to gender inequality. Second, it introduces the C‐M‐O framework to administrative burden research as a structured yet parsimonious approach to studying how burdens emerge. Third, it centers on women's experiences to offer a qualitative account of how burdens are perceived and navigated.",
+     "oaUrl": "https://doi.org/10.1111/puar.70149",
+     "citedBy": 0,
+     "relevance": 113.05319,
+     "type": "article"
+    },
+    {
+     "id": "W7224904779",
+     "title": "Every Mile Counts: Geographical Distance as Administrative Burden in Intellectual Property Services",
+     "url": "https://doi.org/10.1093/jopart/muag038",
+     "authors": [
+      "Shenghua Lu"
+     ],
+     "authorCount": 1,
+     "journal": "Journal of Public Administration Research and Theory",
+     "sourceId": "S169433491",
+     "field": "policy",
+     "date": "2026-10-29",
+     "abstract": "Abstract While existing research has examined procedural and informational sources of administrative burden, this paper examines how organizational design choices about the geographic location of administrative authority institutionalize spatial burdens on firms. We leverage China's decentralization reform in trademark registration services as a natural experiment to test this theory. This reform reduced geographic distance by establishing local acceptance windows across the country from 2016 to 2019. Prior to this reform, trademark applications had to be submitted exclusively at the centralized Beijing office, imposing substantial geographic barriers on firms nationwide. Using a unique dataset covering over 37 million trademark applications from 294 Chinese cities, we employ a staggered difference-in-differences approach to estimate the causal effects of reduced geographic distance on trademark filings. We find that establishing local acceptance windows increased trademark applications by approximately 4.4 percent, or roughly 209,000 additional filings in 2019 alone. Moreover, the reform generated compound distributional outcomes: small and medium-sized enterprises responded more strongly than larger firms, and the new applicants drawn into the trademark system were concentrated in cities with thinner infrastructure. Mechanism analysis confirms that this increase is primarily driven by distance reduction rather than improvements in administrative efficiency or reductions in corruption. The findings provide large-scale causal evidence on the behavioral consequences of redistributing administrative service delivery across space, demonstrating that physical accessibility remains crucial for equitable service uptake even amid the digital transformation of administrative services.",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 108.19269,
+     "type": "article"
+    },
+    {
+     "id": "W7167511954",
+     "title": "Representative bureaucracy and administrative burdens: exploring the intersection of lived experience, gender, and professional qualities",
+     "url": "https://doi.org/10.1093/jopart/muag018",
+     "authors": [
+      "Ryan J. Lofaro",
+      "Elizabeth Bell",
+      "Colt Jensen"
+     ],
+     "authorCount": 3,
+     "journal": "Journal of Public Administration Research and Theory",
+     "sourceId": "S169433491",
+     "field": "policy",
+     "date": "2026-07-06",
+     "abstract": "Abstract Lived experience representative bureaucracy theory has expanded the scope of representative bureaucracy by exploring traits beyond race, ethnicity, and gender. However, scholars have yet to focus on the intersection of symbolic representation, intersectionality, and professional qualities. In this article, we employ lived experience representative bureaucracy theory and intersectionality theory to understand which identities (veteran status, disability status, and gender) and professional qualities shape client preferences on which bureaucrat they want to help them navigate administrative burdens. We analyze data from a conjoint experiment of 964 military veterans, showing that lived experience, intersectionality, and professional qualities matter, with the strongest preferences for employees who are responsive and competent. Regarding identity-based characteristics, veteran status and disability status representation were more salient than gender representation in helping veterans navigate healthcare-related administrative burdens. In line with our expectations grounded in intersectionality theory, we find that veterans with a disability prefer to be served by VA employees with a disability, demonstrating the importance of this combination of lived experiences and intersecting identities. We find further evidence that intersectionality matters among male respondents; the positive effects of veteran status were nullified in cases where the VA employee was transgender, revealing the importance of anti-transgender bias in shaping male veterans’ preferences. Exploratory analyses suggest that weak professional qualities can nullify or reverse the positive effects of shared identity, whereas strong professional qualities can compensate for the absence of representation. This study contributes to the literature by exploring the symbolic representative effects of various forms of lived experience representation alongside gender representation and professional qualities, as well as by examining representative bureaucracy through an intersectional lens. Additionally, our research provides a novel examination of disability status as an important and understudied identity with symbolic representative effects.",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 105.844376,
+     "type": "article"
+    },
+    {
+     "id": "W7128702857",
+     "title": "How the experience of administrative burdens affects clients’ psychological well-being: the role of negativity bias",
+     "url": "https://doi.org/10.1093/jopart/muag004",
+     "authors": [
+      "Jaeyeong Nam",
+      "Pamela Herd",
+      "Sebastian Jilke"
+     ],
+     "authorCount": 4,
+     "journal": "Journal of Public Administration Research and Theory",
+     "sourceId": "S169433491",
+     "field": "policy",
+     "date": "2026-02-04",
+     "abstract": "Abstract A core claim of the administrative burden literature is that the experience of frictions during administrative encounters can generate psychological costs. Using a split-ballot survey experiment with a question order design (n = 3,812), we show that being asked to recall administrative encounters in a welfare program negatively affects people’s psychological affect. Further, we show that the responses to burdens are asymmetric and consistent with a pattern of negativity bias in how people recall citizen-state encounters. Being asked to recall encounters induces negative affect, even though the majority of respondents reported having experienced low levels of administrative burden. Respondents’ negative psychological reactions are driven by individuals who rated their experience as burdensome in survey questions or reported a bad experience in open-ended responses. Positive reported experiences were not associated with more positive affect. The results also suggest that the relationship between the experience of burden and negative affect is more pronounced for women, liberals, Whites, and those in poor or fair health. Moreover, those with neutral political ideology and those in very good or excellent health experienced decreased positive affect. A key theoretical implication is that the experience of psychological costs is shaped by negativity bias: negative interactions have a larger effect on outcomes than positive interactions. A practical implication is that governments should focus attention on reducing burdensome or otherwise negative encounters.",
+     "oaUrl": null,
+     "citedBy": 3,
+     "relevance": 105.70549,
+     "type": "article"
+    },
+    {
+     "id": "W7126212559",
+     "title": "Breaking down administrative burdens: a user-centered approach to increase interest in active labor market programs by women",
+     "url": "https://doi.org/10.1093/jopart/muaf039",
+     "authors": [
+      "Rosanna Nagtegaal",
+      "Machiel van der Heijden",
+      "Noortje de Boer"
+     ],
+     "authorCount": 4,
+     "journal": "Journal of Public Administration Research and Theory",
+     "sourceId": "S169433491",
+     "field": "policy",
+     "date": "2026-01-27",
+     "abstract": "Abstract This study investigates whether reducing administrative burdens can increase interest in active labor market programs among job-seeking women. Employing a user-centered approach, the research is divided into two phases. In Phase 1, we conduct interviews with women and a focus group with service providers to identify relevant barriers for take-up. The qualitative data shows that learning costs were the most prominent barrier. Learning costs could be further differentiated into three specific types: learning about program existence, the specific services offered, and eligibility criteria. In Phase 2, we test whether reducing these three components of learning costs increases program interest. We conduct an online quasi-experimental platform study (N = 75,451), in collaboration with a service provider, in which we adapt advertisements to inform citizens about (a) the specific services offered and (b) the eligibility criteria. A logistic regression shows that the interventions (a and b) attract more people to active labor market programs. Although women are overall more likely to click on the ads, we do not find a differential treatment effect by gender. The findings contribute to the literature by highlighting the importance of distinguishing among different types of learning costs in administrative burden interventions. Moreover, the article shows how a user-centered design can be utilized to design meaningful interventions.",
+     "oaUrl": "https://doi.org/10.1093/jopart/muaf039",
+     "citedBy": 1,
+     "relevance": 97.63662,
+     "type": "article"
+    },
+    {
+     "id": "W7171634646",
+     "title": "Institutionalized enforcement of administrative compliance: state regulator use of noncompliance burdens",
+     "url": "https://doi.org/10.1093/jopart/muag023",
+     "authors": [
+      "Mingxu (Emma) Li",
+      "Daniel L. Fay"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Public Administration Research and Theory",
+     "sourceId": "S169433491",
+     "field": "policy",
+     "date": "2026-07-27",
+     "abstract": "Abstract Administrative burden scholarship typically examines rules and regulations affecting access to public benefits during initial citizen–state interactions. Scholars agree that individual burdens function as “hidden politics” because policy changes during implementation through bureaucratic discretion. Less is known about bureaucratic behavior or hidden politics enforced on third-party service providers maintaining compliance. In this article, we address this by examining noncompliance burdens imposed on abortion providers to understand if regulators emulate peers’ behavior. Using an institutional theoretical framework and administrative records from the Florida Agency for Health Care Administration (FAHCA) on abortion provider oversight, we construct a directed dyadic event history model using 1540 dyad-year observations to predict isomorphism or divergence of sanction activities across regulatory field offices. We find that regulatory field offices emulate behavior of others based on peer’s previous sanction behavior and oversight workload. We also find that regulators diverge from peers based on the regulatory conditions of their own jurisdiction.",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 66.46283,
+     "type": "article"
+    },
+    {
+     "id": "W7225077329",
+     "title": "The Effect of Clients’ Financial Resources, Mental Health, and Motivation on Frontline Workers’ Burden Reduction and Prioritizations",
+     "url": "https://doi.org/10.1093/jopart/muag040",
+     "authors": [
+      "Niels Bjørn Grund Petersen",
+      "Jonas Krogh Madsen"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Public Administration Research and Theory",
+     "sourceId": "S169433491",
+     "field": "policy",
+     "date": "2026-10-31",
+     "abstract": "Abstract The street-level bureaucracy literature shows that frontline workers’ decisions about clients are shaped by perceptions of deservingness based on clients’ demographic characteristics and behavioral conduct. Yet, we know little about whether frontline workers also act on clients’ financial resources and mental health, despite the administrative burden literature identifying these two factors as central to how citizens experience compliance demands. We contribute to both literatures by developing and testing preregistered hypotheses that examine how information about clients’ financial resources and mental health shapes frontline workers’ burden reduction and client prioritization. To do this, we run a large-scale vignette experiment with 775 caseworkers across 39 Danish unemployment agencies, manipulating client age, financial situation, mental health, and motivation but holding gender constant (all clients were male). We find strong evidence that caseworkers reduce burdens and prioritize clients with mental health issues and–consistent with prior work–clients displaying high motivation, alongside some evidence for clients struggling with financial hardship. Importantly, mental health appears more consequential than motivation and financial resources. Contrary to our preregistered expectation, clients with mental health issues received the most support when they also displayed low as opposed to high motivation. Rather than indicating that frontline workers reward low motivation, this pattern most likely reflects that caseworkers interpret low motivation as a symptom of the underlying condition, and thus as a signal of greater need. Our findings show how frontline discretion can operate as a redistributive mechanism that channels support toward clients signaling the greatest need.",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 29.403086,
+     "type": "article"
+    },
+    {
+     "id": "W7130424339",
+     "title": "Worth the effort? Compliance costs, heuristics, and perceived program accessibility",
+     "url": "https://doi.org/10.1093/jopart/muag007",
+     "authors": [
+      "Madaline Allen",
+      "Cody A. Drolc"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Public Administration Research and Theory",
+     "sourceId": "S169433491",
+     "field": "policy",
+     "date": "2026-02-18",
+     "abstract": "Abstract Administrative burdens can deter individuals from engaging with government programs before they ever encounter formal application requirements. Drawing on the administrative burden framework and theories of heuristic decision-making, this study examines how prospective applicants form early judgments about program accessibility when presented with varying levels of compliance costs. Using three survey experiments centered on a fictional grocery benefit (N = 2,407, N = 965) and a one-time federal tax rebate (N = 1,004), we assess how documentation requirements and effort cues shape perceptions of eligibility, willingness to apply, and perceived accessibility. We find that greater documentation requirements or mismatched time cues lowered perceived eligibility and willingness to apply. Yet asking respondents to pause and estimate the effort reversed those effects, but only for individuals who already possessed the documentation or could form a concrete time estimate about the effort. These findings highlight the role of expected burden and heuristic judgments in shaping pre-application decisions, extending administrative burden research beyond realized experiences to the earliest stages of program engagement.",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 29.218708,
+     "type": "article"
+    }
+   ]
+  },
+  "neighbors": {
+   "count": 100,
+   "papers": [
+    {
+     "id": "W7154997423",
+     "title": "Expected burdens of the global minimum tax: firm evidence",
+     "url": "https://doi.org/10.1007/s10797-026-10006-4",
+     "authors": [
+      "Eike Alexander Baumgart",
+      "Kay Blaufus",
+      "Katharina Paczkowski"
+     ],
+     "authorCount": 3,
+     "journal": "International Tax and Public Finance",
+     "sourceId": "S42192170",
+     "field": "public-econ",
+     "date": "2026-11-09",
+     "abstract": "Abstract We provide firm-level evidence on expected tax burdens under the OECD’s Pillar Two minimum tax using financial statement disclosures from listed multinational groups headquartered in countries where Pillar Two has already taken effect. Our setting exploits a common reporting framework that requires in-scope firms to assess and disclose material tax liabilities under the global minimum tax (GMT), allowing us to study the distribution of reported GMT liabilities across firms and jurisdictions. We find that expected burdens are highly concentrated: although most firms disclose exposure to Pillar Two, only 22.5% recognize positive global minimum tax liabilities, and a few firms account for much of the total reported burden. Cross-sectional variation in global minimum tax liabilities is strongly associated with firm exposure to low-taxed foreign income and a group’s international presence. At the same time, substantial cross-country differences remain, despite harmonized rules and accounting standards. These differences are positively associated with our country-level measure of tax enforcement intensity. Our results show that reported GMT liabilities are considerably less uniform across firms and jurisdictions than the common legal framework might suggest.",
+     "oaUrl": "https://link.springer.com/content/pdf/10.1007/s10797-026-10006-4.pdf",
+     "citedBy": 0,
+     "relevance": 12.861755,
+     "type": "article"
+    },
+    {
+     "id": "W7141557351",
+     "title": "An Experimental Evaluation of Deferred Acceptance: Evidence From Over 100 Army Officer Labor Markets",
+     "url": "https://doi.org/10.3982/ecta22160",
+     "authors": [
+      "Jonathan M. Davis",
+      "Kyle Greenberg",
+      "Damon Jones"
+     ],
+     "authorCount": 3,
+     "journal": "Econometrica",
+     "sourceId": "S95464858",
+     "field": "general-econ",
+     "date": "2026-01-01",
+     "abstract": "Internal labor markets are increasingly important for matching workers to jobs within organizations. We present evidence from a randomized trial that compares matching workers to jobs using the deferred acceptance (DA) algorithm to the traditional manager‐directed matching process. Our setting is the U.S. Army's internal labor market, which matches over 14,000 officers to units annually. We find that DA reduces administrative burden and increases match quality as measured by reduced justified envy, increased truthful preference reporting, and officers' and units' preferences over their matches. The overall impact of DA on officer retention and performance in the two years after officers started their new jobs is limited by strategic preference coordination between officers and units. However, DA leads to significant improvements in officer retention and promotions in markets with inexperienced managers. Our findings suggest that cross‐market communication between agents in internal labor markets can attenuate the benefits of strategyproof matching algorithms.",
+     "oaUrl": "https://www.econometricsociety.org/publications/econometrica/2026/03/01/An-Experimental-Evaluation-of-Deferred-Acceptance-Evidence-from-Over-100-Army-Officer-Labor-Markets/supp/22160SUPP.pdf",
+     "citedBy": 5,
+     "relevance": 11.985422,
+     "type": "article"
+    },
+    {
+     "id": "W7128384508",
+     "title": "Debt burdens and fiscal stimulus: does perceived government effectiveness matter?",
+     "url": "https://doi.org/10.1007/s10797-026-09944-w",
+     "authors": [
+      "Dooyeon Cho"
+     ],
+     "authorCount": 1,
+     "journal": "International Tax and Public Finance",
+     "sourceId": "S42192170",
+     "field": "public-econ",
+     "date": "2026-02-09",
+     "abstract": "This study investigates how government debt affects the output effect of a government spending shock, depending on perceived government effectiveness. Using heterogeneous panel data from 24 OECD economies, it shows that fiscal policy is ineffective in economies with low government effectiveness, regardless of the level of government debt. However, in economies with high government effectiveness, while fiscal policy leads to negative effects on output when government debt is high, its positive effects are more pronounced when government debt is low. It implies that low perceived government effectiveness weakens the effectiveness of fiscal policy through a lack of a government’s commitment in fiscal policy and heightened policy uncertainty. Thus, our findings suggest that, regardless of the level of government debt, a country with low perceived government effectiveness needs to restore public trust by implementing rules-based rather than discretionary fiscal policy to enhance policy effectiveness.",
+     "oaUrl": "https://link.springer.com/content/pdf/10.1007/s10797-026-09944-w.pdf",
+     "citedBy": 1,
+     "relevance": 11.554748,
+     "type": "article"
+    },
+    {
+     "id": "W4405838971",
+     "title": "Ease of Doing Business and Entrepreneurship: Evidence from a Tax Administration Reform in China",
+     "url": "https://doi.org/10.1007/s10797-026-09968-2",
+     "authors": [
+      "Hongyu Pan",
+      "Yanan Wang",
+      "Yue Zhang"
+     ],
+     "authorCount": 3,
+     "journal": "International Tax and Public Finance",
+     "sourceId": "S42192170",
+     "field": "public-econ",
+     "date": "2026-04-17",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5073888",
+     "citedBy": 4,
+     "relevance": 8.464552,
+     "type": "article"
+    },
+    {
+     "id": "W7225007951",
+     "title": "Increasing healthcare usage among the homeless: Evidence from Mobile Street Clinics in Brazil",
+     "url": "https://doi.org/10.1016/j.jdeveco.2026.103956",
+     "authors": [
+      "Malte Becker"
+     ],
+     "authorCount": 1,
+     "journal": "Journal of Development Economics",
+     "sourceId": "S101209419",
+     "field": "applied-econ",
+     "date": "2026-10-31",
+     "abstract": "Homelessness is associated with an immense health burden and limited access to adequate healthcare. This paper studies the effects of Mobile Street Clinics on healthcare usage among people experiencing homelessness in Brazil. Exploiting unique administrative data in a staggered difference-in-differences setting, I find that Mobile Street Clinics strongly and persistently increase primary care usage and psycho-social care usage among people experiencing homelessness but do not improve tuberculosis treatment outcomes. These results suggest that MSCs expand healthcare access and utilization, but that expanding access alone is not sufficient to improve treatment continuity.",
+     "oaUrl": "https://doi.org/10.1016/j.jdeveco.2026.103956",
+     "citedBy": 0,
+     "relevance": 7.592824,
+     "type": "article"
+    },
+    {
+     "id": "W7166561201",
+     "title": "The benefits of timely access to treatment: Substance use disorders, healthcare utilization and employment",
+     "url": "https://doi.org/10.1016/j.jhealeco.2026.103162",
+     "authors": [
+      "Jenny Williams",
+      "Anne Line Bretteville‐Jensen",
+      "Christiern D. Rose"
+     ],
+     "authorCount": 3,
+     "journal": "Journal of Health Economics",
+     "sourceId": "S166621295",
+     "field": "applied-econ",
+     "date": "2026-06-29",
+     "abstract": "This research studies the impact of improving access to treatment for substance use disorders by reducing wait times. Linked individual-level administrative data are used to estimate the impacts of wait times on patients' treatment service utilization and employment. Potential confounding is addressed using an instrumental variables strategy that exploits exogenous variation in wait times generated by local congestion in the healthcare system. We find that longer wait times lead to increased use of treatment services in the focal treatment episode, raised re-entry into subsequent treatment episodes, and lowered employment, consistent with patients' health deteriorating while waiting for treatment. Our calculations suggest that each dollar spent on reducing wait times yields a return of between six and seven dollars. These findings demonstrate that shortening wait times for treatment can significantly reduce the economic and social burdens of addiction.",
+     "oaUrl": "https://doi.org/10.1016/j.jhealeco.2026.103162",
+     "citedBy": 2,
+     "relevance": 6.8456874,
+     "type": "article"
+    },
+    {
+     "id": "W7164491206",
+     "title": "Large-scale land acquisitions in Ethiopia: Impacts on agricultural productivity and deforestation",
+     "url": "https://doi.org/10.1016/j.jdeveco.2026.103836",
+     "authors": [
+      "Workineh Asmare Kassie",
+      "Yeshwas Admasu",
+      "Dagim Belay"
+     ],
+     "authorCount": 5,
+     "journal": "Journal of Development Economics",
+     "sourceId": "S101209419",
+     "field": "applied-econ",
+     "date": "2026-06-12",
+     "abstract": "",
+     "oaUrl": null,
+     "citedBy": 1,
+     "relevance": 6.400201,
+     "type": "article"
+    },
+    {
+     "id": "W4406204660",
+     "title": "The psychological toll of heat: The effects of temperature on mental health in Mexico",
+     "url": "https://doi.org/10.1016/j.jhealeco.2026.103196",
+     "authors": [
+      "Yumin Hong",
+      "Antonia Vázquez"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Health Economics",
+     "sourceId": "S166621295",
+     "field": "applied-econ",
+     "date": "2026-11-01",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5086299",
+     "citedBy": 0,
+     "relevance": 5.8471036,
+     "type": "article"
+    },
+    {
+     "id": "W7165179514",
+     "title": "Welfare debt relief: Impact on employment, benefit receipt, and mental health",
+     "url": "https://doi.org/10.1016/j.jpubeco.2026.105695",
+     "authors": [
+      "Ernst-Jan de Bruijn",
+      "Heike Vethaak",
+      "Pierre W. C. Koning"
+     ],
+     "authorCount": 4,
+     "journal": "Journal of Public Economics",
+     "sourceId": "S199447588",
+     "field": "public-econ",
+     "date": "2026-06-19",
+     "abstract": "Benefit overpayments are a common byproduct of benefit programs and often lead to substantial debts among individuals. Although effective repayment and debt-relief policies are a key policy concern, empirical evidence on their impact is still scarce. In this study, we investigate the impact of welfare debt relief on labor market and mental health outcomes among financially vulnerable individuals. We exploit an eligibility cutoff applied by a Dutch welfare office to identify causal effects, using an instrumented difference-in-difference and fuzzy regression discontinuity design. Using linked administrative data, our findings suggest that debt relief reduces the use of mental health medication by about 1.1 percentage points (13.9%), consistent with lower financial stress. We find no significant effects on employment, earnings, and welfare receipt for the full sample. However, employment increases among debtors with ex-ante severe debt positions. This indicates the initial presence of debt overhang problems with larger debts.",
+     "oaUrl": "https://doi.org/10.1016/j.jpubeco.2026.105695",
+     "citedBy": 2,
+     "relevance": 3.6442492,
+     "type": "article"
+    },
+    {
+     "id": "W4412824350",
+     "title": "The economic gains from breaking boundaries: Reformulating index insurance zones to maximize lower tail dependence",
+     "url": "https://doi.org/10.1016/j.jdeveco.2026.103913",
+     "authors": [
+      "Enrique Estefania-Salazar",
+      "Michael Ross Carter",
+      "Eva Iglesias"
+     ],
+     "authorCount": 4,
+     "journal": "Journal of Development Economics",
+     "sourceId": "S101209419",
+     "field": "applied-econ",
+     "date": "2026-08-27",
+     "abstract": "Index insurance intended to help low-wealth households manage risk is hampered by downside basis risk, meaning that the insured suffers a loss, but the insurance index fails to signal a loss. Existing index insurance contracts use statistically ad hoc administrative boundaries to demarcate insurance zones. We develop an algorithm that creates zones that maximize lower tail dependence amongst individual units included in each zone. Breaking boundaries in this way minimizes downside basis risk. Using data from a satellite-based index insurance program in Kenya, we show that replacing administrative with optimized zones can as much as triple the value of insurance using an expected utility-based metric of insurance quality. Robustness tests indicate that this finding is not a result of overfitting the data and we also obtain similar results when applying the same approach to other areas in the Horn of Africa.",
+     "oaUrl": "https://www.sciencedirect.com/science/article/pii/S0304387826001963/pdf",
+     "citedBy": 0,
+     "relevance": 3.4321012,
+     "type": "article"
+    },
+    {
+     "id": "W7211925380",
+     "title": "Tax incentives, compliance costs, and VAT registration: evidence from India",
+     "url": "https://doi.org/10.1007/s10797-026-09990-4",
+     "authors": [
+      "Ross Warwick",
+      "Tushar K. Nandi"
+     ],
+     "authorCount": 2,
+     "journal": "International Tax and Public Finance",
+     "sourceId": "S42192170",
+     "field": "public-econ",
+     "date": "2026-09-08",
+     "abstract": "Abstract Value-added tax (VAT) is the largest source of tax revenue for many developing country governments, and sales-based registration thresholds are a ubiquitous design feature. Yet, empirical evidence on the mechanisms through which these thresholds alter firm behaviour remains scarce. Using administrative tax data from West Bengal in India, we study the behavioural responses of firms to a turnover threshold for compulsory VAT registration. By exploiting variation in the tax discontinuity at the registration threshold across firms and over time, we show that tax incentives, rather than compliance costs, drive the observed bunching of firms below the threshold, and their associated revealed preference for a simplified tax scheme. The limited role for VAT compliance costs relative to a simplified tax regime has important implications for the design of small business taxation and for the optimal level of VAT registration thresholds.",
+     "oaUrl": "https://link.springer.com/content/pdf/10.1007/s10797-026-09990-4.pdf",
+     "citedBy": 1,
+     "relevance": 3.3343306,
+     "type": "article"
+    },
+    {
+     "id": "W4380235476",
+     "title": "Impacts of childhood disability on family: Labor, marriage, fertility, and depression",
+     "url": "https://doi.org/10.1016/j.jpubeco.2026.105591",
+     "authors": [
+      "Kuan-Ming Chen",
+      "Ming‐Jen Lin",
+      "Wei-Lun Lo"
+     ],
+     "authorCount": 3,
+     "journal": "Journal of Public Economics",
+     "sourceId": "S199447588",
+     "field": "public-econ",
+     "date": "2026-07-31",
+     "abstract": "Childhood disability has profound and far-reaching effects on family members. Using 20 years of administrative records from Taiwan’s National Health Insurance Research Database, we study cerebral palsy (CP), one of the most common causes of childhood disability. Leveraging CP’s congenital nature, its inability to be detected in utero, and its early diagnosis after birth, combined with rich administrative data, we employ an event study approach to examine its impacts on a wide range of parental outcomes, including labor supply, mental health, marital status, and fertility. Our findings show that having a child with CP reduces the mother’s likelihood of employment by 4.4 percentage points (pp), and increases the likelihood of divorce by 4.3 pp. The risk of maternal mental disorders is also increased. Additionally, we observe a significant long-term decline in fertility among affected families.",
+     "oaUrl": "https://www.sciencedirect.com/science/article/pii/S0047272726000277/pdf",
+     "citedBy": 2,
+     "relevance": 3.2760816,
+     "type": "article"
+    }
+   ]
+  },
+  "workingPapers": {
+   "count": 238,
+   "papers": [
+    {
+     "id": "W7124851866",
+     "title": "SNAP Work Requirements, Administrative Burden and Procedural Denials",
+     "url": "https://doi.org/10.3386/w34698",
+     "authors": [
+      "Jason Cook",
+      "Elizabeth Cox",
+      "Chloe N. East"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-01-01",
+     "abstract": "Work requirements are often criticized for imposing administrative burdens that reduce access to benefits, yet prior research has struggled to isolate this mechanism from other sources of disenrollment.This paper provides direct evidence by examining procedural denials in the Supplemental Nutrition Assistance Program (SNAP).We study work requirements for Able-Bodied Adults Without Dependents (ABAWDs) and exploit age-based exemptions that apply to individuals aged 50 and older.Using administrative data and difference-in-differences models leveraging waiver periods, we find that work requirements significantly increase procedural and overall denials.Our results indicate that these policies deter participation through imposed administrative burdens.",
+     "oaUrl": "https://doi.org/10.3386/w34698",
+     "citedBy": 0,
+     "relevance": 127.45322,
+     "type": "report"
+    },
+    {
+     "id": "W7172330805",
+     "title": "Sharing the Burden: The Impacts of Pharmacy Sector Reforms on the Labor Market for Pharmacists in Portugal",
+     "url": "https://doi.org/10.3386/w35553",
+     "authors": [
+      "David Card",
+      "Ana Rute Cardoso",
+      "Pedro Luis Silva"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-07-01",
+     "abstract": "In the depths of the 2010 financial crisis the Portuguese government enacted a series of reforms in its prescription drug reimbursement system.Over the next three years value added per pharmacist in retail pharmacies fell by a third, reflecting a rise in generic substitution and reductions in the markups allowed for prescription drugs.This massive shock led to pay cuts for incumbent pharmacists and the introduction of a two-tier pay system for new hires, with little or no reduction in the growth of employment.We use detailed longitudinal records from the Quadros de Pessoal data base, merged with information on collective bargaining settlements and firm financial records, to study the impacts of the reforms.We estimate that between 2009 and 2022 average wages of pharmacists fell by a third; most of this reduction was due to lower wages for newly entering cohorts.The implied responsiveness of wages to productivity is substantially above most estimates in the rent-sharing literature, arguably reflecting the strong attachment of workers to the sector and the steady inflow of newly graduating pharmacists.Stepping back, we then consider how wages of pharmacists have diverged relative to wages of other health care professionals in Portugal, and the decisions of recent college applicants to enter the profession.",
+     "oaUrl": "https://doi.org/10.3386/w35553",
+     "citedBy": 0,
+     "relevance": 10.5350485,
+     "type": "report"
+    },
+    {
+     "id": "W7220416660",
+     "title": "The Regulatory Burden of Licensure Sales Laws: New Evidence on Race and the U.S. Tobacco Market",
+     "url": "https://doi.org/10.3386/w35848",
+     "authors": [
+      "Dhaval Dave",
+      "Jooyoung Kim",
+      "Joseph J. Sabia"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-10-01",
+     "abstract": "Licensure sales requirements are commonly justified as consumer protection regulations intended to improve seller compliance and reduce harm associated with risky products.However, licensure effects may differ across communities with heterogeneous enforcement intensity and seller responses.We study this question in the context of e-cigarette retail licensure laws (ERLLs), a policy intended to regulate access to e-cigarettes among youth.We find that state ERLLs with strong penalties for non-compliance reduce nicotine vaping among Black youths by 2.5-4.0 percentage points but have no effect on White youths.This racially disparate finding is driven by heterogeneous supply-side responses to increased regulatory burden.Vendors in Black neighborhoods are more likely to be targeted for inspections than those in White neighborhoods despite having lower pre-treatment rates of infractions.Moreover, vendors in Black neighborhoods are also less likely to sell e-cigarettes following ERLL adoption, consistent with a racially disparate regulatory burden.Together, our results suggest important distributional consequences of licensure requirements.",
+     "oaUrl": "https://doi.org/10.3386/w35848",
+     "citedBy": 0,
+     "relevance": 10.343523,
+     "type": "report"
+    },
+    {
+     "id": "W7163042729",
+     "title": "An Unfunded Mandate? Medicaid Continuous Coverage Requirements and State Fiscal Burdens During COVID-19",
+     "url": "https://doi.org/10.3386/w35268",
+     "authors": [
+      "Jeffrey P. Clemens",
+      "Anwita Mahajan"
+     ],
+     "authorCount": 2,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-05-01",
+     "abstract": "At the COVID-19 pandemic's onset, the federal government enacted substantial changes impacting both the revenues and expenditures connected to states' Medicaid programs through a pair of provisions in the March 2020 Families First Coronavirus Response Act.These included a 6.2 percentage point increase in states' Federal Medical Assistance Percentages (FMAP), which raised states' revenues, contingent on adherence to a continuous coverage requirement.The latter provision raised expenditures by preventing the disenrollment of individuals whose eligibility would otherwise have lapsed due to changes in income or other eligibility-relevant circumstances.While these provisions were ex-ante expected to result in expenditures and costs of similar magnitudes, the ex-post realizations remain unquantified.Nationwide, we estimate that states' share of the continuous coverage provision's costs was $139.2 billion, which is roughly $11.0 billion less than the revenues states received, in aggregate, through increased FMAPs.Revenues and costs varied substantially across states, however, with costs exceeding revenues by as much as $594 per capita, and revenues exceeding costs by as much as $838 per capita.The baseline parameters governing the federal government's share of states' Medicaid expenditures emerge as a key driver of the extent to which the continuous coverage requirement can be viewed as an unfunded federal mandate.",
+     "oaUrl": "https://doi.org/10.3386/w35268",
+     "citedBy": 2,
+     "relevance": 9.8865185,
+     "type": "report"
+    },
+    {
+     "id": "W7154026816",
+     "title": "Identification and Estimation of Labor Supply Elasticities from Kinked Budget Sets",
+     "url": "https://doi.org/10.3386/w35047",
+     "authors": [
+      "Deniz Dutz",
+      "Morten Håvarstein",
+      "Magne Mogstad"
+     ],
+     "authorCount": 4,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-04-01",
+     "abstract": "We study the identification of labor supply elasticities from kinked budget sets in a model with income effects and individual heterogeneity in the elasticities.We provide point and partial identification results for compensated elasticities, uncompensated elasticities, and income effects.We use administrative data to apply our results to the Norwegian tax system, which exhibits a kink for the self-employed.There is clear bunching around the kink point, suggesting that the selfemployed respond to the change in incentives created by the kink.We find that the bounds are often tight even under weak assumptions.Our results show that uncompensated elasticities are close to zero and compensated elasticities are sufficiently small to conclude that the excess burden of taxation is low.",
+     "oaUrl": "https://doi.org/10.3386/w35047",
+     "citedBy": 1,
+     "relevance": 7.698367,
+     "type": "report"
+    },
+    {
+     "id": "W7212785653",
+     "title": "Racial Dynamics of Federal Property Buyouts in Flood-Prone Areas",
+     "url": "https://doi.org/10.3386/w35726",
+     "authors": [
+      "Kay Jowers",
+      "Lala Ma",
+      "Christopher D. Timmins"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-09-01",
+     "abstract": "The use of managed retreats, or \"buyouts,\" of flood-prone properties is likely to grow as an adaptation response to increasing flood risks.This paper investigates the role of race and ethnicity in buyout bargaining outcomes and how those outcomes affect longer-run neighborhood change.We combine nationwide administrative data on federal property acquisitions, housing sales transactions, and restricted-use Census microdata to estimate whether there are systematic differences by race in buyout payments relative to a property's fair market value.We then use a database tracking individual movement over time to examine the quality of the neighborhoods to which participants move and how neighborhood outcomes vary by race and program participation.We find that the buyout compensation received by households of color is at least 6 percent lower than that received by white households.White participants relocate to higher quality neighborhoods and are better off than white nonparticipants.Black participants, on the other hand, move to worse neighborhoods and are worse off than Black non-participants.Our work highlights how government policy, aimed to address increasing climate impacts, may exacerbate the burden of climate change on vulnerable communities.",
+     "oaUrl": "https://doi.org/10.3386/w35726",
+     "citedBy": 0,
+     "relevance": 6.9486756,
+     "type": "report"
+    }
+   ]
+  },
+  "ssrn": {
+   "count": 3,
+   "candidates": 38,
+   "papers": [
+    {
+     "id": "W7125217117",
+     "title": "SNAP Work Requirements, Administrative Burden and Procedural Denials",
+     "url": "https://doi.org/10.2139/ssrn.6093290",
+     "authors": [
+      "Jason Cook",
+      "Elizabeth Cox",
+      "Chloe N. East"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-01-22",
+     "abstract": "Work requirements are often criticized for imposing administrative burdens that reduce access to benefits, yet prior research has struggled to isolate this mechanism from other sources of disenrollment. This paper provides direct evidence by examining procedural denials in the Supplemental Nutrition Assistance Program (SNAP). We study work requirements for Able-Bodied Adults Without Dependents (ABAWDs) and exploit age-based exemptions that apply to individuals aged 50 and older. Using administrative data and difference-in-differences models leveraging waiver periods, we find that work requirements significantly increase procedural and overall denials. Our results indicate that these policies deter participation through imposed administrative burdens. Institutional subscribers to the NBER working paper series, and residents of developing countries may download this paper without additional charge at www.nber.org .",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6093290",
+     "citedBy": 0,
+     "relevance": 125.53974,
+     "type": "preprint"
+    },
+    {
+     "id": "W7212433499",
+     "title": "Impact of One Big Beautiful Bill on Nurse Practitioner Practice",
+     "url": "https://doi.org/10.2139/ssrn.7455467",
+     "authors": [
+      "George A. Zangaro",
+      "Shawna S. Mudd",
+      "Brigit VanGraafeiland"
+     ],
+     "authorCount": 4,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-09-14",
+     "abstract": "The One Big Beautiful Bill (OBBB) introduces critical changes to Medicaid, Medicare, home and community-based services, and graduate education financing that may significantly affect nurse practitioner (NP) practice. Although the law does not alter NP licensure or scope-of-practice statutes directly, its policy effects may negatively impact patient access, administrative burden, NP-led practices, and workforce development. This paper examines the OBBB’s implications for NP practice through policy, workforce, educational, and legal lenses. NP advocacy will be essential to protect access to care, preserve practice autonomy, support advanced education, and sustain equitable, cost-effective health services.",
+     "oaUrl": "https://papers.ssrn.com/sol3/Delivery.cfm/478a8b02-aca2-4146-91ce-f60a6f8dfff1-MECA.pdf?abstractid=7455467&mirid=1",
+     "citedBy": 0,
+     "relevance": 25.7387,
+     "type": "preprint"
+    },
+    {
+     "id": "W7160697624",
+     "title": "Does Green Public Procurement Affect Procurement Performance? Evidence from Minimum Environmental Criteria in Italian Public Lighting Procurement",
+     "url": "https://doi.org/10.2139/ssrn.6739276",
+     "authors": [
+      "Elina De Simone",
+      "Valeria Costantini",
+      "Giuseppe Lucio Gaeta"
+     ],
+     "authorCount": 4,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-05-10",
+     "abstract": "Green Public Procurement is increasingly used as a demand-side policy tool to promote environmental objectives, with theoretical predictions - rooted in the Porter hypothesis -suggesting market selection but no effect on competition plus negative effects in terms of administrative burden. This paper examines the impact of Green Public Procurement on procurement performance, exploiting the introduction of Minimum Environmental Criteria in the Italian public lighting sector. Using an interrupted time series design, we find a large and statistically significant reduction in market participation. However, we detect no effect on price competition or on time to award. Overall, the results suggest that Green Public Procurement reshapes market structure without altering procurement performance.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6739276",
+     "citedBy": 0,
+     "relevance": 24.495543,
+     "type": "preprint"
+    }
+   ]
+  }
+ }
+}

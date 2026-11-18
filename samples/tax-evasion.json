@@ -1,0 +1,754 @@
+{
+ "topic": "tax evasion",
+ "field": "public-econ",
+ "months": 12,
+ "query": "tax evasion",
+ "since": "2025-11-16",
+ "savedAt": "2026-11-16",
+ "sections": {
+  "home": {
+   "count": 27,
+   "papers": [
+    {
+     "id": "W3214110847",
+     "title": "Tax evasion at the top of the income distribution",
+     "url": "https://doi.org/10.1016/j.jpubeco.2026.105812",
+     "authors": [
+      "John L. Guyton",
+      "Patrick Langetieg",
+      "Daniel Reck"
+     ],
+     "authorCount": 5,
+     "journal": "Journal of Public Economics",
+     "sourceId": "S199447588",
+     "field": "public-econ",
+     "date": "2026-11-09",
+     "abstract": "We study tax evasion at the top of the U.S. income distribution using micro-data from audits and enforcement initiatives. Leveraging enforcement that revealed noncompliance, we find that recent individual random audit data fail to capture sophisticated evasion via offshore accounts and pass-through businesses. Consequently, estimates based solely on these data under-state evasion by the highest-income Americans. We construct new distributional estimates of US noncompliance. Circa 2006–2013, accounting for sophisticated evasion (holding estimated non-sophisticated evasion fixed) increases the share of unreported income belonging to the top 1% of the distribution by 9 to 33 percentage points.",
+     "oaUrl": "https://www.sciencedirect.com/science/article/pii/S0047272726002483/pdf",
+     "citedBy": 5,
+     "relevance": 159.93164,
+     "type": "article"
+    },
+    {
+     "id": "W7168412144",
+     "title": "Understanding Tax Evasion: Knowns, Unknowns, and A Way Forward",
+     "url": "https://doi.org/10.1086/741731",
+     "authors": [
+      "James Robert Alm"
+     ],
+     "authorCount": 1,
+     "journal": "National Tax Journal",
+     "sourceId": "S116184629",
+     "field": "public-econ",
+     "date": "2026-07-15",
+     "abstract": "In this paper, I examine what we have learned about tax evasion, or what might be termed the “knowns” that summarize our increased understanding of tax evasion. I also examine the many “unknowns” that remain unanswered as well as the many unknowns that have newly arisen as technologies have changed. I finish with suggestions about how these unknowns might be examined in a new research agenda that builds upon what we have learned but utilizes new tools that are emerging as our understanding expands.",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 143.53616,
+     "type": "article"
+    },
+    {
+     "id": "W7168412337",
+     "title": "How Do Tax Evasion Opportunities Affect Prices?",
+     "url": "https://doi.org/10.1086/741734",
+     "authors": [
+      "Philipp Doerrenberg",
+      "Denvil R. Duncan"
+     ],
+     "authorCount": 2,
+     "journal": "National Tax Journal",
+     "sourceId": "S116184629",
+     "field": "public-econ",
+     "date": "2026-07-15",
+     "abstract": "We use two experiments to examine how tax evasion opportunities affect market prices. In both experiments, buyers and sellers trade a fictitious good subject to a per-unit seller tax. We show in the first experiment that equilibrium prices fall when evasion is possible, reflecting a lower effective tax burden. We hold the effective tax burden constant in the second experiment and find that markets with evasion opportunities tend to trade at higher prices than markets without evasion opportunities. The effect size exceeds half the effective tax rate and one standard deviation of mean prices, highlighting meaningful price and incidence implications.",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 142.02403,
+     "type": "article"
+    },
+    {
+     "id": "W7122356616",
+     "title": "Tax audit, cross-regional investigations, and corporate tax evasion",
+     "url": "https://doi.org/10.1007/s10797-025-09933-5",
+     "authors": [
+      "Yukun Sun",
+      "Lei Song"
+     ],
+     "authorCount": 2,
+     "journal": "International Tax and Public Finance",
+     "sourceId": "S42192170",
+     "field": "public-econ",
+     "date": "2026-01-12",
+     "abstract": "",
+     "oaUrl": null,
+     "citedBy": 2,
+     "relevance": 139.27394,
+     "type": "article"
+    },
+    {
+     "id": "W7124914046",
+     "title": "Political alignment, tax evasion, and the role of government credibility: evidence from South Korea",
+     "url": "https://doi.org/10.1007/s10797-025-09943-3",
+     "authors": [
+      "Youngju Lee",
+      "Nobuhiko Nakazawa"
+     ],
+     "authorCount": 2,
+     "journal": "International Tax and Public Finance",
+     "sourceId": "S42192170",
+     "field": "public-econ",
+     "date": "2026-01-20",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.2139/ssrn.4103892",
+     "citedBy": 1,
+     "relevance": 125.774216,
+     "type": "article"
+    },
+    {
+     "id": "W7127313449",
+     "title": "Fiscal capacity and capital misallocation: the economic costs of tax evasion",
+     "url": "https://doi.org/10.1016/j.jpubeco.2026.105581",
+     "authors": [
+      "Yu Liu",
+      "Xiaoxue Zhao"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Public Economics",
+     "sourceId": "S199447588",
+     "field": "public-econ",
+     "date": "2026-02-03",
+     "abstract": "",
+     "oaUrl": null,
+     "citedBy": 7,
+     "relevance": 125.09685,
+     "type": "article"
+    },
+    {
+     "id": "W7204484121",
+     "title": "Incomplete VAT rebates, trade misreporting, and export tax evasion: evidence from China’s resource-based products",
+     "url": "https://doi.org/10.1007/s10797-026-09997-x",
+     "authors": [
+      "Gang Li",
+      "Hong Li",
+      "Juanjuan Xie"
+     ],
+     "authorCount": 3,
+     "journal": "International Tax and Public Finance",
+     "sourceId": "S42192170",
+     "field": "public-econ",
+     "date": "2026-08-28",
+     "abstract": "Abstract Since incomplete VAT rebates act as an export tax, they may incentivize firms to manipulate trade data to evade taxation. This paper, motivated by the widespread bilateral trade discrepancies in China’s resource-based product exports and the 2007 rebate reform, develops a theoretical model to illustrate how changes in the net VAT rate shape firms' cost-benefit structures and affect incentives for evasion. Using bilateral trade data on China’s resource-based exports to 115 countries during 2003–2011 and exploiting the 2007 policy adjustment as an exogenous shock, the study uses a difference-in-differences strategy to identify the causal impact of higher net VAT rates on tax evasion. The results indicate that the policy adjustments significantly increased the level of evasion in the treatment group compared to the control group by 12.7 percentage points. The effect is robust to placebo and sensitivity tests. Mechanism analysis shows that evasion increases along both intensive and extensive margins, primarily through quantity under-reporting and product misclassification. Further heterogeneity tests reveal stronger underreporting in destinations with higher corruption and weaker trade liberalization, and more pronounced evasion in products with higher value-to-weight ratios and larger tax hikes. JEL Classification: F14 , H26 , H32",
+     "oaUrl": "https://www.researchsquare.com/article/rs-7687155/latest.pdf",
+     "citedBy": 0,
+     "relevance": 97.76755,
+     "type": "article"
+    },
+    {
+     "id": "W4416752264",
+     "title": "Dynamics of evasion around tax thresholds: Evidence from Indian firms",
+     "url": "https://doi.org/10.1016/j.jpubeco.2025.105535",
+     "authors": [
+      "Keshav Choudhary",
+      "Bhanu Gupta"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Public Economics",
+     "sourceId": "S199447588",
+     "field": "public-econ",
+     "date": "2025-11-27",
+     "abstract": "How do firms respond to size-based thresholds when dynamic responses matter? Using the context of an Indian revenue-based tax registration threshold that selectively affected some firms, coupled with administrative tax data, we examine how firm growth responds to a threshold. We find that firms respond by slowing down growth in reported revenue below the threshold by around 14 percentage points or roughly 42 % of average growth. A lack of corresponding change in reported costs suggests an evasion response rather than a real response by firms. We show that an increase in audit probability on crossing the threshold, rather than an increase in tax liability or compliance costs is the likely reason for firm slowdown. We rationalize our empirical findings by modifying the standard Allingham-Sandmo model of evasion to a dynamic setting. We use this framework to calculate deadweight loss due to a threshold when dynamic responses are relevant and find that the welfare cost can be substantial in the long run.",
+     "oaUrl": "https://doi.org/10.1016/j.jpubeco.2025.105535",
+     "citedBy": 2,
+     "relevance": 72.391,
+     "type": "article"
+    },
+    {
+     "id": "W7117363981",
+     "title": "Estimating audit based tax gaps in Zambia",
+     "url": "https://doi.org/10.1007/s10797-025-09940-6",
+     "authors": [
+      "Kwabena Adu-Ababio",
+      "Aliisa Koivisto",
+      "Evaristo Mwale"
+     ],
+     "authorCount": 3,
+     "journal": "International Tax and Public Finance",
+     "sourceId": "S42192170",
+     "field": "public-econ",
+     "date": "2025-12-27",
+     "abstract": "Abstract Assessing tax gaps-the difference between the potential and actual taxes raised-plays a vital role in achieving positive domestic revenue objectives through improved and reformed taxation. This is particularly pertinent for growth outcomes in developing countries. This study uses a bottom-up approach based on micro-level audit information to estimate the extent of tax misreporting in Zambia. Our methods predict the extent of tax evasion using a regression and a machine learning algorithm with a sample of audited firms. We then estimate tax gaps using a standard approach. We estimate total tax gaps of 55% and 47% for the two approaches, respectively. This represents potential revenue with the least assumed tax evasion. These gaps are mainly driven by Corporate Income Taxes (CIT). Applying our gap to key industries shows that the extractives sector in Zambia records the highest gaps in terms of CIT and one of the lowest gaps in terms of VAT.",
+     "oaUrl": "https://link.springer.com/content/pdf/10.1007/s10797-025-09940-6.pdf",
+     "citedBy": 5,
+     "relevance": 49.141376,
+     "type": "article"
+    },
+    {
+     "id": "W7223473267",
+     "title": "Framed norms: the effect of choice and belief information on tax compliance",
+     "url": "https://doi.org/10.1007/s10797-026-10009-1",
+     "authors": [
+      "Federico Atzori",
+      "Vittorio Pelligra"
+     ],
+     "authorCount": 2,
+     "journal": "International Tax and Public Finance",
+     "sourceId": "S42192170",
+     "field": "public-econ",
+     "date": "2026-10-24",
+     "abstract": "",
+     "oaUrl": null,
+     "citedBy": 0,
+     "relevance": 44.62721,
+     "type": "article"
+    },
+    {
+     "id": "W7160088929",
+     "title": "Harnessing Deductions to Increase Tax Compliance and Formalization",
+     "url": "https://doi.org/10.1257/pol.20230365",
+     "authors": [
+      "Albrecht Bohne",
+      "Jan Sebastian Nimczik"
+     ],
+     "authorCount": 2,
+     "journal": "AEJ: Economic Policy",
+     "sourceId": "S158011328",
+     "field": "public-econ",
+     "date": "2026-04-29",
+     "abstract": "We evaluate a tax reform in Ecuador that introduced generous deductions from personal income taxes (PIT), encouraging consumers to request receipts. The reform addresses tax evasion by targeting small self-employed businesses that mainly sell goods or services not subject to value-added taxes (VAT) but that often evade income taxes. Exploiting plausibly exogenous variation in receipt demand due to the distribution of taxpayers across regions and professions, we find significant increases in reported profits among self-employed businesses exposed to the reform. We document spillover effects on VAT. Our net-revenue impact analysis suggests the additional tax payments outweigh the foregone tax revenue. (JEL H24, H25, H26, J23, K34, O17)",
+     "oaUrl": "https://www.econstor.eu/bitstream/10419/333929/1/1945970960.pdf",
+     "citedBy": 0,
+     "relevance": 44.24809,
+     "type": "article"
+    },
+    {
+     "id": "W4406783671",
+     "title": "The compliance effects of the automatic exchange of information: Evidence from the Swiss tax amnesty",
+     "url": "https://doi.org/10.1016/j.jpubeco.2026.105653",
+     "authors": [
+      "Enea Baselgia"
+     ],
+     "authorCount": 1,
+     "journal": "Journal of Public Economics",
+     "sourceId": "S199447588",
+     "field": "public-econ",
+     "date": "2026-04-30",
+     "abstract": "This paper studies the effects of the 2017 multilateral automatic exchange of information (AEoI) on tax compliance in Switzerland. Using detailed administrative tax data and difference-in-differences designs, I document large and persistent compliance gains. The AEoI triggered around 107,000 taxpayers (about 2% of all) to enter Switzerland’s tax amnesty, disclosing CHF 37.6 billion of previously hidden wealth (over 5.5% of GDP). At the micro level, once they enter the amnesty, participants increase reported wealth by roughly 50% on average, with effects sustained in the medium run. Finally, the evidence indicates that tax evasion in Switzerland is widespread and comparatively more evenly distributed across the wealth distribution than in other countries.",
+     "oaUrl": "https://www.sciencedirect.com/science/article/pii/S0047272726000897/pdf",
+     "citedBy": 4,
+     "relevance": 43.00312,
+     "type": "article"
+    }
+   ]
+  },
+  "neighbors": {
+   "count": 22,
+   "papers": [
+    {
+     "id": "W7134936899",
+     "title": "When it rains, it pours: On the spillover effects of corruption on firms’ tax evasion",
+     "url": "https://doi.org/10.1016/j.worlddev.2026.107373",
+     "authors": [
+      "Chei Bukari"
+     ],
+     "authorCount": 1,
+     "journal": "World Development",
+     "sourceId": "S85457386",
+     "field": "policy",
+     "date": "2026-03-10",
+     "abstract": "• Firms’ experiences with corruption outside tax authority have significant adverse spillovers on tax evasion. • Bribes for operating licenses raise firm tax evasion by up to 24.2 percentage points. • Bribes for government contracts increase tax evasion by 2.1 percentage points per contract value percent. • Working capital depletion mediates the corruption–tax evasion link in firms. • Anti-corruption in tax only is insufficient; multisectoral action is needed to curb tax evasion. This study examines the direct and spillover effects of corruption on firms’ tax evasion in sub-Saharan Africa (SSA), a region plagued by both phenomena. Firm-level data on 17 SSA economies spanning 2008–2014 were sourced from the World Bank’s Enterprise Survey. I instrument for endogeneity of corruption using five variables, namely the number of days it takes to (i) clear exports, (ii) clear imports, (iii) obtain an operating license, (iv) time spent by senior management on regulatory compliance, and (v) the extent to which business licenses and permits are an obstacle the firm’s operation. I implemented a battery of endogeneity-correcting estimators: traditional instrumental-variable two-stage least squares (2SLS), Lewbel’s 2SLS, Oster’s bounding analysis, propensity score matching, and Kinky Least Squares. I find that corruption of tax officials (i.e., bribe expected/requested in exchange for a favourable tax inspection) significantly increases tax evasion. More critically, this study challenges prevailing assumptions from European and Central Asian contexts by demonstrating that corruption outside tax authorities—specifically bribes expected/requested in exchange for operating licenses and government contracts—also exerts substantial adverse spillover effect on tax compliance. Firms that perceived/experienced bribe requests in exchange for obtaining operating licenses evaded taxes at rates 24.2 percentage points higher than their counterparts who did not perceive/experience bribe requests in exchange for obtaining operating licenses. In contrast, a percent increase in perceived bribe rates for government contracts corresponded to a 2.1 percentage-point increase in tax evasion. Mediation analysis identifies working capital depletion as a key transmission channel. These findings underscore the need for multisectoral anti-corruption strategies to effectively combat tax evasion and enhance domestic revenue mobilisation in SSA.",
+     "oaUrl": "https://doi.org/10.1016/j.worlddev.2026.107373",
+     "citedBy": 1,
+     "relevance": 135.75575,
+     "type": "article"
+    },
+    {
+     "id": "W7136685190",
+     "title": "Demonetization and under-reporting of economic activity: Evidence from real estate",
+     "url": "https://doi.org/10.1016/j.jdeveco.2026.103783",
+     "authors": [
+      "Santosh Anagol",
+      "Vimal Balasubramaniam",
+      "Tarun Ramadorai"
+     ],
+     "authorCount": 4,
+     "journal": "Journal of Development Economics",
+     "sourceId": "S101209419",
+     "field": "applied-econ",
+     "date": "2026-03-16",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5383912",
+     "citedBy": 0,
+     "relevance": 29.736828,
+     "type": "article"
+    },
+    {
+     "id": "W4416273809",
+     "title": "Large firms and the intensive margin of labor informality evidence from an enforcement intervention in Peru",
+     "url": "https://doi.org/10.1016/j.jdeveco.2025.103679",
+     "authors": [
+      "Mariano Bosch",
+      "Guillermo Cruces",
+      "Stephanie González"
+     ],
+     "authorCount": 4,
+     "journal": "Journal of Development Economics",
+     "sourceId": "S101209419",
+     "field": "applied-econ",
+     "date": "2025-11-17",
+     "abstract": ": In developing countries, informal labor is not only employed by illegal or unregistered firms but also by legal firms that hire workers informally, known as the intensive margin of labor informality. Reducing this type of work may have ambiguous effects on formal employment, depending on factors such as firm size and productivity. In collaboration with Peru’s labor inspection authority, we conducted a randomized mailing experiment targeting large firms with a high propensity for employing workers informally. The authority sent letters with either deterrence messages detailing fines for non-compliance or social norms messages highlighting the positive impacts of formality. We analyzed the impact of this intervention on formal employment levels over the following two years using monthly administrative data. The treated firms (particularly those in the deterrence treatment arm) and larger firms increased their formal employment levels. However, these increases followed a seasonal pattern coinciding with the high labor demand during the tourist season, suggesting that prior to the intervention, firms were employing temporary workers informally. The higher perceived cost of non-compliance led them to formalize some of these workers. The informal hiring of seasonal workers by these firms appears to have been motivated by basic tax evasion, and the absence of a negative effect on firm-level formal employment indicates that the firms were exploiting rents from low enforcement of regulations.",
+     "oaUrl": "https://doi.org/10.1016/j.jdeveco.2025.103679",
+     "citedBy": 2,
+     "relevance": 26.701336,
+     "type": "article"
+    },
+    {
+     "id": "W4226275993",
+     "title": "How resolving enforcement ambiguity reduces tax compliance",
+     "url": "https://doi.org/10.1016/j.aos.2026.101666",
+     "authors": [
+      "Eric Floyd",
+      "Michael Hallsworth",
+      "John A. List"
+     ],
+     "authorCount": 6,
+     "journal": "Accounting, Organizations and Society",
+     "sourceId": "S198892436",
+     "field": "accounting",
+     "date": "2026-11-09",
+     "abstract": "Tax authorities often leave the consequences of non-compliance unspecified. We examine how disclosing those consequences affects tax payment and income reporting in four experiments. In a field experiment with HM Revenue and Customs, letters randomized to more than 200,000 taxpayers with outstanding income-tax debts increased payment when they warned of unspecified further action. Messages specifying financial or administrative costs did not produce the same benefit. An online payment experiment with 2050 taxpayers across fourteen conditions, including 1194 in the principal factorial design, found that revealing the maximum fine lowered the stated likelihood of paying. The reduction occurred at both modest and severe revealed maxima. It also occurred among participants who learned that the fine exceeded their prior estimate, contrary to the prediction from belief updating. An incentivized experiment with 827 participants extended the effect to income declarations with money at stake, although declarations differed between the two disclosed maxima in this setting. A laboratory experiment with 239 participants recorded differences in pupil dilation across enforcement messages without detectable differences in measured visual attention. Together, the findings suggest that ambiguity about enforcement consequences contributes to compliance. The physiological evidence is consistent with an affective account of this relationship. Disclosing a maximum penalty can therefore have a behavioral cost that tax authorities should consider when communicating enforcement policy.",
+     "oaUrl": "https://www.sciencedirect.com/science/article/pii/S0361368226000358/pdf",
+     "citedBy": 3,
+     "relevance": 17.864239,
+     "type": "article"
+    },
+    {
+     "id": "W7125818308",
+     "title": "Public Tax Disclosures and Investor Perceptions",
+     "url": "https://doi.org/10.1111/1911-3846.70020",
+     "authors": [
+      "Bart Dierynck",
+      "Martin Jacob",
+      "Maximilian A. Müller"
+     ],
+     "authorCount": 5,
+     "journal": "Contemporary Accounting Research",
+     "sourceId": "S65924262",
+     "field": "accounting",
+     "date": "2026-01-27",
+     "abstract": "ABSTRACT Regulators are increasingly considering and mandating additional public tax disclosures to enhance transparency and promote scrutiny of corporate tax avoidance. We conducted three experiments to examine how such disclosures influence retail investors' perceptions of firms with identical effective tax rates but different tax avoidance methods. In the first experiment, participants evaluated whether firms were paying their fair share of taxes. We find that additional public tax disclosures reduce retail investors' tendency to differentiate between tax avoidance methods, subsequently affecting their willingness to invest. Specifically, participants use easy‐to‐process summary tax information in the additional public tax disclosure as a heuristic shortcut. The second and third experiments demonstrate that modifying the disclosure format and prompting participants to assess tax aggressiveness rather than fairness can mitigate these adverse effects. However, none of the cases significantly alters participants' perceptions compared to the baseline condition of no public tax disclosure. Overall, our findings provide insights into the design of, and the debate surrounding, additional public tax disclosures.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1911-3846.70020",
+     "citedBy": 0,
+     "relevance": 17.003944,
+     "type": "article"
+    },
+    {
+     "id": "W7215030703",
+     "title": "Taxing Top Wealth: Migration Responses and Their Aggregate Economic Implications",
+     "url": "https://doi.org/10.1257/aer.20241596",
+     "authors": [
+      "Katrine Jakobsen",
+      "Henrik Kleven",
+      "Jonas Kolsrud"
+     ],
+     "authorCount": 5,
+     "journal": "American Economic Review",
+     "sourceId": "S23254222",
+     "field": "general-econ",
+     "date": "2026-10-01",
+     "abstract": "Using administrative data from Scandinavian countries, we provide evidence on international migration responses to wealth taxes and evaluate their aggregate economic implications. We find significant migration responses among the wealthy: A 1 percentage point increase in the top wealth tax rate decreases the stock of wealthy taxpayers by about 2 percent. A large fraction of the wealthy are business owners, and their businesses are negatively affected by owner out-migration. The aggregate effects are nevertheless modest: The migration responses to a 1 percentage point increase in the top wealth tax rate reduce employment by 0.02 percent, investments by 0.07 percent, and value added by 0.10 percent. (JEL D31, E22, E24, F22, H24, L26, K34)",
+     "oaUrl": "https://www.econstor.eu/bitstream/10419/298588/1/188165866X.pdf",
+     "citedBy": 3,
+     "relevance": 16.910639,
+     "type": "article"
+    },
+    {
+     "id": "W7134938489",
+     "title": "Income Tax Over-Withholding and Household Investment Decisions",
+     "url": "https://doi.org/10.2308/tar-2024-0408",
+     "authors": [
+      "Novia X. Chen",
+      "Jungbae Kim",
+      "Ben Lourie"
+     ],
+     "authorCount": 4,
+     "journal": "The Accounting Review",
+     "sourceId": "S160506855",
+     "field": "accounting",
+     "date": "2026-03-10",
+     "abstract": "ABSTRACT Over three-quarters of U.S. taxpayers receive federal tax refunds, largely due to income tax over-withholding. This study explores how over-withholding impacts investments by comparing individuals’ investment behavior following wage receipts and tax refunds. We find a significantly higher marginal propensity to invest out of wages than refunds, suggesting that over-withholding, which alters the labeling and timing of income, meaningfully influences financial decision-making. Our cross-sectional analysis indicates that the differential investment rates are more pronounced for individuals with automatic investment setups and lower financial sophistication. The difference cannot be fully explained by alternative explanations such as lack of awareness, fixed dollar investment goals, timing differences between wages and refunds, uncertainty of refunds, transaction costs, or the perception of refunds as additional windfall income. Our findings underscore the importance of considering behavioral factors in the formulation of tax policies and contribute to the accounting literature that examines taxes and investment behavior.",
+     "oaUrl": "https://publications.aaahq.org/accounting-review/article-pdf/doi/10.2308/TAR-2024-0408/187788/tar-2024-0408.pdf",
+     "citedBy": 3,
+     "relevance": 16.764246,
+     "type": "article"
+    },
+    {
+     "id": "W4416364617",
+     "title": "Do Municipal Bond Investors Pay a Convenience Premium to Avoid Taxes?",
+     "url": "https://doi.org/10.1093/rfs/hhaf100",
+     "authors": [
+      "Matthias Fleckenstein",
+      "Francis A. Longstaff"
+     ],
+     "authorCount": 2,
+     "journal": "Review of Financial Studies",
+     "sourceId": "S170137484",
+     "field": "finance",
+     "date": "2025-11-18",
+     "abstract": "Abstract We study the valuation of state-issued tax-exempt municipal bonds and find that there are significant convenience premia in their prices. These premia parallel those identified in Treasury markets. We find evidence that these premia are tax related. Specifically, the premia are related to measures of tax and fiscal uncertainty, forecast flows into state municipal bond funds, and are directly linked to outmigration from high-tax to low-tax states and to other measures of tax aversion such as IRA and retirement plan contributions. These results suggest that investors are willing to pay a substantial premium to avoid taxes.",
+     "oaUrl": "https://academic.oup.com/rfs/advance-article-pdf/doi/10.1093/rfs/hhaf100/65394984/hhaf100.pdf",
+     "citedBy": 1,
+     "relevance": 14.836311,
+     "type": "article"
+    },
+    {
+     "id": "W4393241793",
+     "title": "The Effect of Non‐US Tax Authority Monitoring on Income Shifting by Affiliates of US Multinationals: Evidence From EDGAR Search Activity",
+     "url": "https://doi.org/10.1111/1911-3846.70101",
+     "authors": [
+      "Sabrina Chi",
+      "Anh Persson",
+      "Terry J. Shevlin"
+     ],
+     "authorCount": 4,
+     "journal": "Contemporary Accounting Research",
+     "sourceId": "S65924262",
+     "field": "accounting",
+     "date": "2026-11-10",
+     "abstract": "ABSTRACT Governments worldwide are concerned that multinational enterprises (MNEs) shift profits across borders to avoid taxes. While prior research shows that home‐country tax enforcement can reduce tax avoidance, far less is known about whether foreign tax authorities (FTAs) can constrain income shifting by MNE affiliates. We measure FTA monitoring using data on FTAs' downloads of US MNEs' annual reports filed with the SEC. We find that FTA monitoring is more intensive in higher‐tax‐rate countries with a larger MNE presence, consistent with those jurisdictions facing stronger incentives to monitor income shifting. More importantly, we find that monitoring by an affiliate's local tax authority does not systematically reduce income shifting by US MNE affiliates, whereas aggregate monitoring in the MNE group affects an affiliate even when its own local FTA is not observably monitoring it. This result is consistent with a spillover effect of FTA monitoring. This association is stronger when FTAs operate under information‐exchange treaties, when company disclosures are more detailed, and when enforcement capacity is greater. We also find positive associations between aggregate FTA monitoring and subsequent tax avoidance and tax settlements of US MNEs. Our findings suggest monitoring by multiple FTAs effectively combats MNE tax avoidance and have implications for how tax administrations design and coordinate monitoring efforts.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1911-3846.70101",
+     "citedBy": 0,
+     "relevance": 11.975664,
+     "type": "article"
+    },
+    {
+     "id": "W7154106053",
+     "title": "Mandatory Information Exchange, Cross-Border Income Shifting, and the Physical Flow of Tangible Goods",
+     "url": "https://doi.org/10.2308/tar-2024-0525",
+     "authors": [
+      "Travis Chow",
+      "Edward L. Maydew",
+      "Guoman She"
+     ],
+     "authorCount": 3,
+     "journal": "The Accounting Review",
+     "sourceId": "S160506855",
+     "field": "accounting",
+     "date": "2026-04-13",
+     "abstract": "ABSTRACT We examine whether mandatory tax information exchange agreements between governments have real effects on firms’ physical trade in tangible goods. We posit that some of the physical trade in tangible goods flowing through low-tax jurisdictions is intended to facilitate income shifting. As such, shocks to enforcement via mandatory information exchange agreements could cause firms to change the physical flow of goods. Using firm-level shipping container data, we find that adoption of bilateral tax information exchange agreements (TIEAs) between the U.S. and foreign jurisdictions is associated with significant decreases in the volume of imports by U.S. firms from those jurisdictions. We also find reallocation effects: U.S. firms increase imports from jurisdictions in the same subregion as the treated jurisdiction, resulting in minimal overall change in total imports. To our knowledge, ours is the first study to document a connection among enforcement-related tax disclosure, income shifting, and physical trade flows. Data Availability: The data used in this study are available from the sources cited in the paper. JEL Classifications: F14; F18; F23; H25; H26.",
+     "oaUrl": "https://publications.aaahq.org/accounting-review/article-pdf/doi/10.2308/TAR-2024-0525/189477/tar-2024-0525.pdf",
+     "citedBy": 3,
+     "relevance": 5.7122827,
+     "type": "article"
+    },
+    {
+     "id": "W4406310443",
+     "title": "Expected foreign military intervention and demand for state-building: Evidence from Mali",
+     "url": "https://doi.org/10.1016/j.jdeveco.2026.103897",
+     "authors": [
+      "Alessandro Belmonte",
+      "Désirée Teobaldelli",
+      "Davide Ticchi"
+     ],
+     "authorCount": 3,
+     "journal": "Journal of Development Economics",
+     "sourceId": "S101209419",
+     "field": "applied-econ",
+     "date": "2026-08-04",
+     "abstract": "We study how the announcement of a foreign military intervention, which improves expectations about the state’s future functioning, can raise citizens’ willingness to participate in state-building processes. We analyze the impact of the 2012 United Nations Security Council resolution that authorized intervention in Mali to reunify the country and restore democracy during a profound institutional crisis on individuals’ attitudes toward the state. By exploiting the randomness of the foreign intervention announcement relative to the timeline of the Afrobarometer interviews conducted in South Mali, we document that individuals interviewed in the days after the announcement report more optimistic beliefs about the country’s future level of democracy than individuals interviewed immediately before, with the same characteristics, region, and ethnic group. Consistent with a prospective-beliefs channel, respondents interviewed after the announcement report higher tax morale and more favorable tax-related attitudes across a broad range of outcomes. While optimism about future democracy increases widely, the increase in tax morale appears concentrated in areas with low state capacity, limited ethnic diversity, and individuals who do not perceive discrimination against their ethnic group. Our results indicate that foreign military interventions can enhance perceptions of state-building and the benefits of participation.",
+     "oaUrl": "https://doi.org/10.1016/j.jdeveco.2026.103897",
+     "citedBy": 0,
+     "relevance": 5.1086197,
+     "type": "article"
+    },
+    {
+     "id": "W7163141211",
+     "title": "Assortative Matching on Income",
+     "url": "https://doi.org/10.3982/ecta21097",
+     "authors": [
+      "Pierre‐André Chiappori",
+      "Carlo V. Fiorio",
+      "Alfred Galichon"
+     ],
+     "authorCount": 4,
+     "journal": "Econometrica",
+     "sourceId": "S95464858",
+     "field": "general-econ",
+     "date": "2026-01-01",
+     "abstract": "We analyze marital matching on income using an extremely rich Dutch data set containing all income tax files over seven years. We develop a novel methodology that directly extends previous contributions to allow for highly flexible matching patterns. Investigating all marriages that took place between 2013 and 2019, we find that marital patterns are particularly intriguing. While a majority of couples match assortatively, a small but significant minority display negative assortative matching. We also show that standard approaches, which consider all married couples using current incomes (as opposed to pre‐marriage incomes used in our approach), may generate misleading conclusions.",
+     "oaUrl": "https://doi.org/10.3982/ecta21097",
+     "citedBy": 12,
+     "relevance": 3.8505685,
+     "type": "article"
+    }
+   ]
+  },
+  "workingPapers": {
+   "count": 43,
+   "papers": [
+    {
+     "id": "W4417344503",
+     "title": "Lenin's Shadow on the Istanbul Convention: The Legacy of Communism on Attitudes Toward Violence Against Women in Europe",
+     "url": "https://doi.org/10.3386/w34568",
+     "authors": [
+      "Naci H. Mocan",
+      "Nur Orak"
+     ],
+     "authorCount": 2,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2025-12-01",
+     "abstract": "The Istanbul Convention is an international treaty aimed at protecting women against violence.We employ survey datasets and investigate its effect on attitudes toward violence against women in Europe.Using difference-in-differences models we compare individuals in countries that signed and ratified the Convention with those in countries that signed but either never ratified or did so after the surveys were fielded.Entry into the Convention significantly reduced the likelihood that lower-educated individuals view violence against women as acceptable, but only in countries outside the former Eastern Bloc.In former Eastern Bloc countries, the Convention affected attitudes only among younger less-educated individuals who had limited exposure to communism -those who were no older than teenagers when the Soviet Union collapsed in 1990.We show that younger cohorts in these countries tend to hold more individualistic and less pro-government attitudes and express greater trust in the courts and the justice system than older individuals.Finally, we find no effect of the Convention on attitudes toward other forms of norm-violating behavior, such as tax evasion, bribery, fare evasion, or drug use.These results indicate that the Convention had a targeted impact, and that its influence on shaping preferences depends on the broader cultural context which is itself shaped by institutions.",
+     "oaUrl": "https://doi.org/10.3386/w34568",
+     "citedBy": 0,
+     "relevance": 28.130434,
+     "type": "report"
+    },
+    {
+     "id": "W7169814283",
+     "title": "Global Financial Transparency and Offshore Wealth Accumulation",
+     "url": "https://doi.org/10.3386/w35505",
+     "authors": [
+      "Annette Alstadsæter",
+      "Niels Johannesen",
+      "Ségal Le Guern Herry"
+     ],
+     "authorCount": 4,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-07-01",
+     "abstract": "This paper uses administrative data to analyze wealth flows from Norway to offshore tax havens before and after a major improvement of global financial transparency: automatic exchange of bank account information between tax authorities.We present three results suggesting that the policy is a significant deterrent of offshore tax evasion: First, taxpayers who become wealthy are much less likely to shift wealth to offshore banks.Second, when wealth does flow to offshore banks, it is much less likely to reduce domestic tax payments.Third, there is no increase in the use of complex ownership structures for offshore wealth flows.",
+     "oaUrl": "https://doi.org/10.3386/w35505",
+     "citedBy": 0,
+     "relevance": 23.096779,
+     "type": "report"
+    },
+    {
+     "id": "W7162301274",
+     "title": "California Billionaires: Wealth, Taxes, and Wealth Tax Revenue Estimates",
+     "url": "https://doi.org/10.3386/w35218",
+     "authors": [
+      "Jasper Boll",
+      "Emmanuel Saez",
+      "Gabriel Zucman"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-05-01",
+     "abstract": "This paper documents the wealth of California’s billionaires and the taxes they pay. California billionaires’ wealth exceeds $2 trillion today, the equivalent of 50% of California’s GDP. It has grown 144% from 2023 to 2025, fueled by the AI boom. Over the longer run, the real wealth of California’s billionaire class—the 0.0002% richest households—has been multiplied by 30 from 1982 to 2025, while average real family income in California has about doubled. California billionaires pay about 0.2% of their wealth in California income tax ($3.2 billion/year), representing 2.4% of total California income tax revenue on average over 2023-2025. Using Securities and Exchange Commission data from Alphabet, Meta, Oracle, and Nvidia since 2004, we estimate the trajectory of wealth, income, and taxes paid by the top 4 California billionaires—Page, Brin, Zuckerberg, Ellison (through 2020), and Huang (since 2021)—focusing on their business wealth. This group alone holds nearly $1 trillion in business wealth, almost half of total California billionaire wealth. For this group, wealth growth (+322% over 2023-2025) and low taxation (0.04% of wealth in annual California income tax) are more pronounced. The proposed one-off California billionaire tax of 5%, payable over 5 years, is both small relative to California billionaires’ wealth gains and large relative to the taxes they currently pay. We estimate that it could raise about $100 billion, with comparatively minor impacts on income tax revenue. Using empirical estimates of mobility responses to wealth taxation, we find that an annual wealth tax on California billionaires could raise substantial additional revenue even after accounting for income tax losses due to mobility. Institutional subscribers to the NBER working paper series, and residents of developing countries may download this paper without additional charge at www.nber.org.",
+     "oaUrl": "https://doi.org/10.3386/w35218",
+     "citedBy": 1,
+     "relevance": 20.679419,
+     "type": "report"
+    },
+    {
+     "id": "W7125703660",
+     "title": "Salience and the Elasticity of Taxable Income: Evidence from Top-bracket Tax Reforms",
+     "url": "https://doi.org/10.3386/w34731",
+     "authors": [
+      "Xavier Dufour-Simard",
+      "Pierre‐Carl Michaud",
+      "Michael Smart"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-01-01",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.3386/w34731",
+     "citedBy": 0,
+     "relevance": 18.60168,
+     "type": "report"
+    },
+    {
+     "id": "W7134850751",
+     "title": "The Elasticity of Corporate Taxable Income Across Countries",
+     "url": "https://doi.org/10.3386/w34945",
+     "authors": [
+      "Claudio A. Agostini",
+      "Zareh Asatryan",
+      "Laurent Bach"
+     ],
+     "authorCount": 26,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-03-01",
+     "abstract": "Do firms respond similarly to corporate tax incentives across countries?We provide globally comparable estimates of the corporate elasticity of taxable income using administrative tax return data from sixteen countries and a unified empirical framework.Exploiting bunching at a common kink, zero taxable income, we estimate elasticities ranging from 0.08 to 1.9, with an average of 0.79.To explain this heterogeneity, we link elasticities to tax policy, firm characteristics, and country fundamentals.These differences imply that identical corporate tax reforms can generate sharply different revenue effects across countries, leading to substantial heterogeneity in the efficiency costs of corporate taxation.",
+     "oaUrl": "https://doi.org/10.3386/w34945",
+     "citedBy": 0,
+     "relevance": 15.988267,
+     "type": "report"
+    },
+    {
+     "id": "W7223672219",
+     "title": "Tax Productivity and Economic Development: A Quantitative Macroeconomic Analysis",
+     "url": "https://doi.org/10.3386/w35934",
+     "authors": [
+      "Radhika Goyal",
+      "Anders Jensen",
+      "David P. Lagakos"
+     ],
+     "authorCount": 5,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-10-01",
+     "abstract": "This paper examines the role of government capacity to collect taxes in driving economic development.We first draw on a new macro-historical database to document that tax collections relative to tax administration expenditures rise sharply with GDP per capita.We then interpret this finding in a neoclassical growth model with a tax administration sector in which labor inputs are required to raise tax revenues.Countries differ in their levels of tax productivity, capturing how effectively labor is used to raise taxes, as well as their levels of productivity in creating consumption and investment goods.Governments use tax revenues to provide public capital that complements private factors in production and to make transfers.Quantitatively, our model predicts that increases in tax productivity in low-income economies can raise GDP per capita substantially more than suggested by Hulten's theorem.",
+     "oaUrl": "https://doi.org/10.3386/w35934",
+     "citedBy": 0,
+     "relevance": 15.446761,
+     "type": "report"
+    }
+   ]
+  },
+  "ssrn": {
+   "count": 7,
+   "candidates": 20,
+   "papers": [
+    {
+     "id": "W7164932257",
+     "title": "The Effects of Tax Evasion on Inequality",
+     "url": "https://doi.org/10.2139/ssrn.6952773",
+     "authors": [
+      "David A. Weisbach",
+      "Thomas S. Coleman"
+     ],
+     "authorCount": 2,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-06-17",
+     "abstract": "To estimate inequality from tax data, researchers must allocate misreported income (e.g., evasion) to individuals. Misreported income, however, is not directly observed. Recovering true income therefore requires identifying assumptions about the joint distribution of true income and reporting, and these assumptions can substantially change estimated top income shares. A central reason is that membership in the reported top group is selected on compliance, an unobservable, so the composition of the reported top depends on assumptions the data alone cannot settle. We develop a computational framework that makes these assumptions explicit and clarifies how they shape estimates of inequality.We show that reported income inequality may exceed true income inequality, as measured by both top income shares and the Gini coefficient, across a broad range of assumptions. This can occur even when evasion is concentrated among top income groups, provided that misreporting is sufficiently heterogeneous within income classes. Because of selection on compliance, high-income individuals who evade drop out of the reported top group, while more compliant individuals move in. The reported top group is therefore disproportionately composed of compliant individuals, increasing reported top shares relative to true top shares. Approaches that restrict within-income heterogeneity implicitly rule out this selection effect and may bias conclusions about the level of inequality.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6952773",
+     "citedBy": 0,
+     "relevance": 151.27713,
+     "type": "preprint"
+    },
+    {
+     "id": "W7171690074",
+     "title": "Finance and Tax Evasion: Evidence from Housing",
+     "url": "https://doi.org/10.2139/ssrn.7022361",
+     "authors": [
+      "Santosh Anagol",
+      "Vimal Balasubramaniam",
+      "Tarun Ramadorai"
+     ],
+     "authorCount": 4,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-07-30",
+     "abstract": "We study how mortgage finance relates to tax evasion in housing transactions. Using administrative data from São Paulo and Mumbai, covering 1.6 million and 180,000 transactions, respectively, we show that cash transactions bunch sharply at government guidance values, while mortgaged transactions bunch far less. These patterns persist within fine geography-year comparisons and property-value controls. An event study of Brazil's major 2015 mortgage-credit contraction shows that bunching rises when mortgage access falls. Back-of-the-envelope calculations imply transaction-tax revenue gains of 0.38-1.83% in São Paulo and 0.85-3.33% in Mumbai if cash transactions reported like mortgaged transactions.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.7022361",
+     "citedBy": 0,
+     "relevance": 145.63632,
+     "type": "preprint"
+    },
+    {
+     "id": "W7116720677",
+     "title": "Revealing Tax Evasion: Experimental Evidence from a Representative Survey of Indonesian Firms",
+     "url": "https://doi.org/10.2139/ssrn.5946024",
+     "authors": [
+      "Christopher Hoy",
+      "Filip Jolevski",
+      "Anthony Obeyesekere"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2025-12-10",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5946024",
+     "citedBy": 0,
+     "relevance": 131.27513,
+     "type": "preprint"
+    },
+    {
+     "id": "W7171615099",
+     "title": "Off the Books, Off the Hook? COVID-19, Labor-Tax Evasion, and Firms' Employment Response",
+     "url": "https://doi.org/10.2139/ssrn.6667862",
+     "authors": [
+      "Jānis Bērziņš",
+      "Nicolas Gavoille",
+      "Anna Zasova"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-07-30",
+     "abstract": "This paper studies how labor-tax evasion affects firms' employment responses to large negative shocks. We focus on wage underreporting through \"envelope wages\", which provides firms with a flexible wage-adjustment margin outside the legal framework. Using the COVID-19 pandemic as an exogenous shock, we analyze firm-level employment dynamics in Latvia, where wage underreporting is widespread but fully informal employment is rare. We combine administrative and survey data with supervised machine learning techniques to classify firms as tax-compliant or tax-evading before the pandemic. We find that tax-evading firms experience smaller employment contractions at the onset of the crisis, particularly among small firms and in competitive sectors. Worker-level evidence for minimum-wage employees is consistent with adjustment through undeclared pay. Our results suggest that in economies with pervasive wage underreporting, standard labor-market statistics may understate the true incidence of large aggregate shocks on workers.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6667862",
+     "citedBy": 0,
+     "relevance": 105.781204,
+     "type": "preprint"
+    },
+    {
+     "id": "W7215846461",
+     "title": "Impact of Third-party Reporting on Corporate Tax Evasion: Evidence from Indian Tax Records",
+     "url": "https://doi.org/10.2139/ssrn.7553117",
+     "authors": [
+      "Shashwat Alok",
+      "Sumit D. Agarwal",
+      "Shiv Dixit"
+     ],
+     "authorCount": 4,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-10-03",
+     "abstract": "India's 2017 Goods and Services Tax (GST) aimed to boost corporate tax compli ance through enhanced third-party reporting. This study finds that while the GST likely reduced revenue underreporting, it also prompted a strategic shift toward eva sion via inflated non-verifiable costs. Using a novel approach that analyzes rms' Non-verifiable input cost shares around tax exemption thresholds, we show that infor mal labor-intensive enterprises significantly overreported wage bills after the GST. This strategic cost overreporting partially offsets compliance gains. We develop a structural model reflecting these patterns to assess policies for improving tax collection.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.7553117",
+     "citedBy": 0,
+     "relevance": 101.24748,
+     "type": "preprint"
+    },
+    {
+     "id": "W7162641080",
+     "title": "So Close and Yet So Far: The Ability of Mandatory Disclosure Rules to Crack Down on Offshore Tax Evasion",
+     "url": "https://doi.org/10.2139/ssrn.6838599",
+     "authors": [
+      "Elisa Casi-Eberhard",
+      "Mohammed Mardan",
+      "Rohit Reddy Muddasani"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-05-29",
+     "abstract": "We study the short-term effect of the introduction of the mandatory disclosure program for aggressive tax arrangements by focusing on the one introduced in May 2018 under the Council Directive 2018/288/EU (or DAC6). Employing bilateral data on crossborder deposits, we study the effect of this new disclosure requirement on cross-border tax evasion. Our results show a reduction of cross-border deposits in EU countries with a strong enforcement, captured by large monetary penalties for misreporting. At the same time, we document a relocation of income and wealth to countries with limited intermediary reporting obligation. Finally, we detect a short-term increase of USD 14 billion in cross-border deposits held by residents of countries offering citizenship/residence by investment programs, suggesting the use of these schemes as regulatory arbitrage to circumvent the disclosure mandated under DAC6. We provide timely and relevant evidence contributing to the debate on international administrative cooperation to reduce cross-border tax evasion.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6838599",
+     "citedBy": 0,
+     "relevance": 101.05061,
+     "type": "preprint"
+    },
+    {
+     "id": "W4417273452",
+     "title": "Corporate Income Taxes Around the Globe",
+     "url": "https://doi.org/10.2139/ssrn.5869103",
+     "authors": [
+      "Mara Faccio",
+      "Xu Jin"
+     ],
+     "authorCount": 2,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2025-12-12",
+     "abstract": "We collect corporate tax rules data in 174 countries from 2004 to 2023. In addition to the top statutory corporate income tax rates, our data includes tax incentives for debt or equity financing, incentives for investment and innovation, and other aspects of the tax base such as tax loss carrybacks and carryforwards. Our empirical analyses reveal limited evidence consistent with the Desai, Dyck, and Zingales’s (2007) observation that corporate tax rate reductions are accompanied by tax base broadening. Among potential determinants of tax revenues for the government, the top statutory tax rate is the most important in the full sample. Firms’ effective tax rates are additionally positively associated with tax reforms broadening the tax base and negatively associated with reforms narrowing the tax base. However, these relationships become weaker when tax evasion is more prevalent in a country. In high tax evasion countries, the signing of Anti-Tax Evasion Directives is followed by increased tax revenue and firms’ effective tax rates. By contrast, investor protection and political leaning do not appear to affect the impact of tax reforms in a meaningful way.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5869103",
+     "citedBy": 0,
+     "relevance": 48.17535,
+     "type": "preprint"
+    }
+   ]
+  }
+ }
+}

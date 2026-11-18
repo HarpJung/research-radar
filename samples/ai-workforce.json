@@ -1,0 +1,638 @@
+{
+ "topic": "artificial intelligence workforce",
+ "field": "accounting",
+ "months": 24,
+ "query": "artificial intelligence workforce",
+ "since": "2024-11-15",
+ "savedAt": "2026-11-16",
+ "sections": {
+  "home": {
+   "count": 7,
+   "papers": [
+    {
+     "id": "W7134919681",
+     "title": "The use of artificial intelligence in decision-making: evidence from the effectiveness of corporate tax strategies",
+     "url": "https://doi.org/10.1007/s11142-026-09940-9",
+     "authors": [
+      "Trent J. Krupa",
+      "Michele Mullaney"
+     ],
+     "authorCount": 2,
+     "journal": "Review of Accounting Studies",
+     "sourceId": "S11853582",
+     "field": "accounting",
+     "date": "2026-03-11",
+     "abstract": "Abstract We examine whether information processing constraints limit managers’ ability to effectively integrate tax planning and core business strategies (i.e., effective tax planning). We propose that artificial intelligence (AI) tools, such as machine learning, can mitigate these constraints by providing enhanced predictive information for key business decisions (e.g., customer demand, supply chain), thereby reducing processing costs. Using a recently developed firm-year measure of investment in AI-related human capital for a broad sample of U.S. nontechnology firms between 2010 and 2018, we find that AI investment is positively associated with tax effectiveness. This effect is concentrated among more complex firms and those where the tax function holds a higher status. Consistent with AI reducing information processing costs, we find that it improves tax effectiveness by enhancing internal information quality and internal capital management. We provide novel evidence that processing constraints hinder effective tax planning and show that AI can mitigate these constraints.",
+     "oaUrl": "https://link.springer.com/content/pdf/10.1007/s11142-026-09940-9.pdf",
+     "citedBy": 8,
+     "relevance": 20.936697,
+     "type": "article"
+    },
+    {
+     "id": "W7127371406",
+     "title": "Do Consulting Services Affect Audit Quality? Evidence from the Workforce",
+     "url": "https://doi.org/10.2308/tar-2022-0572",
+     "authors": [
+      "Anastassia Fedyk",
+      "Tatiana Fedyk",
+      "James Hodson"
+     ],
+     "authorCount": 4,
+     "journal": "The Accounting Review",
+     "sourceId": "S160506855",
+     "field": "accounting",
+     "date": "2026-02-03",
+     "abstract": "ABSTRACT This paper investigates how consulting services affect audit quality, from the perspective of knowledge- and expertise-sharing between employees. Semistructured interviews with 16 audit partners reveal that consulting expertise is used in 60–80 percent of audit engagements, with the main rationale for such collaboration being knowledge-sharing and improved audit quality. We leverage a comprehensive office-level dataset of employment profiles covering 86 percent of all employees at large U.S. public accounting firms to systematically investigate the effect of consulting employees on audit quality. We document that a one standard deviation increase in the share of consulting employees in an office results in a 2.6 percentage point reduction in restatements (a decrease of 19 percent relative to the baseline). This effect is strongest when consulting employees have skills complimentary to auditors, e.g., technical and human resources skills, and when consultants have specific industry expertise in the same industry as the audit client. Data Availability: Data from common sources, such as Audit Analytics, can be purchased from the providers. Data on firm-level measures of workforce characteristics and skills are available from the authors upon request, conditional on approval from the data provider (Cognism). JEL Classifications: D22; E24; J24; M42.",
+     "oaUrl": "https://publications.aaahq.org/accounting-review/article-pdf/doi/10.2308/TAR-2022-0572/155432/tar-2022-0572.pdf",
+     "citedBy": 5,
+     "relevance": 16.060156,
+     "type": "article"
+    },
+    {
+     "id": "W7203739872",
+     "title": "Beyond Automation: AI and the Human Value of Sell‐Side Analysts",
+     "url": "https://doi.org/10.1111/1475-679x.70083",
+     "authors": [
+      "Devin M. Shanthikumar",
+      "Il Sun Yoo"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Accounting Research",
+     "sourceId": "S111116695",
+     "field": "accounting",
+     "date": "2026-08-19",
+     "abstract": "ABSTRACT We examine how analysts’ information acquisition and processing differ when analysts have access to AI resources, focusing on investment banks’ AI investments. We propose and test a two‐step framework, which is informed by in‐depth interviews with analysts. First, consistent with AI facilitating automation‐assisted public information processing, we show that AI investments are associated with more timely earnings forecasts following 10‐K filings, particularly after the implementation of iXBRL, which increases the machine readability of filings. Second, we show that analysts reallocate the time and capacity freed by automation toward acquiring and incorporating private information, supported by several sets of evidence: AI investments (1) are associated with higher quality and bolder earnings forecasts, particularly when private information is more important and accessible to analysts; (2) are associated with an expansion of analyst coverage to new firms and industries; and (3) are associated with higher information‐seeking efforts, particularly greater participation in earnings conference calls. Additionally, exploiting the launch of AskResearchGPT at Morgan Stanley, an in‐house generative AI designed for research, we find results consistent with our main analyses. Overall, our study provides insights into the potential for AI to reshape the human value of sell‐side analysts.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1475-679x.70083",
+     "citedBy": 4,
+     "relevance": 2.174173,
+     "type": "article"
+    },
+    {
+     "id": "W7223187901",
+     "title": "Auditors' Response to Clients' Cyber Breaches: A Human‐Capital Perspective",
+     "url": "https://doi.org/10.1111/1911-3846.70092",
+     "authors": [
+      "Bing Li",
+      "Yifu Li",
+      "Jeffrey Pittman"
+     ],
+     "authorCount": 4,
+     "journal": "Contemporary Accounting Research",
+     "sourceId": "S65924262",
+     "field": "accounting",
+     "date": "2026-10-21",
+     "abstract": "ABSTRACT Using online job postings data, we explore whether auditors adjust their human capital in response to clients' cyber breach incidents. We find that audit offices increase their demand for cybersecurity specialists after their clients' cyber breaches, implying that cyber breaches change not only client risk but also their auditor's production function. Consistent with expectations, we document that this impact is larger when breaches involve their own clients (rather than those of peer offices within the same audit firm) and when breaches directly involve financial information. Our evidence holds for both cyber‐focused and non‐cyber‐focused offices, highlighting the broad impact of cybersecurity risks on audit practices. Additionally, we find that audit offices with relatively high investment in cybersecurity human capital are better able to preserve their market share among clients in high‐cyber‐risk industries after a client's cyber breach.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1911-3846.70092",
+     "citedBy": 0,
+     "relevance": 2.0908284,
+     "type": "article"
+    },
+    {
+     "id": "W7213919244",
+     "title": "When Is It Fairer to Allocate Resources for Training to Lower Performing Versus Higher Performing Employees?",
+     "url": "https://doi.org/10.1111/1475-679x.70085",
+     "authors": [
+      "Eric W. Chan",
+      "Mackenzie Feinberg",
+      "Martin Wiernsperger"
+     ],
+     "authorCount": 3,
+     "journal": "Journal of Accounting Research",
+     "sourceId": "S111116695",
+     "field": "accounting",
+     "date": "2026-09-20",
+     "abstract": "ABSTRACT Professional development and training are essential for organizational growth and success, but resource constraints often force managers into a dilemma: Should they train their lower performing or higher performing employees? While lower performers with greater skill gaps can benefit more from training than higher performers, managers must also consider employees’ fairness concerns. Using an interactive experiment, we predict and find that how employees react to their manager's allocation of training resources depends on the prevailing fairness norms in the work environment. When egalitarian norms dominate, such as when employees have little control over their job tasks, lower performers take the receipt of resources for training for granted and react negatively when the manager allocates those resources to higher performers instead. In contrast, when meritocratic norms dominate, such as when employees have more control over their job tasks, higher performers react more negatively than lower performers to not receiving training resources. Additional experiments suggest that these fairness‐norm–dependent reactions are most pronounced under tournament incentives and may disappear under individual performance‐based pay. Overall, our study highlights the importance for managers to consider both employee productivity and the prevailing fairness norms of the work environment when allocating scarce training resources.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1475-679x.70085",
+     "citedBy": 2,
+     "relevance": 1.7391684,
+     "type": "article"
+    },
+    {
+     "id": "W4409788177",
+     "title": "Private firms and the economic role of accounting: A review of empirical research",
+     "url": "https://doi.org/10.1016/j.jacceco.2026.101929",
+     "authors": [
+      "Darren Bernard",
+      "Andrew Sutherland"
+     ],
+     "authorCount": 2,
+     "journal": "Journal of Accounting and Economics",
+     "sourceId": "S62142384",
+     "field": "accounting",
+     "date": "2026-07-01",
+     "abstract": "We review the empirical accounting literature on private firms. Recent advances in data gathering provide new openings to examine private firms which, despite driving half of private sector economic activity, have historically been challenging to study. We provide a conceptual framework to organize the literature, centering on information production, information verification, and information dissemination. Four key takeaways emerge from our review. First, private firm settings offer unique advantages for understanding the economic role of accounting. Because private firms face less regulation than public firms, their accounting choices can shed light on economic tradeoffs that public firm choices cannot. Second, there is limited descriptive evidence on many fundamental accounting choices, including the extent to which private firms follow US GAAP, obtain an audit, or use various management accounting practices. Third, studies jointly modeling private and public firms provide more complete, robust analyses of the economy, regulation in particular. Fourth, private and public firms differ on many central dimensions, which raises difficulties related to conducting empirical analysis and assessing generalizability.",
+     "oaUrl": "https://www.sciencedirect.com/science/article/pii/S0165410126000728/pdf",
+     "citedBy": 8,
+     "relevance": 1.0828418,
+     "type": "article"
+    },
+    {
+     "id": "W4410826235",
+     "title": "Closing the books or keeping them open? Identity work in partner retirement from Big 4 accounting firms",
+     "url": "https://doi.org/10.1111/1911-3846.13044",
+     "authors": [
+      "Ricardo Azambuja",
+      "Lisa Baudot",
+      "Takahiro Endo"
+     ],
+     "authorCount": 4,
+     "journal": "Contemporary Accounting Research",
+     "sourceId": "S65924262",
+     "field": "accounting",
+     "date": "2025-05-28",
+     "abstract": "Abstract One view of the socialization experienced by professionals in global Big 4 firms suggests that the intensity of socialization engenders a strong and deep‐rooted professional identity. We scrutinize this claim by drawing on interviews with partners who retired from lifelong employment in Big 4 firms in Japan. Through partners' reflections on their experiences in detaching from the firm, we examine how socialization manifests in partners' identity work. We find that partners' identity, which often appears entrenched, invariable, and heroic, can be highly fragile and vulnerable to changing circumstances. Before leaving the firm, interviewees attempt to reconcile their Big 4 “graduation” with feelings of obsolescence and a growing distance from previous accomplishments. After leaving the firm, interviewees revisit the identity built throughout their careers. Unable to move on to a selfhood detached from that identity, they refashion their identity relative to their former Big 4 partner self, backgrounding their private life and post‐firm professional affiliations. Not knowing how to “close the books,” retired partners seek comfort in the old “plot” and in the old “characters,” finding ways to “keep the books open” even after the “setting” has changed. Our results reconfirm the powerful socialization experienced by partners during their tenure with the Big 4 but run counter to scholarship that characterizes the identity of Big 4 partners as strong and fixed. Rather, we demonstrate the insecurity underlying our professional service heroes' identity work and the contingent identity work processes that partners engage in while navigating departure from the Big 4.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1911-3846.13044",
+     "citedBy": 3,
+     "relevance": 0.8371522,
+     "type": "article"
+    }
+   ]
+  },
+  "neighbors": {
+   "count": 36,
+   "papers": [
+    {
+     "id": "W4406725805",
+     "title": "Artificial Intelligence In Health And Health Care: Priorities For Action",
+     "url": "https://doi.org/10.1377/hlthaff.2024.01003",
+     "authors": [
+      "Michael Edwin Matheny",
+      "Jennifer C. Goldsack",
+      "Suchi Saria"
+     ],
+     "authorCount": 12,
+     "journal": "Health Affairs",
+     "sourceId": "S4210185023",
+     "field": "policy",
+     "date": "2025-01-22",
+     "abstract": "The field of artificial intelligence (AI) has entered a new cycle of intense opportunity, fueled by advances in deep learning, including generative AI. Applications of recent advances affect many aspects of everyday life, yet nowhere is it more important to use this technology safely, effectively, and equitably than in health and health care. Here, as part of the National Academy of Medicine's Vital Directions for Health and Health Care: Priorities for 2025 initiative, which is designed to provide guidance on pressing health care issues for the incoming presidential administration, we describe the steps needed to achieve these goals. We focus on four strategic areas: ensuring safe, effective, and trustworthy use of AI; promotion and development of an AI-competent health care workforce; investing in AI research to support the science, practice, and delivery of health and health care; and promotion of policies and procedures to clarify AI liability and responsibilities.",
+     "oaUrl": null,
+     "citedBy": 75,
+     "relevance": 36.86432,
+     "type": "article"
+    },
+    {
+     "id": "W7216436425",
+     "title": "Artificial Intelligence and Punctuated Equilibrium: Shaping Government Attention in the Digital Age",
+     "url": "https://doi.org/10.1111/puar.70221",
+     "authors": [
+      "Shuo Chen",
+      "Yiran Li",
+      "Yuzheng Wang"
+     ],
+     "authorCount": 3,
+     "journal": "Public Administration Review",
+     "sourceId": "S76877748",
+     "field": "policy",
+     "date": "2026-10-02",
+     "abstract": "ABSTRACT How do government attention and policy agendas shift when information constraints are relaxed through technological advancement? Punctuated equilibrium theory links agenda‐setting dynamics to governments' limited information‐processing capabilities, yet we know little about whether and how technology improvement such as artificial intelligence (AI) influences policy agendas. This article proposes a conditional digital punctuation framework to specify the conditions under which technological advancements drive agenda shifts. Using China's implementation of AI initiatives as a quasi‐natural experiment, we find that government attention exhibits a punctuated pattern. AI increases technology‐focused attention, signaling incremental changes, while having minimal impact on general government attention. This selective impact stems from AI's asymmetric effects on information processing. Specifically, AI significantly increases the procurement‐based indicator of information quantity, which is associated with greater attention to technology sectors; however, no significant change is observed in the corresponding indicator of information quality, consistent with its limited impact on general government attention.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/puar.70221",
+     "citedBy": 0,
+     "relevance": 21.881977,
+     "type": "article"
+    },
+    {
+     "id": "W7214927056",
+     "title": "Artificial Intelligence in Policing and Perceived Legitimacy: Does Gender Representation Make a Difference?",
+     "url": "https://doi.org/10.1111/puar.70214",
+     "authors": [
+      "Canyu Gao",
+      "Norma M. Riccucci"
+     ],
+     "authorCount": 2,
+     "journal": "Public Administration Review",
+     "sourceId": "S76877748",
+     "field": "policy",
+     "date": "2026-09-30",
+     "abstract": "ABSTRACT As artificial intelligence (AI) increasingly transforms public administration, understanding its impact on perceived legitimacy becomes paramount, particularly, in high‐stakes areas such as policing. While existing research offers mixed evidence on whether government AI use enhances or undermines citizens' perceptions of fairness and trust, the conditions moderating these effects remain underexplored. Drawing on representative bureaucracy theory, this study uses a survey experiment to investigate how gender representation moderates the effect of AI use on citizens' perceived fairness and trust in domestic violence units (DVUs). Results show that female representation positively moderates the legitimacy impact of a DVU's AI use; whereas AI use decreases female respondents' perceived fairness and trust in male‐dominated DVUs, these negative effects disappear in female‐dominated DVUs. Our findings identify representation as a key context shaping citizens' responses to government AI use, extending representative bureaucracy theory by demonstrating its indirect symbolic effects.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/puar.70214",
+     "citedBy": 0,
+     "relevance": 21.07886,
+     "type": "article"
+    },
+    {
+     "id": "W7221170247",
+     "title": "Generative AI and Firm Values",
+     "url": "https://doi.org/10.1111/jofi.70089",
+     "authors": [
+      "Andrea L. Eisfeldt",
+      "Gregor Schubert",
+      "Miao Ben Zhang"
+     ],
+     "authorCount": 4,
+     "journal": "The Journal of Finance",
+     "sourceId": "S5353659",
+     "field": "finance",
+     "date": "2026-10-08",
+     "abstract": "ABSTRACT How do recent advances in Generative Artificial Intelligence (AI) affect firm value? We construct the first measure of firms' workforce exposures to Generative AI and show that an “Artificial‐Minus‐Human” portfolio earned 5% in the two weeks following the release of ChatGPT. The labor‐exposure effect is more pronounced for firms with greater data assets and is distinct from the effect of firms' product exposures to AI. We assess whether exposed workforces are substituted or complemented by Generative AI based on whether their exposed tasks are core or supplemental. Examining firms' labor demand and profitability following the release of ChatGPT supports a labor‐technology substitution channel.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jofi.70089",
+     "citedBy": 4,
+     "relevance": 15.048508,
+     "type": "article"
+    },
+    {
+     "id": "W4411721566",
+     "title": "From Wording to Workforce: Gendered Language in Public Job Advertisements Shapes Gender Diversity in Applicant Pools",
+     "url": "https://doi.org/10.1111/puar.13965",
+     "authors": [
+      "Martin Sievert",
+      "Dominik Vogel",
+      "Matthias Döring"
+     ],
+     "authorCount": 3,
+     "journal": "Public Administration Review",
+     "sourceId": "S76877748",
+     "field": "policy",
+     "date": "2025-06-27",
+     "abstract": "ABSTRACT Gender imbalance in public sector hiring remains a persistent concern, yet research often overlooks how job advertisement features influence applicant self‐selection. Thus, we focus on gender sorting in the public labor market, a mechanism potentially causing structural self‐selection among job seekers. The study investigates how gender sorting affects applicant pools by examining gendered language and the gender of the contact person in job advertisements. We empirically test these mechanisms using a unique multi‐source dataset consisting of actual job advertisements, a survey among recruiters issuing these job advertisements, and organization‐level data ( n = 1859). We obtain measures for gendered language using quantitative text analysis. Results from hierarchical linear models indicate that more feminine wording relates to a higher number and share of applications by women. Our research contributes to the literature, testing why women may apply less for some public sector jobs. The implications for research and policymakers and emphasize the relevance of gender sorting mechanisms in recruiting.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/puar.13965",
+     "citedBy": 11,
+     "relevance": 13.889689,
+     "type": "article"
+    },
+    {
+     "id": "W7214244371",
+     "title": "The DOGE Experiment: Algorithmic Governance, Operational Capture, and the Case for Hybrid Intelligence",
+     "url": "https://doi.org/10.1111/puar.70195",
+     "authors": [
+      "Haris Alibašić"
+     ],
+     "authorCount": 1,
+     "journal": "Public Administration Review",
+     "sourceId": "S76877748",
+     "field": "policy",
+     "date": "2026-09-24",
+     "abstract": "ABSTRACT This study examines the Department of Government Efficiency (DOGE) as a case of algorithmic governance whose stated purpose, improving federal efficiency, diverged systematically from its operational effect: enabling unprecedented private‐sector access to federal data systems while dismantling the oversight and civil‐service infrastructure that constrains such access. Drawing on state capacity, bounded rationality, organizational learning, and public value theory, the analysis demonstrates that the conventional efficiency‐failure reading, though correct on its own terms, obscures what made DOGE structurally distinct from the Grace Commission, the National Performance Review, the President's Management Agenda, and Program Assessment Rating Tool, and the Government Performance and Results Modernization Act. The article advances hybrid intelligence, structured human‐AI collaboration with protected institutional capacity, as a paradigm resisting both reform failure and algorithmic capture. International implementations operationalize it. The analysis contributes a stated‐versus‐operational‐goal analytic to the AI governance literature and identifies legislative grounding as a precondition for durable reform.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/puar.70195",
+     "citedBy": 0,
+     "relevance": 12.791505,
+     "type": "article"
+    },
+    {
+     "id": "W4406725150",
+     "title": "Vital Directions For Health And Health Care: Priorities For 2025",
+     "url": "https://doi.org/10.1377/hlthaff.2024.01200",
+     "authors": [
+      "Victor J. Dzau",
+      "James Michael McGinnis"
+     ],
+     "authorCount": 2,
+     "journal": "Health Affairs",
+     "sourceId": "S4210185023",
+     "field": "policy",
+     "date": "2025-01-22",
+     "abstract": "In 2016, ahead of the US presidential election, the National Academy of Medicine launched the strategic initiative Vital Directions for Health and Health Care-a series of papers on critical areas of US health care written by the nation's experts and intended to provide nonpartisan guidance to the incoming administration. The National Academy of Medicine continued the initiative in 2021. The current series, titled Vital Directions for Health and Health Care: Priorities for 2025, contains six articles on priority areas in US health and medicine that demand urgent attention. Here we provide an overview of the articles, which spotlight key areas for action and transformative change: revitalizing the biomedical research enterprise, modernizing public health, charting new directions for women's health, safely integrating artificial intelligence throughout the health care system, addressing the impact of climate change on health and equity, and transforming the US health care system to one that performs at par with the systems of other industrialized nations. Common themes include coordinating a strategic vision, correcting adverse economic incentives, investing in the health care workforce, reducing fragmentation, and emphasizing equity. Each article offers actionable priorities for the new administration to improve health outcomes for all Americans.",
+     "oaUrl": null,
+     "citedBy": 7,
+     "relevance": 9.409857,
+     "type": "article"
+    },
+    {
+     "id": "W4409603614",
+     "title": "How ensembling AI and public managers improves decision-making",
+     "url": "https://doi.org/10.1093/jopart/muaf009",
+     "authors": [
+      "Florian Keppeler",
+      "Jana Borchert",
+      "Mogens Jin Pedersen"
+     ],
+     "authorCount": 4,
+     "journal": "Journal of Public Administration Research and Theory",
+     "sourceId": "S169433491",
+     "field": "policy",
+     "date": "2025-04-18",
+     "abstract": "Abstract Artificial intelligence (AI) applications transform public sector decision-making. However, most research conceptualizes AI as a form of specialized decision-support tool. In contrast, this study presents a different form of human-AI collaboration, the concept of human-AI ensembles, where public managers and AI tackle the same decision tasks, rather than specializing in certain subtasks. This is particularly relevant for many public sector decisions, where neither human nor AI predictions have a clear advantage over the other. We illustrate this within the context of public hiring, focusing on two key areas: (a) the potential of ensembling humans and AI to reduce biases and (b) the willingness of public managers to implement ensembling. Study 1 uses data from the assessment of profiles of real-life job candidates (n = 695) at the intersection of gender and ethnicity by public managers compared to AI. The exploratory linear regression results illustrate how ensembled decision-making may alleviate ethnic biases. The linear regression results of study 2, a preregistered survey experiment, show that public managers (n = 538 with four observations each) put equal weight on AI advice and human advice, and, when reminded of the unlawfulness of hiring discrimination, may even prioritize AI over human advice.",
+     "oaUrl": "https://academic.oup.com/jpart/article-pdf/35/3/261/62953181/muaf009.pdf",
+     "citedBy": 27,
+     "relevance": 4.317395,
+     "type": "article"
+    },
+    {
+     "id": "W4407142724",
+     "title": "Generative AI at Work",
+     "url": "https://doi.org/10.1093/qje/qjae044",
+     "authors": [
+      "Erik Brynjolfsson",
+      "Danielle Li",
+      "Lindsey Raymond"
+     ],
+     "authorCount": 3,
+     "journal": "The Quarterly Journal of Economics",
+     "sourceId": "S203860005",
+     "field": "general-econ",
+     "date": "2024-12-29",
+     "abstract": "Abstract We study the staggered introduction of a generative AI–based conversational assistant using data from 5,172 customer-support agents. Access to AI assistance increases worker productivity, as measured by issues resolved per hour, by 15% on average, with substantial heterogeneity across workers. The effects vary significantly across different agents. Less experienced and lower-skilled workers improve both the speed and quality of their output, while the most experienced and highest-skilled workers see small gains in speed and small declines in quality. We also find evidence that AI assistance facilitates worker learning and improves English fluency, particularly among international agents. While AI systems improve with more training data, we find that the gains from AI adoption are largest for moderately rare problems, where human agents have less baseline experience but the system still has adequate training data. Finally, we provide evidence that AI assistance improves the experience of work along several dimensions: customers are more polite and less likely to ask to speak to a manager.",
+     "oaUrl": "https://doi.org/10.1093/qje/qjae044",
+     "citedBy": 1904,
+     "relevance": 2.9862328,
+     "type": "article"
+    },
+    {
+     "id": "W4409331176",
+     "title": "Automating street‐level discretion: A systematic literature review and research agenda",
+     "url": "https://doi.org/10.1111/psj.70024",
+     "authors": [
+      "Emma Northcott"
+     ],
+     "authorCount": 1,
+     "journal": "Policy Studies Journal",
+     "sourceId": "S119514724",
+     "field": "policy",
+     "date": "2025-04-10",
+     "abstract": "Abstract While public sector organizations continue to implement information and communication technologies (ICT), it is unclear to what extent digitalization efforts influence the discretion of street‐level bureaucrats. Understanding the relationship between public sector ICT and human discretion is an important consideration for public managers overseeing technology implementation processes and evaluating outcomes. This systematic literature review examines studies that explore the relationship between street‐level discretion and ICT use. The results show there are several mechanisms through which ICTs change human discretion, such as removing face‐to‐face interactions, standardizing processes, enhancing top‐down monitoring, increasing information exchanges, and providing decision supports. Street‐level bureaucrats adopt various strategies to resist ICT‐driven standardization, suggesting that technology implementation may alter workplace dynamics and the professional identities of frontline workers. Revealing the processes of changing discretion has implications for research and practice as more agencies expand their reliance on ICT to deliver public services, thereby incorporating new actors and institutional arrangements.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/psj.70024",
+     "citedBy": 15,
+     "relevance": 2.5410645,
+     "type": "review"
+    },
+    {
+     "id": "W4406515002",
+     "title": "The Diffusion of New Technologies",
+     "url": "https://doi.org/10.1093/qje/qjaf002",
+     "authors": [
+      "Aakash Kalyani",
+      "Nicholas Bloom",
+      "Marcela Carvalho"
+     ],
+     "authorCount": 6,
+     "journal": "The Quarterly Journal of Economics",
+     "sourceId": "S203860005",
+     "field": "general-econ",
+     "date": "2025-01-09",
+     "abstract": "Abstract We identify phrases associated with novel technologies using textual analysis of patents, job postings, and earnings calls, enabling us to identify four stylized facts on the diffusion of jobs relating to new technologies. First, the development of economically impactful new technologies is geographically highly concentrated, more so even than overall patenting: 56% of the most economically impactful technologies come from just two U.S. locations, Silicon Valley and the Northeast Corridor. Second, as the technologies mature and the number of related jobs grows, hiring spreads geographically. This process is very slow, taking around 50 years to disperse fully. Third, while initial hiring in new technologies is highly skill-biased, over time the mean skill level in new positions declines, drawing in an increasing number of lower-skilled workers. Finally, the geographic spread of hiring is slowest for higher-skilled positions, with the locations where new technologies were pioneered remaining the focus for the technology's high-skill jobs for decades.",
+     "oaUrl": "https://researchonline.lse.ac.uk/id/eprint/113870/1/dp1798.pdf",
+     "citedBy": 133,
+     "relevance": 2.4168434,
+     "type": "article"
+    },
+    {
+     "id": "W4409372777",
+     "title": "How Public Officials Perceive Algorithmic Discretion: A Study of Status Quo Bias in Policing",
+     "url": "https://doi.org/10.1111/puar.13957",
+     "authors": [
+      "Muhammad Afzal",
+      "Panos Panagiotopoulos"
+     ],
+     "authorCount": 2,
+     "journal": "Public Administration Review",
+     "sourceId": "S76877748",
+     "field": "policy",
+     "date": "2025-04-10",
+     "abstract": "ABSTRACT Algorithms are disrupting established decision‐making practices in public administration. A key area of interest lies in algorithmic discretion or how public officials use algorithms to exercise discretion. The article develops a framework to explain algorithmic discretion by drawing on status quo bias theory and bureaucratic discretion. A study with police officers in the UK shows that—while officers still value their discretion—it is resistance via the aspects of status quo bias that accounts for a more substantial explanation. Transition costs, loss aversion, and performance uncertainty determine resistance and, in turn, reluctance to delegate discretion to algorithms. The study contributes to public administration research that demonstrates the influence of cognitive biases in the increasing use of algorithms in areas like policing. The article concludes with recommendations for embedding algorithmic discretion into the professional development of public officials to mitigate sources of status quo bias.",
+     "oaUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/puar.13957",
+     "citedBy": 16,
+     "relevance": 2.344104,
+     "type": "article"
+    }
+   ]
+  },
+  "workingPapers": {
+   "count": 104,
+   "papers": [
+    {
+     "id": "W7140145617",
+     "title": "Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives",
+     "url": "https://doi.org/10.3386/w34984",
+     "authors": [
+      "Salomé Baslandze",
+      "Zachary Edwards",
+      "John Graham"
+     ],
+     "authorCount": 8,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-03-01",
+     "abstract": "We use novel data from a survey of nearly 750 corporate executives to study the effects of artificial intelligence (AI) on productivity and the workforce.We document substantial heterogeneity in AI adoption across firms, with more than half having already invested, though many smaller firms are only beginning to do so.Labor productivity gains are positive, vary across sectors, and are expected to strengthen in 2026, with the largest effects concentrated in high-skill services and finance.These gains are not primarily driven by firms' capital deepening but instead reflect increases in revenuebased total factor productivity, closely associated with innovation-and demand-oriented channels.We document a productivity paradox, in which perceived productivity gains are larger than measured productivity gains, likely reflecting a delay in revenue realizations.In labor markets, we find little evidence of near-term aggregate employment declines due to AI, though larger companies anticipate AI-driven workforce reductions, while smaller firms expect modest gains.We also find evidence of compositional reallocation of labor both within and across firms, with routine clerical roles declining and a relative demand for skilled technical roles increasing.We develop an index that ranks job functions most negatively affected by AI.",
+     "oaUrl": "https://doi.org/10.3386/w34984",
+     "citedBy": 10,
+     "relevance": 79.28103,
+     "type": "report"
+    },
+    {
+     "id": "W4407874209",
+     "title": "Artificial Intelligence and the Labor Market",
+     "url": "https://doi.org/10.3386/w33509",
+     "authors": [
+      "Menaka Hampole",
+      "Dimitris Papanikolaou",
+      "Lawrence Schmidt"
+     ],
+     "authorCount": 4,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2025-02-01",
+     "abstract": "We use advances in natural language processing to construct new measures of workers' task-level exposure to artificial intelligence (AI) and machine learning from 2010 to 2023, capturing variation across firms, occupations, and time.Tasks with higher AI exposure subsequently experience reduced labor demand.To interpret these patterns, we develop a model that separates direct substitution from indirect reallocative effects of labor-saving technologies.Two variables summarize the impact of AI on within-firm labor demand: the mean exposure of an occupation's tasks, which depresses demand, and the concentration of exposure in a few tasks, which offsets losses by enabling workers to reallocate effort.Using an instrument based on historical university hiring networks, we find causal evidence consistent with these predictions.Despite strong substitution at the task level, overall employment effects are modest, as reduced demand in exposed occupations is offset by productivity-driven increases in labor demand at AI-adopting firms.",
+     "oaUrl": "https://doi.org/10.3386/w33509",
+     "citedBy": 133,
+     "relevance": 36.565765,
+     "type": "report"
+    },
+    {
+     "id": "W7131098001",
+     "title": "Building Pro-Worker Artificial Intelligence",
+     "url": "https://doi.org/10.3386/w34854",
+     "authors": [
+      "Daron Acemoğlu",
+      "David Autor",
+      "Simon Johnson"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-02-01",
+     "abstract": "This paper defines pro-worker technologies, including Artificial Intelligence, as technologies that make human skills and expertise more valuable by expanding worker capabilities.Our conceptual framework distinguishes among five categories of technological change: laboraugmenting, capital-augmenting, automating, expertise-leveling, and new task-creating.Only the last category is unambiguously pro-worker, generating demand for novel human expertise rather than commodifying it.We illustrate these distinctions through hypothetical and real-world examples spanning aviation maintenance, electrical services, custodial work, education, patent examination, and gig delivery.While AI's capacity to automate work is substantial, we argue that its potential to serve as a collaborator, by extending human judgment, enabling new tasks, and accelerating skill acquisition, is equally transformative and currently underexploited.We identify market failures, including misaligned firm and developer incentives, path dependence, and a pervasive pro-automation ideology, that may lead to underinvestment in pro-worker AI.We consider nine policy directions that would change incentives, including targeted investments in health care and education, tax code reform, antitrust enforcement, and intellectual property protections for worker expertise.",
+     "oaUrl": "https://doi.org/10.3386/w34854",
+     "citedBy": 24,
+     "relevance": 29.154573,
+     "type": "report"
+    },
+    {
+     "id": "W4411015708",
+     "title": "Artificial Intelligence and Technological Unemployment",
+     "url": "https://doi.org/10.3386/w33867",
+     "authors": [
+      "Ping Wang",
+      "Tsz-Nga Wong"
+     ],
+     "authorCount": 2,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2025-05-01",
+     "abstract": "How large is the impact of artificial intelligence (AI) on labor productivity and unemployment?This paper introduces a labor-search model of technological unemployment, conceptualizing the generative aspect of AI as a learning-by-using technology.AI capability improves through machine learning from workers and in turn enhances their labor productivity, but eventually displaces workers if wage renegotiation fails.Three distinct equilibria emerge: no AI, some AI with higher unemployment, or unbounded AI with sustained endogenous growth and little impact on employment.By calibrating to the U.S. data, our model predicts more than threefold improvements in productivity in some-AI steady state, alongside a long-run employment loss of 23%, with half this loss occurring over the initial five-year transition.Plausible change in parameter values could lead to global and local indeterminacy.The mechanism highlights the considerable uncertainty of AI's impacts in the presence of labor-market frictions.In the unbounded-AI equilibrium, technological unemployment would not occur.We further show that equilibria are inefficient despite adherence to the Hosios condition.By improving job-finding rate and labor productivity, the optimal subsidy to jobs facing the replacement risk of AI can generate a welfare gain from 26.6% in the short run to over 50% in the long run.",
+     "oaUrl": "https://doi.org/10.3386/w33867",
+     "citedBy": 2,
+     "relevance": 28.005224,
+     "type": "report"
+    },
+    {
+     "id": "W4414598073",
+     "title": "Artificial Intelligence in Team Dynamics: Who Gets Replaced and Why?",
+     "url": "https://doi.org/10.3386/w34259",
+     "authors": [
+      "Xienan Cheng",
+      "Mustafa Dogan",
+      "Pınar Yıldırım"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2025-09-01",
+     "abstract": "This study investigates the effects of artificial intelligence (AI) adoption in organizations.We ask:(1) How should a principal optimally deploy limited AI resources to replace workers in a team?(2) In a sequential workflow, which workers face the highest risk of AI replacement?(3) How does substitution with AI affect both the replaced and non-replaced workers' wages?We develop a sequential team production model in which a principal can use peer monitoring-where each worker observes the effort of their predecessor-to discipline team members.The principal may replace some workers with AI agents, whose actions are not subject to moral hazard.Our analysis yields four key results.First, the optimal AI strategy stochastically replaces workers rather than fixating on a single position.Second, the principal replaces workers at the beginning and at the end of the workflow, but does not replace the middle worker, since this worker is crucial for sustaining the flow of information obtained by peer monitoring.Third, the principal may optimally underutilize available AI capacity.Fourth, the optimal AI adoption increases average wages and reduces intra-team wage inequality.",
+     "oaUrl": "https://doi.org/10.3386/w34259",
+     "citedBy": 5,
+     "relevance": 23.704056,
+     "type": "report"
+    },
+    {
+     "id": "W7168161063",
+     "title": "How Might Fiscal Policy Respond to the Rise of Artificial Intelligence?",
+     "url": "https://doi.org/10.3386/w35437",
+     "authors": [
+      "Karen E. Dynan",
+      "Douglas W. Elmendorf",
+      "Louise Sheiner"
+     ],
+     "authorCount": 3,
+     "journal": "NBER Working Papers",
+     "sourceId": "S2809516038",
+     "field": "nber",
+     "date": "2026-07-01",
+     "abstract": "Artificial intelligence will probably generate major changes in the US economy, although the nature, timing, and magnitude of those changes are highly uncertain.We analyze a set of long-term scenarios involving different combinations of faster productivity growth, greater income inequality, job displacement, and a higher capital share of income.For each scenario, we assess the implications for federal debt and potential policy responses related to faster economic growth, the distribution of income, support for workers who are laid off, and taxation and ownership of capital.Given the uncertainty surrounding AI's economic effects, policies that are robust to different scenarios would be especially valuable.",
+     "oaUrl": "https://doi.org/10.3386/w35437",
+     "citedBy": 0,
+     "relevance": 23.0239,
+     "type": "report"
+    }
+   ]
+  },
+  "ssrn": {
+   "count": 6,
+   "candidates": 45,
+   "papers": [
+    {
+     "id": "W7135199604",
+     "title": "Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives",
+     "url": "https://doi.org/10.2139/ssrn.6410338",
+     "authors": [
+      "Salomé Baslandze",
+      "Zachary Edwards",
+      "John Robert Graham"
+     ],
+     "authorCount": 8,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-03-14",
+     "abstract": "We use novel data from a survey of nearly 750 corporate executives to study the effects of artificial intelligence (AI) on productivity and the workforce. We document substantial heterogeneity in AI adoption across firms, with more than half having already invested, though many smaller firms are only beginning to do so. Labor productivity gains are positive, vary across sectors, and are expected to strengthen in 2026, with the largest effects concentrated in high-skill services and finance. These gains are not primarily driven by firms’ capital deepening but instead reflect increases in revenue-based total factor productivity, closely associated with innovation- and demand-oriented channels. We document a productivity paradox, in which perceived productivity gains are larger than measured productivity gains, likely reflecting a delay in revenue realizations. In labor markets, we find little evidence of near-term aggregate employment declines due to AI, though larger companies anticipate AI-driven workforce reductions, while smaller firms expect modest gains. We also find evidence of compositional reallocation of labor both within and across firms, with routine clerical roles declining and a relative demand for skilled technical roles increasing. We develop an index that ranks job functions most negatively affected by AI. Data dashboard of de-identified survey data, sector analysis, etc. AI Impact on Jobs & Tasks - Interactive Dashboard",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6410338",
+     "citedBy": 0,
+     "relevance": 75.55479,
+     "type": "preprint"
+    },
+    {
+     "id": "W7116970889",
+     "title": "Artificial Intelligence and the Future of Work: A Comprehensive Analysis of Job Transformation and Workforce Adaptation by 2030",
+     "url": "https://doi.org/10.2139/ssrn.5779443",
+     "authors": [
+      "Pradeep Muthukrishnan"
+     ],
+     "authorCount": 1,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2025-12-23",
+     "abstract": "",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5779443",
+     "citedBy": 1,
+     "relevance": 67.13393,
+     "type": "preprint"
+    },
+    {
+     "id": "W7167833484",
+     "title": "Riding AI To Utopia Or Dystopia? Nlp, Llm, And News Informatics Insights For Artificial Intelligence Impacts On Education, Healthcare, Robotics And Workforce, Changing Human Society",
+     "url": "https://doi.org/10.2139/ssrn.7081218",
+     "authors": [
+      "Jim Samuel",
+      "Tanya Khanna",
+      "Zarak Khan"
+     ],
+     "authorCount": 7,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-07-10",
+     "abstract": "Artificial intelligence (AI) is accelerating societal transformation at an unprecedented pace, generating both utopian aspirations and dystopian anxieties. Human civilization has undergone fundamental changes through every technological revolution starting with the Industrial Age and continuing through the digital era as AI emerges as the next paradigm shift. This paper studies the public discourse on AI by analyzing extensive news headlines on AI using natural language processing (NLP) methods. Our research applies sentiment analysis and topic modeling to a global dataset across education, healthcare, robotics, workforce, and society to identify the dominant narratives shaping public perception. Media coverage presents AI as a dual force that brings human benefits and existential dangers according to our research findings. By moving beyond the utopia-dystopia dichotomy, we show that AI's social effects will emerge from the dynamic relationship between governance systems, ethical protections, and Human-Enhancive AI (HEAI) frameworks. We provide practical insights about AI's future impact and present strategies for maximizing AI benefits while mitigating its risks.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.7081218",
+     "citedBy": 0,
+     "relevance": 50.781693,
+     "type": "preprint"
+    },
+    {
+     "id": "W4415704348",
+     "title": "Building the AI Workforce: The Need for Accurate Data to Inform US Policy",
+     "url": "https://doi.org/10.2139/ssrn.5682184",
+     "authors": [
+      "Ilia Murtazashvili",
+      "Dominique Lazanski",
+      "Beth Schwanke"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2025-10-30",
+     "abstract": "Limitations in the prevailing measures hamper the accurate evaluation of the domestic artificial intelligence (AI) workforce. Accelerating the timeline for revising the Standard Occupational Classification system to create a technical AI occupational category could increase the prospects that AI policies will improve AI competitiveness, especially through more granular measures of the way AI is changing the nature of jobs. While AI is unquestionably a future foundation for national security and economic competitiveness in the United States during the digital era, American interests will be best served by a deliberate, measured, and data-driven workforce policy that builds on national strengths.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.5682184",
+     "citedBy": 1,
+     "relevance": 35.648464,
+     "type": "preprint"
+    },
+    {
+     "id": "W7213986059",
+     "title": "Artificial Intelligence Focus and Labor Investment Efficiency",
+     "url": "https://doi.org/10.2139/ssrn.7376298",
+     "authors": [
+      "Zhaolin Zhang",
+      "Pantelis Kazakis",
+      "Mengqian Chen"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-09-22",
+     "abstract": "We examine how firms’ strategic focus on artificial intelligence (AI) affects the efficiency of their labor investment. Using a text-based measure of AI focus constructed from 10-K filings of U.S. public firms, we find that greater AI focus reduces abnormal hiring, indicating more efficient labor investment. Cross-sectional evidence supports three channels: an informational channel among intangible-intensive firms, an adjustment-cost channel among financially constrained firms and firms facing intense product market competition, and an agency channel among firms with smaller boards and better compliance records. Mediation analyses provide suggestive evidence for a management-guidance pathway and stronger associational evidence for an earnings-volatility pathway, whereas AI focus is not significantly associated with contemporaneous total factor productivity. This pattern suggests that AI’s organizational value may be visible in workforce decision quality even when not apparent in conventional contemporaneous productivity measures. Our findings are robust across a battery of tests.",
+     "oaUrl": "https://papers.ssrn.com/sol3/Delivery.cfm/7376298.pdf?abstractid=7376298&mirid=1",
+     "citedBy": 0,
+     "relevance": 31.841469,
+     "type": "preprint"
+    },
+    {
+     "id": "W7130404878",
+     "title": "Artificial Intelligence: A new era for cost and managerial accounting",
+     "url": "https://doi.org/10.2139/ssrn.6259585",
+     "authors": [
+      "Enrique Garrós-Serés",
+      "Miguel de Marco",
+      "Basilio Acerete"
+     ],
+     "authorCount": 3,
+     "journal": "SSRN",
+     "sourceId": "S4210172589",
+     "field": "ssrn",
+     "date": "2026-02-19",
+     "abstract": "The emergence of Artificial Intelligence (AI) is driving a substantial transformation in cost accounting, automating routine tasks and improving the accuracy of accounting processes. This article reviews the current state of AI research and applications in cost accounting, identifying key benefits (error reduction, real-time analysis, cost allocation optimization) and challenges (algorithmic bias, privacy, workforce adaptation). Theoretical frameworks, relevant regulations, and other international standards regarding cost accounting and AI are analysed. Finally, future lines of research are proposed, focusing on modelling the impact of AI on cost accounting, ethics in intelligent accounting systems, and convergence with sustainability objectives.",
+     "oaUrl": "https://doi.org/10.2139/ssrn.6259585",
+     "citedBy": 0,
+     "relevance": 31.240788,
+     "type": "preprint"
+    }
+   ]
+  }
+ }
+}
